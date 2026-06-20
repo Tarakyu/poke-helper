@@ -3,11 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>포켓몬 챔피언스 스피드 도움말</title>
+<title>포켓몬 챔피언스 스피드 순위</title>
+<link rel="stylesheet" href="https://champs.pokedb.tokyo/css/type-sprite.css?_=5939865">
+<link rel="stylesheet" href="https://champs.pokedb.tokyo/css/style.css?_=5939865">
 <style>
   :root{
     --bg:#0f1220; --card:#171b2e; --line:#2a3050; --txt:#e8ebf5; --sub:#9aa3c4;
     --up:#4ade80; --down:#f87171; --accent:#7c9cff; --chip:#232a47; --warn:#ffd166;
+    --item:#f59e0b; --mega:#c084fc;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--txt);
@@ -26,155 +29,465 @@
     padding:9px 12px;border-radius:10px;font-size:14px;min-width:220px;outline:none}
   input[type=search]:focus{border-color:var(--accent)}
   .toggle{font-size:12.5px;color:var(--sub);display:flex;align-items:center;gap:6px;cursor:pointer}
+
   table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);
     border:1px solid var(--line);border-radius:14px;overflow:hidden}
   thead th{background:#1c2138;font-size:12px;color:var(--sub);text-align:center;
-    padding:11px 8px;font-weight:600;white-space:nowrap;border-bottom:1px solid var(--line)}
-  tbody td{padding:11px 8px;text-align:center;border-bottom:1px solid var(--line);font-size:14px}
+    padding:10px 6px;font-weight:600;white-space:nowrap;border-bottom:1px solid var(--line)}
+  tbody td{padding:8px 6px;text-align:center;border-bottom:1px solid var(--line);font-size:14px;vertical-align:middle}
   tbody tr:last-child td{border-bottom:none}
   tbody tr:hover{background:#1b2138}
-  .rank{font-weight:700;color:var(--sub);width:54px}
-  .rank .medal{font-size:15px}
-  .name{text-align:left;font-weight:700;font-size:15px;min-width:120px}
-  .name small{display:block;color:var(--sub);font-weight:400;font-size:11px}
-  .spd{font-size:21px;font-weight:800;font-variant-numeric:tabular-nums;display:block}
-  .spd .arrow{font-size:12px;font-weight:700;vertical-align:middle;margin-left:2px}
-  td.z .spd{font-size:16px;font-weight:700;opacity:.78}
-  .up{color:var(--up)} .down{color:var(--down)}
-  .orig{color:var(--sub);font-variant-numeric:tabular-nums;font-size:11px;display:block}
-  .base{color:var(--sub);font-variant-numeric:tabular-nums}
-  .nat{font-size:13px}
-  .nat .dec{display:block;font-size:11px;color:var(--sub)}
-  .nat .rate{color:var(--sub);font-size:11px}
-  .nat.spdup{color:var(--up)} .nat.spddown{color:var(--down)}
-  .abil{font-size:13px}
-  .abil .rate{display:block;color:var(--sub);font-size:11px}
-  .badges{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
-  .badge{display:inline-block;font-size:11px;padding:3px 8px;border-radius:999px;
-    background:var(--chip);border:1px solid var(--line);cursor:help;white-space:nowrap}
-  .badge.spd{border-color:#5a6cff;background:#202a52;color:#cdd6ff}
-  .badge.spd.top{border-color:var(--warn);background:#3a3315;color:var(--warn);font-weight:700}
-  .badge.weather{border-color:#3a6;background:#16301f;color:#8fe7b0}
-  .legend{margin-top:22px;font-size:12.5px;color:var(--sub)}
-  .legend h3{color:var(--txt);font-size:14px;margin:0 0 8px}
-  .legend .row{display:flex;gap:8px;margin:5px 0;align-items:baseline}
-  .legend .k{color:#cdd6ff;min-width:84px;font-weight:600}
+
+  /* 포켓몬 이름 */
+  .name{text-align:left;font-weight:700;font-size:14px;min-width:100px;white-space:nowrap}
+  .name.is-mega{color:var(--mega)}
+
+  /* 스피드 실수치 */
+  .spd-val{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+  .spd-diff{font-size:11px;color:var(--sub);display:block}
+  .spd-diff.up{color:var(--up)}
+  .spd-diff.dn{color:var(--down)}
+
+  /* 능력포인트 입력 */
+  .pt-wrap{display:flex;flex-direction:column;align-items:center;gap:3px}
+  .pt-input{background:var(--chip);border:1px solid var(--line);color:var(--txt);
+    width:46px;padding:4px 6px;border-radius:6px;font-size:14px;text-align:center;
+    font-variant-numeric:tabular-nums;outline:none}
+  .pt-input:focus{border-color:var(--accent)}
+  .pt-hint{font-size:10px;color:var(--sub)}
+
+  /* 성격 버튼 그룹 */
+  .nat-group{display:inline-flex;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+  .nat-btn{background:var(--chip);color:var(--sub);border:none;padding:4px 8px;
+    font-size:13px;cursor:pointer;line-height:1;transition:background .1s}
+  .nat-btn:not(:last-child){border-right:1px solid var(--line)}
+  .nat-btn.sel-up{background:#1a3020;color:var(--up);font-weight:700}
+  .nat-btn.sel-none{background:#252a45;color:var(--txt)}
+  .nat-btn.sel-dn{background:#2d1a1a;color:var(--down);font-weight:700}
+
+  /* 아이템 */
+  .item-cell{font-size:12px;text-align:left;min-width:80px;white-space:nowrap}
+  .item-cell .rate{display:block;color:var(--sub);font-size:10px}
+  .item-cell.has-spd{color:var(--item);font-weight:600}
+
+  /* 특성 */
+  .abil-cell{font-size:12px;cursor:help;white-space:nowrap}
+  .abil-cell.has-spd-on{color:var(--accent);font-weight:600}
+  .abil-cell.has-spd-off{color:var(--sub);text-decoration:line-through}
+
+  /* 종족값 */
+  .base-val{font-size:13px;font-variant-numeric:tabular-nums;color:var(--sub)}
+  .base-orig{font-size:10px;color:var(--sub);display:block}
+
+  /* 결정력 셀 */
+  .move-cell{font-size:11px;min-width:140px}
+  .move-row{display:flex;align-items:center;gap:4px;padding:1px 0;white-space:nowrap}
+  .move-name{color:var(--txt);flex:1;overflow:hidden;text-overflow:ellipsis;max-width:90px}
+  .move-fp{font-size:10px;font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600;white-space:nowrap}
+  .move-rate{font-size:10px;color:var(--sub)}
+
+  /* 타입 셀 */
+  .type-cell{display:flex;flex-direction:column;gap:3px;align-items:center}
+
+  /* 내구 셀 */
+  .bulk-cell{font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .bulk-bar{height:4px;border-radius:2px;margin-top:2px;background:var(--line)}
+  .bulk-bar-fill{height:100%;border-radius:2px}
+  .bulk-phys-fill{background:#f87171}
+  .bulk-spec-fill{background:#7c9cff}
+
+  /* 랭크 셀 */
+  .rank-cell{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:44px}
+  .rank-val{font-size:16px;font-weight:800;font-variant-numeric:tabular-nums;min-width:28px;text-align:center}
+  .rank-val.pos{color:var(--up)}
+  .rank-val.neg{color:var(--down)}
+  .rank-val.zero{color:var(--sub)}
+  .rank-btns{display:flex;gap:3px}
+  .rank-btn{background:var(--chip);border:1px solid var(--line);color:var(--sub);
+    width:22px;height:22px;border-radius:4px;font-size:13px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;padding:0}
+  .rank-btn:hover{border-color:var(--accent);color:var(--txt)}
+
+  /* 약점/반감 셀 — 6개 초과 시 자동 줄바꿈 */
+  .eff-cell{display:flex;flex-wrap:wrap;gap:3px;width:152px;align-items:center}
+  /* ×4 강조 */
+  .type-wrap-x4{outline:2px solid var(--down);border-radius:4px}
+  /* ×0 무효 강조 */
+  .type-wrap-x0{outline:2px solid #6ee7b7;border-radius:4px;opacity:0.7}
+  .type-wrap-x0::after{content:"0";position:absolute;bottom:-5px;right:-4px;
+    font-size:9px;font-weight:700;color:#6ee7b7;line-height:1}
+  .type-icon-wrap{position:relative}
+
   .empty{padding:30px;text-align:center;color:var(--sub)}
+
+
   @media(max-width:640px){
-    .base,.nat .dec{display:none}
     thead th.opt,tbody td.opt{display:none}
-    .spd{font-size:18px}
+    .spd-val{font-size:18px}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>⚡ 포켓몬 챔피언스 스피드 도움말</h1>
-  <div class="sub">싱글배틀 · 시즌 M-3 사용률 상위 50 · 스피드 빠른 순 · 출처 champs.pokedb.tokyo</div>
+  <h1>⚡ 포켓몬 챔피언스 스피드 순위</h1>
+  <div class="sub">싱글배틀 · 시즌 M-3 사용률 상위 100 · 스피드 빠른 순 · 출처 champs.pokedb.tokyo</div>
 
   <div class="note">
     <b>계산 기준</b>
     <ul>
-      <li>실수치 = <b>레벨 50 / 개체값 31</b>. 노력치는 <b>풀투자(252)</b>·<b>미투자(0)</b> 두 가지를 모두 표시합니다(사이트가 노력치 분포를 제공하지 않음).</li>
-      <li>성격은 각 포켓몬의 <b>채용률 1위 성격</b>을 반영하되, <b>스피드 보정(↑10% / ↓10%)만</b> 두 값 모두에 적용합니다.</li>
-      <li>정렬 = <b>풀투자(252) + 성격 보정 실수치 내림차순</b>. 보정으로 값이 바뀐 칸은 <span style="color:#9aa3c4">무보정 실수치</span>를 작게 함께 표기하고, 성격 칸에 사유를 보여줍니다.</li>
-      <li>※ 실제 배포는 트릭룸·내구형 등 스피드 미투자일 수 있습니다. 빠른 위협은 풀투자, 트릭룸 의심은 미투자 쪽을 참고하세요.</li>
-      <li>🟦 스피드 관련 특성 / 🟩 날씨 셋업 특성은 배지에 마우스를 올리면 설명이 나옵니다.</li>
+      <li>포켓몬 챔피언스 능력포인트(0~32) 시스템. 계산식: <b>floor(floor((종족값×2+31+포인트×2)×50/100)+5)</b> → 성격보정</li>
+      <li>기본값 = 채용률 1위 포인트 세팅 + 채용률 1위 성격. 메가진화 나이트 1위인 경우 메가폼 종족값·특성 기준.</li>
+      <li>능력포인트 직접 입력 / ▲●▼ 버튼으로 성격 보정 조정 가능.</li>
     </ul>
   </div>
 
   <div class="toolbar">
-    <input type="search" id="q" placeholder="포켓몬 이름 검색…">
-    <label class="toggle"><input type="checkbox" id="onlySpd"> 스피드 특성 보유만</label>
+    <input type="search" id="q1" placeholder="포켓몬 검색 1…">
+    <input type="search" id="q2" placeholder="포켓몬 검색 2…">
+    <input type="search" id="q3" placeholder="포켓몬 검색 3…">
+    <input type="search" id="q4" placeholder="포켓몬 검색 4…">
   </div>
 
   <table>
     <thead><tr>
-      <th class="rank">사용률<br>순위</th>
       <th>포켓몬</th>
-      <th>풀투자 252<br>(성격보정)</th>
-      <th>미투자 0<br>(성격보정)</th>
-      <th class="opt">종족값</th>
-      <th>성격(1위)</th>
-      <th class="opt">특성(1위)</th>
-      <th>스피드 특성 도움말</th>
+      <th>스피드</th>
+      <th>능력포인트</th>
+      <th>성격</th>
+      <th>랭크</th>
+      <th class="opt">아이템</th>
+
+      <th class="opt">특성</th>
+      <th class="opt">물리/특수<br><span style="font-weight:400;font-size:10px">내구지수</span></th>
+      <th class="opt">기술 / 결정력</th>
+      <th>타입</th>
+      <th>약점</th>
+      <th>반감</th>
     </tr></thead>
     <tbody id="tb"></tbody>
   </table>
 
-  <div class="legend">
-    <h3>스피드 관련 특성 정리</h3>
-    <div class="row"><span class="k">쓱쓱</span> 비가 올 때 스피드 2배</div>
-    <div class="row"><span class="k">엽록소</span> 쾌청할 때 스피드 2배</div>
-    <div class="row"><span class="k">모래헤치기</span> 모래바람일 때 스피드 2배</div>
-    <div class="row"><span class="k">눈치우기</span> 설경(눈)일 때 스피드 2배</div>
-    <div class="row"><span class="k">가속</span> 매 턴 종료 시 스피드 +1랭크</div>
-    <div class="row"><span class="k">곡예</span> 지닌 도구가 사라지면 스피드 2배</div>
-    <div class="row"><span class="k">깨어진갑옷</span> 물리 공격을 맞으면 방어 -1 / 스피드 +2랭크</div>
-    <div style="margin-top:10px;font-size:11.5px">날씨 셋업 특성(잔비·모래날림·눈퍼뜨리기)은 같은 편 쓱쓱·모래헤치기·눈치우기 포켓몬의 스피드 2배를 켜 줍니다.</div>
-  </div>
 </div>
 
 <script>
 const DATA = __DATA__;
 const tb = document.getElementById('tb');
-const medal = {1:'🥇',2:'🥈',3:'🥉'};
 
-function render(){
-  const q = document.getElementById('q').value.trim();
-  const onlySpd = document.getElementById('onlySpd').checked;
+// 특성 설명 (호버용)
+const ABIL_DESC = {
+  '쓱쓱': '비가 올 때 스피드 2배',
+  '엽록소': '쾌청할 때 스피드 2배',
+  '모래헤치기': '모래바람일 때 스피드 2배',
+  '눈치우기': '설경(눈)일 때 스피드 2배',
+  '가속': '매 턴 종료 시 스피드 +1랭크',
+  '곡예': '지닌 도구가 사라지면 스피드 2배',
+  '깨어진갑옷': '물리 공격 피격 시 방어 -1 / 스피드 +2랭크',
+  '불굴의마음': '풀죽을 때마다 스피드 +1랭크',
+  '그림자밟기': '상대를 교체 불가로 만듦',
+  '노가드': '서로의 기술 명중률 100%',
+  '배짱': '공격받아도 위축되지 않음',
+  '심술꾸러기': '기술 또는 특성에 의한 랭크 변화가 반대로 적용된다.',
+  '단단한손톱': '접촉기 위력 1.3배',
+  '재생력': '교체 시 HP 1/3 회복',
+  '천하장사': '공격 실수치 2배',
+  '가뭄': '날씨를 쾌청으로 변경',
+  '페어리오라': '페어리 타입 기술 위력 1.33배',
+  '두꺼운지방': '불꽃·얼음 기술 데미지 절반',
+  '틀깨기': '상대 특성을 무시하고 공격',
+  '잔비': '날씨를 비로 변경',
+  '모래날림': '날씨를 모래바람으로 변경',
+  '눈퍼뜨리기': '날씨를 설경으로 변경',
+  '급류': 'HP 1/3 이하일 때 물 기술 위력 1.5배',
+  '맹화': 'HP 1/3 이하일 때 불꽃 기술 위력 1.5배',
+  '심록': 'HP 1/3 이하일 때 풀 기술 위력 1.5배',
+  '까칠한피부': '접촉 시 상대 HP 1/8 감소',
+  '멀티스케일': 'HP 최대일 때 받는 피해 절반',
+  '배틀스위치': '방어 폼에서 특수 공격, 칼 폼에서 물리 공격 사용',
+  '변환자재': '사용한 기술과 같은 타입으로 변신',
+  '부유': '땅 기술 무효',
+  '분장': '공격받으면 상대 특성을 복사',
+  '불꽃몸': '접촉 시 30% 확률로 화상',
+  '빠져나가기': '유령 타입에게 막히지 않음',
+  '오기': '능력이 내려가면 공격 최대치로',
+  '위압감': '상대 특수공격 1랭크 하락',
+  '위협': '상대 공격 1랭크 하락',
+  '유연': '마비 무효, 스피드 2배',
+  '일렉트릭변환': '노말 기술이 전기 타입으로',
+  '자연회복': '교체 시 상태이상 회복',
+  '저주받은바디': '피격 시 30% 확률로 상대 기술 봉인',
+  '적응력': '자속 보정 2배',
+  '정신력': '풀죽지 않음',
+  '지구력': '물리 피격 시 방어 +1랭크',
+  '짓궂은마음': '변화 기술 선제권 +1',
+  '천진': '상대 랭크 변화 무시',
+  '총대장': '아군 기술 위력 1.35배',
+  '칼끝': '베기 계열 기술 위력 1.5배',
+  '클리어바디': '능력 하락 무효',
+  '테크니션': '위력 60 이하 기술 위력 1.5배',
+  '플라워베일': '풀 타입 아군 상태이상 무효',
+  '피뢰침': '전기 기술 흡수, 특공 +1랭크',
+  '황금몸체': '능력 변화 무효',
+  '독화장': '접촉 시 상대 맹독',
+  '메가런처': '파동·파동 계열 기술 위력 1.5배',
+};
+
+// 아이템 설명 (호버용)
+const ITEM_DESC = {
+  '기합의띠': '한 번에 쓰러질 공격을 HP 1로 버팀',
+  '구애스카프': '스피드 1.5배. 기술 1가지만 사용 가능',
+  '구애안경': '특공 1.5배. 기술 1가지만 사용 가능',
+  '구애머리띠': '공격 1.5배. 기술 1가지만 사용 가능',
+  '생명의구슬': '기술 위력 1.3배. 매 턴 HP 1/10 감소',
+  '자뭉열매': 'HP 절반 이하일 때 HP 1/4 회복',
+  '먹다남은음식': '매 턴 HP 1/16 회복',
+  '리샘열매': '상태이상 1번 회복',
+  '울퉁불퉁멧': '접촉 시 상대 HP 1/6 감소',
+  '진화의휘석': '진화 전 포켓몬의 방어·특방 1.5배',
+  '돌격조끼': '특방 1.5배. 변화 기술 사용 불가',
+  '하얀허브': '능력이 내려가면 1번 회복',
+  '검은철구': '땅 타입 기술 회피 불가, 트릭 불가',
+  '달인의띠': '효과가 뛰어난 기술 위력 1.2배',
+  '빛의점토': '빛의장막·리플렉터 지속 8턴',
+  '안녹는얼음': '얼음 타입 공격 위력 1.2배',
+  '검은안경': '악 타입 기술 위력 1.2배',
+  '젖은바위': '비의 지속 턴 수 증가',
+  '파워풀허브': '1번만 사용 가능 기술 즉시 사용',
+  '유루열매': '수면 상태 회복',
+  '클리어부적': '위협 등 능력 하락 무효',
+  '멘탈허브': '속박·도발 등 정신 계열 무효',
+};
+
+// 내구 지수 최댓값 (바 길이 정규화용)
+const MAX_BULK_PHYS = Math.max(...DATA.map(d => d.bulk_phys));
+const MAX_BULK_SPEC = Math.max(...DATA.map(d => d.bulk_spec));
+// 결정력 최댓값
+
+// 포켓몬별 상태
+const state = {};
+DATA.forEach(d => {
+  state[d.key] = {
+    pt: d.top_pt_s,
+    nat: d.eff,
+    rank: 0,       // 스피드 랭크 (-6 ~ +6)
+    spdAbilOn: false,
+  };
+});
+
+// 랭크 배율표 (-6 ~ +6)
+const RANK_MULT = {
+  '-6': 2/8, '-5': 2/7, '-4': 2/6, '-3': 2/5, '-2': 2/4, '-1': 2/3,
+  '0': 1, '1': 3/2, '2': 4/2, '3': 5/2, '4': 6/2, '5': 7/2, '6': 8/2
+};
+
+// 특성별 ON 시 랭크 변화량
+const ABIL_RANK_DELTA = {
+  '쓱쓱': 2, '엽록소': 2, '모래헤치기': 2, '눈치우기': 2, '곡예': 2,
+  '가속': 1, '불굴의마음': 1, '깨어진갑옷': 2,
+};
+
+function calcSpd(base, pt, nat, rank, itemMult) {
+  const raw = Math.floor(Math.floor((base * 2 + 31 + pt * 2) * 50 / 100) + 5);
+  let v = raw;
+  if (nat === 'up') v = Math.floor(v * 1.1);
+  else if (nat === 'down') v = Math.floor(v * 0.9);
+  const clampedRank = Math.max(-6, Math.min(6, rank));
+  if (clampedRank !== 0) v = Math.floor(v * RANK_MULT[String(clampedRank)]);
+  if (itemMult) v = Math.floor(v * itemMult);
+  return v;
+}
+
+function getSpd(d) {
+  const s = state[d.key];
+  const itemMult = d.item_spd ? d.item_spd.mult : null;
+  return calcSpd(d.eff_base, s.pt, s.nat, s.rank, itemMult);
+}
+
+function renderRow(d) {
+  const s = state[d.key];
+  const spd = getSpd(d);
+  const topSpd = d.spd_top;
+  const diff = spd - topSpd;
+  let diffHtml = '';
+  if (diff !== 0) {
+    const cls = diff > 0 ? 'up' : 'dn';
+    diffHtml = `<span class="spd-diff ${cls}">${diff > 0 ? '+' : ''}${diff}</span>`;
+  }
+
+  // 성격 버튼 — 항상 표시
+  const natSel = s.nat;
+  const upCls = natSel === 'up' ? 'sel-up' : '';
+  const noneCls = natSel === 'none' ? 'sel-none' : '';
+  const dnCls = natSel === 'down' ? 'sel-dn' : '';
+  const natHtml = `<div class="nat-group">
+    <button class="nat-btn ${upCls}" onclick="setNat('${d.key}','up')">▲</button>
+    <button class="nat-btn ${noneCls}" onclick="setNat('${d.key}','none')">●</button>
+    <button class="nat-btn ${dnCls}" onclick="setNat('${d.key}','down')">▼</button>
+  </div>
+  <div style="font-size:10px;color:var(--sub);margin-top:2px">${d.nature} ${d.nature_dec}</div>`;
+
+  // 아이템
+  const itemCls = d.item_spd ? 'item-cell has-spd' : 'item-cell';
+  const itemDesc = d.item ? (ITEM_DESC[d.item] || '') : '';
+  const itemHtml = d.item
+    ? `<div class="${itemCls}" title="${itemDesc}">${d.item}<span class="rate">${d.item_rate}%</span></div>`
+    : `<span style="color:#555">–</span>`;
+
+  // 종족값
+  const baseHtml = (d.mega && d.base !== d.eff_base)
+    ? `<span class="base-val" style="color:var(--mega)">${d.eff_base}</span><span class="base-orig">(${d.base})</span>`
+    : `<span class="base-val">${d.eff_base}</span>`;
+
+  // 특성 — 메가폼은 메가 특성 표시
+  const abilName = d.mega ? d.mega.abil : d.ability;
+  const abilDesc = ABIL_DESC[abilName] || '';
+  const hasSpdAbil = d.spd_notes.some(n => n.top);
+  let abilCls = 'abil-cell' + (d.mega ? ' is-mega' : '');
+  let abilExtra = '';
+  if (hasSpdAbil) {
+    abilCls += s.spdAbilOn ? ' has-spd-on' : ' has-spd-off';
+    const delta = ABIL_RANK_DELTA[abilName];
+    abilExtra = `<span style="font-size:10px;display:block;margin-top:2px">
+      <button class="nat-btn ${s.spdAbilOn ? 'sel-up' : ''}" style="font-size:10px;padding:2px 6px;border-radius:4px;border:1px solid var(--line)"
+        onclick="toggleSpdAbil('${d.key}')">${s.spdAbilOn ? 'ON' : 'OFF'}</button>
+    </span>`;
+  }
+  const abilHtml = `<span class="${abilCls}" title="${abilDesc}">${abilName}</span>${abilExtra}`;
+
+  // 타입 아이콘
+  function typeIcon(type_id, mult) {
+    const id = String(type_id).padStart(2, '0');
+    const label = mult >= 4 ? '×4' : (mult === 2 ? '×2' : (mult === 0 ? '무효' : '½'));
+    const x4cls = mult >= 4 ? ' type-wrap-x4' : (mult === 0 ? ' type-wrap-x0' : '');
+    return `<div class="type-icon-wrap type-icon-wrap-16 bg-type-${id}${x4cls}" title="${label}">` +
+           `<span class="type-icon type-icon-16 type-${id}"></span></div>`;
+  }
+  const weakHtml = '<div class="eff-cell">' +
+    (d.weaknesses || []).map(w => typeIcon(w.type_id, w.multiplier)).join('') +
+    '</div>';
+  const resHtml = '<div class="eff-cell">' +
+    (d.resistances || []).map(r => typeIcon(r.type_id, r.multiplier)).join('') +
+    '</div>';
+
+  // 타입 셀
+  const typeHtml = '<div class="type-cell">' +
+    (d.types || []).map(t => {
+      const id = String(t.id).padStart(2, '0');
+      return `<div class="type-icon-wrap type-icon-wrap-16 bg-type-${id}">` +
+             `<span class="type-icon type-icon-16 type-${id}"></span></div>`;
+    }).join('') + '</div>';
+
+  // 내구 지수 셀
+  const pct_p = Math.round(d.bulk_phys / MAX_BULK_PHYS * 100);
+  const pct_s = Math.round(d.bulk_spec / MAX_BULK_SPEC * 100);
+  const bulkHtml = `<div class="bulk-cell">
+    <span style="color:#f87171;font-size:11px">물 ${d.bulk_phys.toLocaleString()}</span>
+    <div class="bulk-bar"><div class="bulk-bar-fill bulk-phys-fill" style="width:${pct_p}%"></div></div>
+    <span style="color:#7c9cff;font-size:11px">특 ${d.bulk_spec.toLocaleString()}</span>
+    <div class="bulk-bar"><div class="bulk-bar-fill bulk-spec-fill" style="width:${pct_s}%"></div></div>
+  </div>`;
+
+  // 랭크 셀
+  const rkVal = s.rank;
+  const rkCls = rkVal > 0 ? 'pos' : (rkVal < 0 ? 'neg' : 'zero');
+  const rkLabel = rkVal > 0 ? '+' + rkVal : String(rkVal);
+  const rankHtml = `<div class="rank-cell">
+    <span class="rank-val ${rkCls}">${rkLabel}</span>
+    <div class="rank-btns">
+      <button class="rank-btn" onclick="adjustRank('${d.key}',1)">▲</button>
+      <button class="rank-btn" onclick="adjustRank('${d.key}',-1)">▼</button>
+    </div>
+  </div>`;
+
+  // 결정력 셀
+  const fpColor = {1: '#f87171', 2: '#7c9cff'};
+  const moveHtml = '<div class="move-cell">' +
+    (d.top_moves || []).map(mv => {
+      const fp = mv.firepower;
+      const color = fpColor[mv.category] || 'var(--sub)';
+      const fpHtml = fp ? `<span class="move-fp" style="color:${color}">${fp.toLocaleString()}</span>` : '';
+      return `<div class="move-row">
+        <span class="move-name" title="${mv.name}">${mv.name}</span>
+        <span class="move-rate">${mv.rate}%</span>
+        ${fpHtml}
+      </div>`;
+    }).join('') + '</div>';
+
+  return `
+    <td class="name${d.mega ? ' is-mega' : ''}">${d.name}</td>
+    <td><span class="spd-val">${spd}</span>${diffHtml}</td>
+    <td><div class="pt-wrap">
+      <input class="pt-input" type="number" min="0" max="32" value="${s.pt}"
+        oninput="updatePt('${d.key}',this.value)">
+      <span class="pt-hint">${d.top_ev_abbr}</span>
+    </div></td>
+    <td>${natHtml}</td>
+    <td>${rankHtml}</td>
+    <td class="opt">${itemHtml}</td>
+
+    <td class="opt">${abilHtml}</td>
+    <td class="opt">${bulkHtml}</td>
+    <td class="opt">${moveHtml}</td>
+    <td>${typeHtml}</td>
+    <td>${weakHtml}</td>
+    <td>${resHtml}</td>`;
+}
+
+function updatePt(key, val) {
+  let v = parseInt(val);
+  if (isNaN(v)) return;
+  state[key].pt = Math.max(0, Math.min(32, v));
+  refreshRow(key);
+}
+
+function setNat(key, nat) {
+  state[key].nat = nat;
+  refreshRow(key);
+}
+
+function toggleSpdAbil(key) {
+  const d = DATA.find(x => x.key === key);
+  const s = state[key];
+  s.spdAbilOn = !s.spdAbilOn;
+  const abilName = d.mega ? d.mega.abil : d.ability;
+  const delta = ABIL_RANK_DELTA[abilName];
+  if (delta) {
+    s.rank = Math.max(-6, Math.min(6, s.rank + (s.spdAbilOn ? delta : -delta)));
+  }
+  refreshRow(key);
+}
+
+function adjustRank(key, delta) {
+  const s = state[key];
+  s.rank = Math.max(-6, Math.min(6, s.rank + delta));
+  refreshRow(key);
+}
+
+function refreshRow(key) {
+  const tr = document.querySelector(`tr[data-key="${key}"]`);
+  if (!tr) return;
+  const d = DATA.find(x => x.key === key);
+  if (!d) return;
+  tr.innerHTML = renderRow(d);
+}
+
+function render() {
+  const qs = ['q1','q2','q3','q4'].map(id => document.getElementById(id).value.trim()).filter(v => v);
   tb.innerHTML = '';
   let shown = 0;
-  DATA.forEach(d=>{
-    if(q && !d.name.includes(q)) return;
-    if(onlySpd && d.spd_notes.length===0) return;
+  DATA.forEach(d => {
+    if (qs.length > 0 && !qs.some(q => d.name.includes(q))) return;
     shown++;
     const tr = document.createElement('tr');
-
-    const rk = medal[d.rank] ? '<span class="medal">'+medal[d.rank]+'</span> '+d.rank : d.rank;
-
-    let arrow='', cls='';
-    if(d.eff==='up'){ arrow='<span class="arrow up">▲</span>'; cls='up'; }
-    else if(d.eff==='down'){ arrow='<span class="arrow down">▼</span>'; cls='down'; }
-
-    // a speed cell: big nature-applied value + (무보정 original) when changed
-    function spdCell(val, orig){
-      let sub = '';
-      if(d.eff!=='none'){
-        sub = '<span class="orig">무보정 '+orig+'</span>';
-      }
-      return '<span class="spd '+cls+'">'+val+arrow+'</span>'+sub;
-    }
-
-    const natCls = d.eff==='up'?'spdup':(d.eff==='down'?'spddown':'');
-    const natCell = '<span class="nat '+natCls+'">'+d.nature
-      +'<span class="dec">'+d.nature_dec+'</span>'
-      +'<span class="rate">'+d.nature_rate+'%</span></span>';
-
-    let badges = d.spd_notes.map(function(n){
-      return '<span class="badge spd '+(n.top?'top':'')+'" title="'+n.text+' · '+n.tag+'">⚡ '
-        +n.abil+(n.top?' (1위특성)':'')+'</span>';
-    }).join('');
-    if(d.weather) badges += '<span class="badge weather" title="'+d.weather+'">🌦 '+d.weather+'</span>';
-    if(!badges) badges = '<span style="color:#555">–</span>';
-
-    tr.innerHTML =
-      '<td class="rank">'+rk+'</td>'+
-      '<td class="name">'+d.name+'<small>'+d.key+'</small></td>'+
-      '<td>'+spdCell(d.full, d.full_orig)+'</td>'+
-      '<td class="z">'+spdCell(d.zero, d.zero_orig)+'</td>'+
-      '<td class="opt"><span class="base">'+d.base+'</span></td>'+
-      '<td>'+natCell+'</td>'+
-      '<td class="opt"><span class="abil">'+d.ability+'<span class="rate">'+d.ability_rate+'%</span></span></td>'+
-      '<td><div class="badges">'+badges+'</div></td>';
+    tr.setAttribute('data-key', d.key);
+    tr.innerHTML = renderRow(d);
     tb.appendChild(tr);
   });
-  if(shown===0){
-    tb.innerHTML = '<tr><td colspan="8" class="empty">조건에 맞는 포켓몬이 없습니다.</td></tr>';
+  if (shown === 0) {
+    tb.innerHTML = '<tr><td colspan="12" class="empty">조건에 맞는 포켓몬이 없습니다.</td></tr>';
   }
 }
-document.getElementById('q').addEventListener('input', render);
-document.getElementById('onlySpd').addEventListener('change', render);
+
+['q1','q2','q3','q4'].forEach(id => document.getElementById(id).addEventListener('input', render));
 render();
 </script>
 </body>
