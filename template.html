@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>포켓몬 챔피언스 스피드 도움말</title>
+<style>
+  :root{
+    --bg:#0f1220; --card:#171b2e; --line:#2a3050; --txt:#e8ebf5; --sub:#9aa3c4;
+    --up:#4ade80; --down:#f87171; --accent:#7c9cff; --chip:#232a47; --warn:#ffd166;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    line-height:1.5;padding:24px 16px 80px}
+  .wrap{max-width:1080px;margin:0 auto}
+  h1{font-size:24px;margin:0 0 4px}
+  .sub{color:var(--sub);font-size:13px;margin-bottom:18px}
+  .note{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:14px 16px;font-size:12.5px;color:var(--sub);margin-bottom:18px}
+  .note b{color:var(--txt)}
+  .note ul{margin:8px 0 0;padding-left:18px}
+  .note li{margin:3px 0}
+  .toolbar{display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+  input[type=search]{background:var(--card);border:1px solid var(--line);color:var(--txt);
+    padding:9px 12px;border-radius:10px;font-size:14px;min-width:220px;outline:none}
+  input[type=search]:focus{border-color:var(--accent)}
+  .toggle{font-size:12.5px;color:var(--sub);display:flex;align-items:center;gap:6px;cursor:pointer}
+  table{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);
+    border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  thead th{background:#1c2138;font-size:12px;color:var(--sub);text-align:center;
+    padding:11px 8px;font-weight:600;white-space:nowrap;border-bottom:1px solid var(--line)}
+  tbody td{padding:11px 8px;text-align:center;border-bottom:1px solid var(--line);font-size:14px}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#1b2138}
+  .rank{font-weight:700;color:var(--sub);width:54px}
+  .rank .medal{font-size:15px}
+  .name{text-align:left;font-weight:700;font-size:15px;min-width:120px}
+  .name small{display:block;color:var(--sub);font-weight:400;font-size:11px}
+  .spd{font-size:21px;font-weight:800;font-variant-numeric:tabular-nums;display:block}
+  .spd .arrow{font-size:12px;font-weight:700;vertical-align:middle;margin-left:2px}
+  td.z .spd{font-size:16px;font-weight:700;opacity:.78}
+  .up{color:var(--up)} .down{color:var(--down)}
+  .orig{color:var(--sub);font-variant-numeric:tabular-nums;font-size:11px;display:block}
+  .base{color:var(--sub);font-variant-numeric:tabular-nums}
+  .nat{font-size:13px}
+  .nat .dec{display:block;font-size:11px;color:var(--sub)}
+  .nat .rate{color:var(--sub);font-size:11px}
+  .nat.spdup{color:var(--up)} .nat.spddown{color:var(--down)}
+  .abil{font-size:13px}
+  .abil .rate{display:block;color:var(--sub);font-size:11px}
+  .badges{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+  .badge{display:inline-block;font-size:11px;padding:3px 8px;border-radius:999px;
+    background:var(--chip);border:1px solid var(--line);cursor:help;white-space:nowrap}
+  .badge.spd{border-color:#5a6cff;background:#202a52;color:#cdd6ff}
+  .badge.spd.top{border-color:var(--warn);background:#3a3315;color:var(--warn);font-weight:700}
+  .badge.weather{border-color:#3a6;background:#16301f;color:#8fe7b0}
+  .legend{margin-top:22px;font-size:12.5px;color:var(--sub)}
+  .legend h3{color:var(--txt);font-size:14px;margin:0 0 8px}
+  .legend .row{display:flex;gap:8px;margin:5px 0;align-items:baseline}
+  .legend .k{color:#cdd6ff;min-width:84px;font-weight:600}
+  .empty{padding:30px;text-align:center;color:var(--sub)}
+  @media(max-width:640px){
+    .base,.nat .dec{display:none}
+    thead th.opt,tbody td.opt{display:none}
+    .spd{font-size:18px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>⚡ 포켓몬 챔피언스 스피드 도움말</h1>
+  <div class="sub">싱글배틀 · 시즌 M-3 사용률 상위 50 · 스피드 빠른 순 · 출처 champs.pokedb.tokyo</div>
+
+  <div class="note">
+    <b>계산 기준</b>
+    <ul>
+      <li>실수치 = <b>레벨 50 / 개체값 31</b>. 노력치는 <b>풀투자(252)</b>·<b>미투자(0)</b> 두 가지를 모두 표시합니다(사이트가 노력치 분포를 제공하지 않음).</li>
+      <li>성격은 각 포켓몬의 <b>채용률 1위 성격</b>을 반영하되, <b>스피드 보정(↑10% / ↓10%)만</b> 두 값 모두에 적용합니다.</li>
+      <li>정렬 = <b>풀투자(252) + 성격 보정 실수치 내림차순</b>. 보정으로 값이 바뀐 칸은 <span style="color:#9aa3c4">무보정 실수치</span>를 작게 함께 표기하고, 성격 칸에 사유를 보여줍니다.</li>
+      <li>※ 실제 배포는 트릭룸·내구형 등 스피드 미투자일 수 있습니다. 빠른 위협은 풀투자, 트릭룸 의심은 미투자 쪽을 참고하세요.</li>
+      <li>🟦 스피드 관련 특성 / 🟩 날씨 셋업 특성은 배지에 마우스를 올리면 설명이 나옵니다.</li>
+    </ul>
+  </div>
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="포켓몬 이름 검색…">
+    <label class="toggle"><input type="checkbox" id="onlySpd"> 스피드 특성 보유만</label>
+  </div>
+
+  <table>
+    <thead><tr>
+      <th class="rank">사용률<br>순위</th>
+      <th>포켓몬</th>
+      <th>풀투자 252<br>(성격보정)</th>
+      <th>미투자 0<br>(성격보정)</th>
+      <th class="opt">종족값</th>
+      <th>성격(1위)</th>
+      <th class="opt">특성(1위)</th>
+      <th>스피드 특성 도움말</th>
+    </tr></thead>
+    <tbody id="tb"></tbody>
+  </table>
+
+  <div class="legend">
+    <h3>스피드 관련 특성 정리</h3>
+    <div class="row"><span class="k">쓱쓱</span> 비가 올 때 스피드 2배</div>
+    <div class="row"><span class="k">엽록소</span> 쾌청할 때 스피드 2배</div>
+    <div class="row"><span class="k">모래헤치기</span> 모래바람일 때 스피드 2배</div>
+    <div class="row"><span class="k">눈치우기</span> 설경(눈)일 때 스피드 2배</div>
+    <div class="row"><span class="k">가속</span> 매 턴 종료 시 스피드 +1랭크</div>
+    <div class="row"><span class="k">곡예</span> 지닌 도구가 사라지면 스피드 2배</div>
+    <div class="row"><span class="k">깨어진갑옷</span> 물리 공격을 맞으면 방어 -1 / 스피드 +2랭크</div>
+    <div style="margin-top:10px;font-size:11.5px">날씨 셋업 특성(잔비·모래날림·눈퍼뜨리기)은 같은 편 쓱쓱·모래헤치기·눈치우기 포켓몬의 스피드 2배를 켜 줍니다.</div>
+  </div>
+</div>
+
+<script>
+const DATA = __DATA__;
+const tb = document.getElementById('tb');
+const medal = {1:'🥇',2:'🥈',3:'🥉'};
+
+function render(){
+  const q = document.getElementById('q').value.trim();
+  const onlySpd = document.getElementById('onlySpd').checked;
+  tb.innerHTML = '';
+  let shown = 0;
+  DATA.forEach(d=>{
+    if(q && !d.name.includes(q)) return;
+    if(onlySpd && d.spd_notes.length===0) return;
+    shown++;
+    const tr = document.createElement('tr');
+
+    const rk = medal[d.rank] ? '<span class="medal">'+medal[d.rank]+'</span> '+d.rank : d.rank;
+
+    let arrow='', cls='';
+    if(d.eff==='up'){ arrow='<span class="arrow up">▲</span>'; cls='up'; }
+    else if(d.eff==='down'){ arrow='<span class="arrow down">▼</span>'; cls='down'; }
+
+    // a speed cell: big nature-applied value + (무보정 original) when changed
+    function spdCell(val, orig){
+      let sub = '';
+      if(d.eff!=='none'){
+        sub = '<span class="orig">무보정 '+orig+'</span>';
+      }
+      return '<span class="spd '+cls+'">'+val+arrow+'</span>'+sub;
+    }
+
+    const natCls = d.eff==='up'?'spdup':(d.eff==='down'?'spddown':'');
+    const natCell = '<span class="nat '+natCls+'">'+d.nature
+      +'<span class="dec">'+d.nature_dec+'</span>'
+      +'<span class="rate">'+d.nature_rate+'%</span></span>';
+
+    let badges = d.spd_notes.map(function(n){
+      return '<span class="badge spd '+(n.top?'top':'')+'" title="'+n.text+' · '+n.tag+'">⚡ '
+        +n.abil+(n.top?' (1위특성)':'')+'</span>';
+    }).join('');
+    if(d.weather) badges += '<span class="badge weather" title="'+d.weather+'">🌦 '+d.weather+'</span>';
+    if(!badges) badges = '<span style="color:#555">–</span>';
+
+    tr.innerHTML =
+      '<td class="rank">'+rk+'</td>'+
+      '<td class="name">'+d.name+'<small>'+d.key+'</small></td>'+
+      '<td>'+spdCell(d.full, d.full_orig)+'</td>'+
+      '<td class="z">'+spdCell(d.zero, d.zero_orig)+'</td>'+
+      '<td class="opt"><span class="base">'+d.base+'</span></td>'+
+      '<td>'+natCell+'</td>'+
+      '<td class="opt"><span class="abil">'+d.ability+'<span class="rate">'+d.ability_rate+'%</span></span></td>'+
+      '<td><div class="badges">'+badges+'</div></td>';
+    tb.appendChild(tr);
+  });
+  if(shown===0){
+    tb.innerHTML = '<tr><td colspan="8" class="empty">조건에 맞는 포켓몬이 없습니다.</td></tr>';
+  }
+}
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('onlySpd').addEventListener('change', render);
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,1213 @@
+[
+ {
+  "key": "0445-00",
+  "dex": 445,
+  "form": "00",
+  "jp_name": "ガブリアス",
+  "base_speed": 102,
+  "neutral": 154,
+  "max": 169,
+  "noEV": 122,
+  "down": 109,
+  "all_abilities": [
+   "すながくれ",
+   "さめはだ"
+  ],
+  "top_ability": {
+   "name": "さめはだ",
+   "rate": 99.5
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 56.9
+  }
+ },
+ {
+  "key": "1018-00",
+  "dex": 1018,
+  "form": "00",
+  "jp_name": "ブリジュラス",
+  "base_speed": 85,
+  "neutral": 137,
+  "max": 150,
+  "noEV": 105,
+  "down": 94,
+  "all_abilities": [
+   "がんじょう",
+   "じきゅうりょく",
+   "すじがねいり"
+  ],
+  "top_ability": {
+   "name": "じきゅうりょく",
+   "rate": 69.6
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 51.1
+  }
+ },
+ {
+  "key": "0026-00",
+  "dex": 26,
+  "form": "00",
+  "jp_name": "ライチュウ",
+  "base_speed": 110,
+  "neutral": 162,
+  "max": 178,
+  "noEV": 130,
+  "down": 117,
+  "all_abilities": [
+   "せいでんき",
+   "ひらいしん"
+  ],
+  "top_ability": {
+   "name": "ひらいしん",
+   "rate": 88.6
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 74
+  }
+ },
+ {
+  "key": "0260-00",
+  "dex": 260,
+  "form": "00",
+  "jp_name": "ラグラージ",
+  "base_speed": 60,
+  "neutral": 112,
+  "max": 123,
+  "noEV": 80,
+  "down": 72,
+  "all_abilities": [
+   "しめりけ",
+   "げきりゅう"
+  ],
+  "top_ability": {
+   "name": "げきりゅう",
+   "rate": 73.2
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 58
+  }
+ },
+ {
+  "key": "0398-00",
+  "dex": 398,
+  "form": "00",
+  "jp_name": "ムクホーク",
+  "base_speed": 100,
+  "neutral": 152,
+  "max": 167,
+  "noEV": 120,
+  "down": 108,
+  "all_abilities": [
+   "いかく",
+   "すてみ"
+  ],
+  "top_ability": {
+   "name": "いかく",
+   "rate": 97.1
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 67.6
+  }
+ },
+ {
+  "key": "0778-00",
+  "dex": 778,
+  "form": "00",
+  "jp_name": "ミミッキュ",
+  "base_speed": 96,
+  "neutral": 148,
+  "max": 162,
+  "noEV": 116,
+  "down": 104,
+  "all_abilities": [
+   "ばけのかわ"
+  ],
+  "top_ability": {
+   "name": "ばけのかわ",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 80.3
+  }
+ },
+ {
+  "key": "0908-00",
+  "dex": 908,
+  "form": "00",
+  "jp_name": "マスカーニャ",
+  "base_speed": 123,
+  "neutral": 175,
+  "max": 192,
+  "noEV": 143,
+  "down": 128,
+  "all_abilities": [
+   "しんりょく",
+   "へんげんじざい"
+  ],
+  "top_ability": {
+   "name": "へんげんじざい",
+   "rate": 92
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 49.5
+  }
+ },
+ {
+  "key": "0279-00",
+  "dex": 279,
+  "form": "00",
+  "jp_name": "ペリッパー",
+  "base_speed": 65,
+  "neutral": 117,
+  "max": 128,
+  "noEV": 85,
+  "down": 76,
+  "all_abilities": [
+   "あめふらし",
+   "あめうけざら",
+   "するどいめ"
+  ],
+  "top_ability": {
+   "name": "あめふらし",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "のんき",
+   "dec": "(B↑S↓)",
+   "rate": 38
+  }
+ },
+ {
+  "key": "0823-00",
+  "dex": 823,
+  "form": "00",
+  "jp_name": "アーマーガア",
+  "base_speed": 67,
+  "neutral": 119,
+  "max": 130,
+  "noEV": 87,
+  "down": 78,
+  "all_abilities": [
+   "プレッシャー",
+   "きんちょうかん",
+   "ミラーアーマー"
+  ],
+  "top_ability": {
+   "name": "プレッシャー",
+   "rate": 72.7
+  },
+  "top_nature": {
+   "name": "わんぱく",
+   "dec": "(B↑C↓)",
+   "rate": 54.7
+  }
+ },
+ {
+  "key": "0376-00",
+  "dex": 376,
+  "form": "00",
+  "jp_name": "メタグロス",
+  "base_speed": 70,
+  "neutral": 122,
+  "max": 134,
+  "noEV": 90,
+  "down": 81,
+  "all_abilities": [
+   "クリアボディ",
+   "ライトメタル"
+  ],
+  "top_ability": {
+   "name": "クリアボディ",
+   "rate": 99.4
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 58.7
+  }
+ },
+ {
+  "key": "0006-00",
+  "dex": 6,
+  "form": "00",
+  "jp_name": "リザードン",
+  "base_speed": 100,
+  "neutral": 152,
+  "max": 167,
+  "noEV": 120,
+  "down": 108,
+  "all_abilities": [
+   "もうか",
+   "サンパワー"
+  ],
+  "top_ability": {
+   "name": "もうか",
+   "rate": 89.3
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 39.2
+  }
+ },
+ {
+  "key": "0902-00",
+  "dex": 902,
+  "form": "00",
+  "jp_name": "イダイトウ (オス)",
+  "base_speed": 78,
+  "neutral": 130,
+  "max": 143,
+  "noEV": 98,
+  "down": 88,
+  "all_abilities": [
+   "すいすい",
+   "てきおうりょく",
+   "かたやぶり"
+  ],
+  "top_ability": {
+   "name": "てきおうりょく",
+   "rate": 91.3
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 64.2
+  }
+ },
+ {
+  "key": "0730-00",
+  "dex": 730,
+  "form": "00",
+  "jp_name": "アシレーヌ",
+  "base_speed": 60,
+  "neutral": 112,
+  "max": 123,
+  "noEV": 80,
+  "down": 72,
+  "all_abilities": [
+   "げきりゅう",
+   "うるおいボイス"
+  ],
+  "top_ability": {
+   "name": "げきりゅう",
+   "rate": 96
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 68.1
+  }
+ },
+ {
+  "key": "1000-00",
+  "dex": 1000,
+  "form": "00",
+  "jp_name": "サーフゴー",
+  "base_speed": 84,
+  "neutral": 136,
+  "max": 149,
+  "noEV": 104,
+  "down": 93,
+  "all_abilities": [
+   "おうごんのからだ"
+  ],
+  "top_ability": {
+   "name": "おうごんのからだ",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 48.8
+  }
+ },
+ {
+  "key": "0450-00",
+  "dex": 450,
+  "form": "00",
+  "jp_name": "カバルドン",
+  "base_speed": 47,
+  "neutral": 99,
+  "max": 108,
+  "noEV": 67,
+  "down": 60,
+  "all_abilities": [
+   "すなおこし",
+   "すなのちから"
+  ],
+  "top_ability": {
+   "name": "すなおこし",
+   "rate": 99.8
+  },
+  "top_nature": {
+   "name": "わんぱく",
+   "dec": "(B↑C↓)",
+   "rate": 73.6
+  }
+ },
+ {
+  "key": "0257-00",
+  "dex": 257,
+  "form": "00",
+  "jp_name": "バシャーモ",
+  "base_speed": 80,
+  "neutral": 132,
+  "max": 145,
+  "noEV": 100,
+  "down": 90,
+  "all_abilities": [
+   "かそく",
+   "もうか"
+  ],
+  "top_ability": {
+   "name": "かそく",
+   "rate": 97.2
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 65.2
+  }
+ },
+ {
+  "key": "0130-00",
+  "dex": 130,
+  "form": "00",
+  "jp_name": "ギャラドス",
+  "base_speed": 81,
+  "neutral": 133,
+  "max": 146,
+  "noEV": 101,
+  "down": 90,
+  "all_abilities": [
+   "いかく",
+   "じしんかじょう"
+  ],
+  "top_ability": {
+   "name": "いかく",
+   "rate": 99.3
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 44.7
+  }
+ },
+ {
+  "key": "0861-00",
+  "dex": 861,
+  "form": "00",
+  "jp_name": "オーロンゲ",
+  "base_speed": 60,
+  "neutral": 112,
+  "max": 123,
+  "noEV": 80,
+  "down": 72,
+  "all_abilities": [
+   "おみとおし",
+   "わるいてぐせ",
+   "いたずらごころ"
+  ],
+  "top_ability": {
+   "name": "いたずらごころ",
+   "rate": 99.5
+  },
+  "top_nature": {
+   "name": "わんぱく",
+   "dec": "(B↑C↓)",
+   "rate": 62.2
+  }
+ },
+ {
+  "key": "0681-00",
+  "dex": 681,
+  "form": "00",
+  "jp_name": "ギルガルド",
+  "base_speed": 60,
+  "neutral": 112,
+  "max": 123,
+  "noEV": 80,
+  "down": 72,
+  "all_abilities": [
+   "バトルスイッチ"
+  ],
+  "top_ability": {
+   "name": "バトルスイッチ",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 58.7
+  }
+ },
+ {
+  "key": "0038-01",
+  "dex": 38,
+  "form": "01",
+  "jp_name": "キュウコン (アローラ)",
+  "base_speed": 109,
+  "neutral": 161,
+  "max": 177,
+  "noEV": 129,
+  "down": 116,
+  "all_abilities": [
+   "ゆきがくれ",
+   "ゆきふらし"
+  ],
+  "top_ability": {
+   "name": "ゆきふらし",
+   "rate": 99.7
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 85.5
+  }
+ },
+ {
+  "key": "0149-00",
+  "dex": 149,
+  "form": "00",
+  "jp_name": "カイリュー",
+  "base_speed": 80,
+  "neutral": 132,
+  "max": 145,
+  "noEV": 100,
+  "down": 90,
+  "all_abilities": [
+   "せいしんりょく",
+   "マルチスケイル"
+  ],
+  "top_ability": {
+   "name": "マルチスケイル",
+   "rate": 98.7
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 65.5
+  }
+ },
+ {
+  "key": "0303-00",
+  "dex": 303,
+  "form": "00",
+  "jp_name": "クチート",
+  "base_speed": 50,
+  "neutral": 102,
+  "max": 112,
+  "noEV": 70,
+  "down": 63,
+  "all_abilities": [
+   "いかく",
+   "かいりきバサミ",
+   "ちからずく"
+  ],
+  "top_ability": {
+   "name": "いかく",
+   "rate": 97.7
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 83.5
+  }
+ },
+ {
+  "key": "0970-00",
+  "dex": 970,
+  "form": "00",
+  "jp_name": "キラフロル",
+  "base_speed": 86,
+  "neutral": 138,
+  "max": 151,
+  "noEV": 106,
+  "down": 95,
+  "all_abilities": [
+   "ふしょく",
+   "どくげしょう"
+  ],
+  "top_ability": {
+   "name": "どくげしょう",
+   "rate": 95.1
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 58.7
+  }
+ },
+ {
+  "key": "0983-00",
+  "dex": 983,
+  "form": "00",
+  "jp_name": "ドドゲザン",
+  "base_speed": 50,
+  "neutral": 102,
+  "max": 112,
+  "noEV": 70,
+  "down": 63,
+  "all_abilities": [
+   "プレッシャー",
+   "まけんき",
+   "そうだいしょう"
+  ],
+  "top_ability": {
+   "name": "そうだいしょう",
+   "rate": 88
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 95.8
+  }
+ },
+ {
+  "key": "0479-02",
+  "dex": 479,
+  "form": "02",
+  "jp_name": "ウォッシュロトム",
+  "base_speed": 86,
+  "neutral": 138,
+  "max": 151,
+  "noEV": 106,
+  "down": 95,
+  "all_abilities": [
+   "ふゆう"
+  ],
+  "top_ability": {
+   "name": "ふゆう",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "ずぶとい",
+   "dec": "(B↑A↓)",
+   "rate": 43.9
+  }
+ },
+ {
+  "key": "0094-00",
+  "dex": 94,
+  "form": "00",
+  "jp_name": "ゲンガー",
+  "base_speed": 110,
+  "neutral": 162,
+  "max": 178,
+  "noEV": 130,
+  "down": 117,
+  "all_abilities": [
+   "のろわれボディ"
+  ],
+  "top_ability": {
+   "name": "のろわれボディ",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 74.7
+  }
+ },
+ {
+  "key": "0635-00",
+  "dex": 635,
+  "form": "00",
+  "jp_name": "サザンドラ",
+  "base_speed": 98,
+  "neutral": 150,
+  "max": 165,
+  "noEV": 118,
+  "down": 106,
+  "all_abilities": [
+   "ふゆう"
+  ],
+  "top_ability": {
+   "name": "ふゆう",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 61.1
+  }
+ },
+ {
+  "key": "0637-00",
+  "dex": 637,
+  "form": "00",
+  "jp_name": "ウルガモス",
+  "base_speed": 100,
+  "neutral": 152,
+  "max": 167,
+  "noEV": 120,
+  "down": 108,
+  "all_abilities": [
+   "ほのおのからだ",
+   "むしのしらせ"
+  ],
+  "top_ability": {
+   "name": "ほのおのからだ",
+   "rate": 82.6
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 39.1
+  }
+ },
+ {
+  "key": "0584-00",
+  "dex": 584,
+  "form": "00",
+  "jp_name": "バイバニラ",
+  "base_speed": 79,
+  "neutral": 131,
+  "max": 144,
+  "noEV": 99,
+  "down": 89,
+  "all_abilities": [
+   "アイスボディ",
+   "ゆきふらし",
+   "くだけるよろい"
+  ],
+  "top_ability": {
+   "name": "ゆきふらし",
+   "rate": 99.5
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 72.5
+  }
+ },
+ {
+  "key": "0911-00",
+  "dex": 911,
+  "form": "00",
+  "jp_name": "ラウドボーン",
+  "base_speed": 66,
+  "neutral": 118,
+  "max": 129,
+  "noEV": 86,
+  "down": 77,
+  "all_abilities": [
+   "もうか",
+   "てんねん"
+  ],
+  "top_ability": {
+   "name": "てんねん",
+   "rate": 99.3
+  },
+  "top_nature": {
+   "name": "ずぶとい",
+   "dec": "(B↑A↓)",
+   "rate": 79.9
+  }
+ },
+ {
+  "key": "0154-00",
+  "dex": 154,
+  "form": "00",
+  "jp_name": "メガニウム",
+  "base_speed": 80,
+  "neutral": 132,
+  "max": 145,
+  "noEV": 100,
+  "down": 90,
+  "all_abilities": [
+   "しんりょく",
+   "リーフガード"
+  ],
+  "top_ability": {
+   "name": "しんりょく",
+   "rate": 68.5
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 91.1
+  }
+ },
+ {
+  "key": "0979-00",
+  "dex": 979,
+  "form": "00",
+  "jp_name": "コノヨザル",
+  "base_speed": 90,
+  "neutral": 142,
+  "max": 156,
+  "noEV": 110,
+  "down": 99,
+  "all_abilities": [
+   "せいしんりょく",
+   "やるき",
+   "まけんき"
+  ],
+  "top_ability": {
+   "name": "まけんき",
+   "rate": 48.4
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 39.1
+  }
+ },
+ {
+  "key": "0212-00",
+  "dex": 212,
+  "form": "00",
+  "jp_name": "ハッサム",
+  "base_speed": 65,
+  "neutral": 117,
+  "max": 128,
+  "noEV": 85,
+  "down": 76,
+  "all_abilities": [
+   "むしのしらせ",
+   "テクニシャン",
+   "ライトメタル"
+  ],
+  "top_ability": {
+   "name": "テクニシャン",
+   "rate": 96.5
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 91.4
+  }
+ },
+ {
+  "key": "0428-00",
+  "dex": 428,
+  "form": "00",
+  "jp_name": "ミミロップ",
+  "base_speed": 105,
+  "neutral": 157,
+  "max": 172,
+  "noEV": 125,
+  "down": 112,
+  "all_abilities": [
+   "じゅうなん",
+   "メロメロボディ",
+   "ぶきよう"
+  ],
+  "top_ability": {
+   "name": "じゅうなん",
+   "rate": 77.1
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 63
+  }
+ },
+ {
+  "key": "0937-00",
+  "dex": 937,
+  "form": "00",
+  "jp_name": "ソウブレイズ",
+  "base_speed": 85,
+  "neutral": 137,
+  "max": 150,
+  "noEV": 105,
+  "down": 94,
+  "all_abilities": [
+   "もらいび",
+   "くだけるよろい"
+  ],
+  "top_ability": {
+   "name": "くだけるよろい",
+   "rate": 90.1
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 85.6
+  }
+ },
+ {
+  "key": "0691-00",
+  "dex": 691,
+  "form": "00",
+  "jp_name": "ドラミドロ",
+  "base_speed": 44,
+  "neutral": 96,
+  "max": 105,
+  "noEV": 64,
+  "down": 57,
+  "all_abilities": [
+   "どくのトゲ",
+   "てきおうりょく",
+   "どくしゅ"
+  ],
+  "top_ability": {
+   "name": "てきおうりょく",
+   "rate": 69.5
+  },
+  "top_nature": {
+   "name": "なまいき",
+   "dec": "(D↑S↓)",
+   "rate": 27.7
+  }
+ },
+ {
+  "key": "0655-00",
+  "dex": 655,
+  "form": "00",
+  "jp_name": "マフォクシー",
+  "base_speed": 104,
+  "neutral": 156,
+  "max": 171,
+  "noEV": 124,
+  "down": 111,
+  "all_abilities": [
+   "もうか",
+   "マジシャン"
+  ],
+  "top_ability": {
+   "name": "もうか",
+   "rate": 92.1
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 90.6
+  }
+ },
+ {
+  "key": "0658-00",
+  "dex": 658,
+  "form": "00",
+  "jp_name": "ゲッコウガ",
+  "base_speed": 122,
+  "neutral": 174,
+  "max": 191,
+  "noEV": 142,
+  "down": 127,
+  "all_abilities": [
+   "げきりゅう",
+   "へんげんじざい"
+  ],
+  "top_ability": {
+   "name": "へんげんじざい",
+   "rate": 80.7
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 46.5
+  }
+ },
+ {
+  "key": "0503-01",
+  "dex": 503,
+  "form": "01",
+  "jp_name": "ダイケンキ (ヒスイ)",
+  "base_speed": 85,
+  "neutral": 137,
+  "max": 150,
+  "noEV": 105,
+  "down": 94,
+  "all_abilities": [
+   "げきりゅう",
+   "きれあじ"
+  ],
+  "top_ability": {
+   "name": "きれあじ",
+   "rate": 99
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 69.1
+  }
+ },
+ {
+  "key": "0121-00",
+  "dex": 121,
+  "form": "00",
+  "jp_name": "スターミー",
+  "base_speed": 115,
+  "neutral": 167,
+  "max": 183,
+  "noEV": 135,
+  "down": 121,
+  "all_abilities": [
+   "しぜんかいふく",
+   "はっこう",
+   "アナライズ"
+  ],
+  "top_ability": {
+   "name": "しぜんかいふく",
+   "rate": 90.1
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 65.5
+  }
+ },
+ {
+  "key": "0670-05",
+  "dex": 670,
+  "form": "05",
+  "jp_name": "フラエッテ (えいえん)",
+  "base_speed": 92,
+  "neutral": 144,
+  "max": 158,
+  "noEV": 112,
+  "down": 100,
+  "all_abilities": [
+   "フラワーベール",
+   "きょうせい"
+  ],
+  "top_ability": {
+   "name": "フラワーベール",
+   "rate": 96.5
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 55.6
+  }
+ },
+ {
+  "key": "0903-00",
+  "dex": 903,
+  "form": "00",
+  "jp_name": "オオニューラ",
+  "base_speed": 120,
+  "neutral": 172,
+  "max": 189,
+  "noEV": 140,
+  "down": 126,
+  "all_abilities": [
+   "プレッシャー",
+   "かるわざ",
+   "どくしゅ"
+  ],
+  "top_ability": {
+   "name": "かるわざ",
+   "rate": 78.8
+  },
+  "top_nature": {
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 66.3
+  }
+ },
+ {
+  "key": "0887-00",
+  "dex": 887,
+  "form": "00",
+  "jp_name": "ドラパルト",
+  "base_speed": 142,
+  "neutral": 194,
+  "max": 213,
+  "noEV": 162,
+  "down": 145,
+  "all_abilities": [
+   "クリアボディ",
+   "のろわれボディ",
+   "すりぬけ"
+  ],
+  "top_ability": {
+   "name": "すりぬけ",
+   "rate": 52
+  },
+  "top_nature": {
+   "name": "おくびょう",
+   "dec": "(S↑A↓)",
+   "rate": 31.3
+  }
+ },
+ {
+  "key": "0939-00",
+  "dex": 939,
+  "form": "00",
+  "jp_name": "ハラバリー",
+  "base_speed": 45,
+  "neutral": 97,
+  "max": 106,
+  "noEV": 65,
+  "down": 58,
+  "all_abilities": [
+   "しめりけ",
+   "せいでんき",
+   "でんきにかえる"
+  ],
+  "top_ability": {
+   "name": "でんきにかえる",
+   "rate": 99.7
+  },
+  "top_nature": {
+   "name": "おだやか",
+   "dec": "(D↑A↓)",
+   "rate": 55.4
+  }
+ },
+ {
+  "key": "0003-00",
+  "dex": 3,
+  "form": "00",
+  "jp_name": "フシギバナ",
+  "base_speed": 80,
+  "neutral": 132,
+  "max": 145,
+  "noEV": 100,
+  "down": 90,
+  "all_abilities": [
+   "ようりょくそ",
+   "しんりょく"
+  ],
+  "top_ability": {
+   "name": "ようりょくそ",
+   "rate": 62.8
+  },
+  "top_nature": {
+   "name": "ずぶとい",
+   "dec": "(B↑A↓)",
+   "rate": 34.7
+  }
+ },
+ {
+  "key": "0197-00",
+  "dex": 197,
+  "form": "00",
+  "jp_name": "ブラッキー",
+  "base_speed": 65,
+  "neutral": 117,
+  "max": 128,
+  "noEV": 85,
+  "down": 76,
+  "all_abilities": [
+   "シンクロ",
+   "せいしんりょく"
+  ],
+  "top_ability": {
+   "name": "せいしんりょく",
+   "rate": 67.8
+  },
+  "top_nature": {
+   "name": "ずぶとい",
+   "dec": "(B↑A↓)",
+   "rate": 59.2
+  }
+ },
+ {
+  "key": "0009-00",
+  "dex": 9,
+  "form": "00",
+  "jp_name": "カメックス",
+  "base_speed": 78,
+  "neutral": 130,
+  "max": 143,
+  "noEV": 98,
+  "down": 88,
+  "all_abilities": [
+   "あめうけざら",
+   "げきりゅう"
+  ],
+  "top_ability": {
+   "name": "げきりゅう",
+   "rate": 66.8
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 70.6
+  }
+ },
+ {
+  "key": "0479-01",
+  "dex": 479,
+  "form": "01",
+  "jp_name": "ヒートロトム",
+  "base_speed": 86,
+  "neutral": 138,
+  "max": 151,
+  "noEV": 106,
+  "down": 95,
+  "all_abilities": [
+   "ふゆう"
+  ],
+  "top_ability": {
+   "name": "ふゆう",
+   "rate": 100
+  },
+  "top_nature": {
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 38.2
+  }
+ },
+ {
+  "key": "0448-00",
+  "dex": 448,
+  "form": "00",
+  "jp_name": "ルカリオ",
+  "base_speed": 90,
+  "neutral": 142,
+  "max": 156,
+  "noEV": 110,
+  "down": 99,
+  "all_abilities": [
+   "せいしんりょく",
+   "ふくつのこころ",
+   "せいぎのこころ"
+  ],
+  "top_ability": {
+   "name": "せいしんりょく",
+   "rate": 83.7
+  },
+  "top_nature": {
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 49.5
+  }
+ },
+ {
+  "key": "0547-00",
+  "dex": 547,
+  "form": "00",
+  "jp_name": "エルフーン",
+  "base_speed": 116,
+  "neutral": 168,
+  "max": 184,
+  "noEV": 136,
+  "down": 122,
+  "all_abilities": [
+   "ようりょくそ",
+   "すりぬけ",
+   "いたずらごころ"
+  ],
+  "top_ability": {
+   "name": "いたずらごころ",
+   "rate": 99.9
+  },
+  "top_nature": {
+   "name": "ずぶとい",
+   "dec": "(B↑A↓)",
+   "rate": 37.3
+  }
+ }
+]
