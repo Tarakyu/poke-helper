@@ -648,9 +648,17 @@
    {
     "id": 11,
     "name": "くさ"
+   },
+   {
+    "id": 15,
+    "name": "ドラゴン"
    }
   ],
   "weaknesses": [
+   {
+    "type_id": 14,
+    "multiplier": 4
+   },
    {
     "type_id": 2,
     "multiplier": 2
@@ -664,11 +672,11 @@
     "multiplier": 2
    },
    {
-    "type_id": 9,
+    "type_id": 15,
     "multiplier": 2
    },
    {
-    "type_id": 14,
+    "type_id": 17,
     "multiplier": 2
    }
   ],
@@ -679,15 +687,19 @@
    },
    {
     "type_id": 10,
-    "multiplier": 0.5
+    "multiplier": 0.25
    },
    {
     "type_id": 11,
-    "multiplier": 0.5
+    "multiplier": 0.25
    },
    {
     "type_id": 12,
-    "multiplier": 0.5
+    "multiplier": 0.25
+   },
+   {
+    "type_id": 12,
+    "multiplier": 0
    }
   ]
  },
@@ -4753,15 +4765,11 @@
     "name": "いわ"
    },
    {
-    "id": 10,
-    "name": "みず"
+    "id": 1,
+    "name": "かくとう"
    }
   ],
   "weaknesses": [
-   {
-    "type_id": 11,
-    "multiplier": 4
-   },
    {
     "type_id": 1,
     "multiplier": 2
@@ -4771,7 +4779,23 @@
     "multiplier": 2
    },
    {
-    "type_id": 12,
+    "type_id": 8,
+    "multiplier": 2
+   },
+   {
+    "type_id": 10,
+    "multiplier": 2
+   },
+   {
+    "type_id": 11,
+    "multiplier": 2
+   },
+   {
+    "type_id": 13,
+    "multiplier": 2
+   },
+   {
+    "type_id": 17,
     "multiplier": 2
    }
   ],
@@ -4781,20 +4805,24 @@
     "multiplier": 0.5
    },
    {
-    "type_id": 2,
-    "multiplier": 0.5
-   },
-   {
     "type_id": 3,
     "multiplier": 0.5
    },
    {
-    "type_id": 14,
+    "type_id": 5,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 6,
     "multiplier": 0.5
    },
    {
     "type_id": 9,
-    "multiplier": 0.25
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 16,
+    "multiplier": 0.5
    }
   ]
  },
@@ -8179,6 +8207,10 @@
    {
     "id": 17,
     "name": "フェアリー"
+   },
+   {
+    "id": 2,
+    "name": "ひこう"
    }
   ],
   "weaknesses": [
@@ -8187,22 +8219,42 @@
     "multiplier": 2
    },
    {
+    "type_id": 5,
+    "multiplier": 2
+   },
+   {
     "type_id": 8,
+    "multiplier": 2
+   },
+   {
+    "type_id": 12,
+    "multiplier": 2
+   },
+   {
+    "type_id": 14,
     "multiplier": 2
    }
   ],
   "resistances": [
    {
-    "type_id": 1,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 6,
+    "type_id": 11,
     "multiplier": 0.5
    },
    {
     "type_id": 16,
     "multiplier": 0.5
+   },
+   {
+    "type_id": 1,
+    "multiplier": 0.25
+   },
+   {
+    "type_id": 6,
+    "multiplier": 0.25
+   },
+   {
+    "type_id": 4,
+    "multiplier": 0
    },
    {
     "type_id": 15,
