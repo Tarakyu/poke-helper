@@ -14,20 +14,20 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 84.8,
+  "top_ev_rate": 85.9,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 56.3,
+  "nature_rate": 59.8,
   "ability": "변환자재",
-  "ability_rate": 95.3,
+  "ability_rate": 95.6,
   "ability_jp": "へんげんじざい",
   "spd_notes": [],
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 75.5,
+  "item_rate": 71.6,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -37,7 +37,7 @@
   "top_moves": [
    {
     "name": "트릭플라워",
-    "rate": 98.1,
+    "rate": 98.3,
     "category": 1,
     "power": "70",
     "type_id": 11,
@@ -45,7 +45,7 @@
    },
    {
     "name": "트리플악셀",
-    "rate": 87.1,
+    "rate": 89.8,
     "category": 1,
     "power": "20",
     "type_id": 14,
@@ -53,7 +53,7 @@
    },
    {
     "name": "유턴",
-    "rate": 72.6,
+    "rate": 71.7,
     "category": 1,
     "power": "70",
     "type_id": 6,
@@ -61,7 +61,7 @@
    },
    {
     "name": "탁쳐서떨구기",
-    "rate": 67,
+    "rate": 68.6,
     "category": 1,
     "power": "65",
     "type_id": 16,
@@ -154,14 +154,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 78.9,
+  "top_ev_rate": 79.0,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 51.6,
+  "nature_rate": 52.9,
   "ability": "틀깨기",
-  "ability_rate": 71.1,
+  "ability_rate": 77.4,
   "ability_jp": "かたやぶり",
   "spd_notes": [
    {
@@ -174,7 +174,7 @@
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 37.1,
+  "item_rate": 41.3,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -184,7 +184,7 @@
   "top_moves": [
    {
     "name": "지진",
-    "rate": 99.2,
+    "rate": 98.7,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -192,7 +192,7 @@
    },
    {
     "name": "아이언헤드",
-    "rate": 96.4,
+    "rate": 96.6,
     "category": 1,
     "power": "80",
     "type_id": 8,
@@ -200,7 +200,7 @@
    },
    {
     "name": "스톤샤워",
-    "rate": 69.3,
+    "rate": 64.4,
     "category": 1,
     "power": "75",
     "type_id": 5,
@@ -208,7 +208,7 @@
    },
    {
     "name": "뿔드릴",
-    "rate": 30.8,
+    "rate": 30.4,
     "category": 1,
     "power": "−",
     "type_id": 0,
@@ -301,12 +301,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 84.9,
+  "top_ev_rate": 88.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 65.5,
+  "nature_rate": 67.5,
   "ability": "부유",
   "ability_rate": 100,
   "ability_jp": "ふゆう",
@@ -314,7 +314,7 @@
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 81.8,
+  "item_rate": 84.9,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -324,7 +324,7 @@
   "top_moves": [
    {
     "name": "악의파동",
-    "rate": 99.4,
+    "rate": 99.2,
     "category": 2,
     "power": "80",
     "type_id": 16,
@@ -332,7 +332,7 @@
    },
    {
     "name": "용성군",
-    "rate": 94.9,
+    "rate": 95.3,
     "category": 2,
     "power": "130",
     "type_id": 15,
@@ -340,7 +340,7 @@
    },
    {
     "name": "유턴",
-    "rate": 72.8,
+    "rate": 74.5,
     "category": 1,
     "power": "70",
     "type_id": 6,
@@ -348,7 +348,7 @@
    },
    {
     "name": "화염방사",
-    "rate": 55.1,
+    "rate": 53.2,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -437,20 +437,20 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 56.1,
+  "top_ev_rate": 59.2,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 49.9,
+  "nature_rate": 47.1,
   "ability": "타오르는불꽃",
-  "ability_rate": 53.9,
+  "ability_rate": 57.6,
   "ability_jp": "もらいび",
   "spd_notes": [],
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 36.5,
+  "item_rate": 34.8,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -460,7 +460,7 @@
   "top_moves": [
    {
     "name": "섀도볼",
-    "rate": 93.6,
+    "rate": 92.4,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -468,7 +468,7 @@
    },
    {
     "name": "에너지볼",
-    "rate": 56.8,
+    "rate": 60.9,
     "category": 2,
     "power": "90",
     "type_id": 11,
@@ -476,7 +476,7 @@
    },
    {
     "name": "화염방사",
-    "rate": 55.9,
+    "rate": 60.5,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -484,7 +484,7 @@
    },
    {
     "name": "오버히트",
-    "rate": 37.8,
+    "rate": 34.2,
     "category": 2,
     "power": "130",
     "type_id": 9,
@@ -586,14 +586,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 79.4,
+  "top_ev_rate": 81.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 69.9,
+  "nature_rate": 71.3,
   "ability": "심록",
-  "ability_rate": 70.5,
+  "ability_rate": 71.5,
   "ability_jp": "しんりょく",
   "spd_notes": [
    {
@@ -606,14 +606,14 @@
   "weather": null,
   "item": "나무킹나이트",
   "item_jp": "ジュカインナイト",
-  "item_rate": 78.7,
+  "item_rate": 78.2,
   "item_spd": null,
   "bulk_phys": 33978,
   "bulk_spec": 37555,
   "top_moves": [
    {
     "name": "대지의힘",
-    "rate": 84.9,
+    "rate": 86.3,
     "category": 2,
     "power": "90",
     "type_id": 4,
@@ -621,7 +621,7 @@
    },
    {
     "name": "용의파동",
-    "rate": 79.2,
+    "rate": 78.7,
     "category": 2,
     "power": "85",
     "type_id": 15,
@@ -629,19 +629,19 @@
    },
    {
     "name": "리프스톰",
-    "rate": 70.5,
+    "rate": 75.1,
     "category": 2,
     "power": "130",
     "type_id": 11,
     "firepower": 38415
    },
    {
-    "name": "진공파",
-    "rate": 41.6,
-    "category": 2,
-    "power": "40",
-    "type_id": 1,
-    "firepower": 7880
+    "name": "꼬리자르기",
+    "rate": 50,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
    }
   ],
   "types": [
@@ -718,14 +718,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 87.4,
+  "top_ev_rate": 86.6,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 68.5,
+  "nature_rate": 69.7,
   "ability": "적응력",
-  "ability_rate": 91.5,
+  "ability_rate": 93,
   "ability_jp": "てきおうりょく",
   "spd_notes": [
    {
@@ -738,7 +738,7 @@
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 72.6,
+  "item_rate": 74.5,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -748,7 +748,7 @@
   "top_moves": [
    {
     "name": "성묘",
-    "rate": 100,
+    "rate": 99.9,
     "category": 1,
     "power": "50",
     "type_id": 7,
@@ -756,7 +756,7 @@
    },
    {
     "name": "웨이브태클",
-    "rate": 97.2,
+    "rate": 94.7,
     "category": 1,
     "power": "120",
     "type_id": 10,
@@ -764,7 +764,7 @@
    },
    {
     "name": "아쿠아제트",
-    "rate": 90.8,
+    "rate": 86.5,
     "category": 1,
     "power": "40",
     "type_id": 10,
@@ -772,7 +772,7 @@
    },
    {
     "name": "퀵턴",
-    "rate": 80.6,
+    "rate": 78.6,
     "category": 1,
     "power": "60",
     "type_id": 10,
@@ -843,140 +843,6 @@
   ]
  },
  {
-  "rank": 36,
-  "key": "0658-00",
-  "name": "메가개굴닌자",
-  "base": 122,
-  "eff_base": 142,
-  "mega": {
-   "name": "메가개굴닌자",
-   "base": 142,
-   "abil": "변환자재",
-   "abil_jp": "へんげんじざい"
-  },
-  "spd_top": 213,
-  "spd_sort": 213,
-  "top_pt_s": 32,
-  "top_ev_all": {
-   "C": 32,
-   "S": 32,
-   "H": 2
-  },
-  "top_ev_rate": 74.3,
-  "top_ev_abbr": "#1 HCS",
-  "eff": "up",
-  "nature": "겁쟁이",
-  "nature_dec": "(S↑A↓)",
-  "nature_rate": 47.9,
-  "ability": "변환자재",
-  "ability_rate": 84.7,
-  "ability_jp": "へんげんじざい",
-  "spd_notes": [],
-  "weather": null,
-  "item": "개굴닌자나이트",
-  "item_jp": "ゲッコウガナイト",
-  "item_rate": 46,
-  "item_spd": null,
-  "bulk_phys": 35165,
-  "bulk_spec": 36616,
-  "top_moves": [
-   {
-    "name": "냉동빔",
-    "rate": 89.2,
-    "category": 2,
-    "power": "90",
-    "type_id": 14,
-    "firepower": 16650
-   },
-   {
-    "name": "악의파동",
-    "rate": 74.3,
-    "category": 2,
-    "power": "80",
-    "type_id": 16,
-    "firepower": 22200
-   },
-   {
-    "name": "오물웨이브",
-    "rate": 64.2,
-    "category": 2,
-    "power": "95",
-    "type_id": 3,
-    "firepower": 17575
-   },
-   {
-    "name": "물수리검",
-    "rate": 37.7,
-    "category": 2,
-    "power": "15",
-    "type_id": 10,
-    "firepower": 4162
-   }
-  ],
-  "types": [
-   {
-    "id": 10,
-    "name": "みず"
-   },
-   {
-    "id": 16,
-    "name": "あく"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 1,
-    "multiplier": 2
-   },
-   {
-    "type_id": 6,
-    "multiplier": 2
-   },
-   {
-    "type_id": 11,
-    "multiplier": 2
-   },
-   {
-    "type_id": 12,
-    "multiplier": 2
-   },
-   {
-    "type_id": 17,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 7,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 8,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 9,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 10,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 14,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 16,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 13,
-    "multiplier": 0
-   }
-  ]
- },
- {
   "rank": 41,
   "key": "0887-00",
   "name": "드래펄트",
@@ -991,27 +857,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 40.8,
+  "top_ev_rate": 42.1,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 26.2,
+  "nature_rate": 28.9,
   "ability": "틈새포착",
-  "ability_rate": 61.9,
+  "ability_rate": 72.1,
   "ability_jp": "すりぬけ",
   "spd_notes": [],
   "weather": null,
   "item": "생명의구슬",
   "item_jp": "いのちのたま",
-  "item_rate": 34.7,
+  "item_rate": 46.1,
   "item_spd": null,
   "bulk_phys": 38139,
   "bulk_spec": 38139,
   "top_moves": [
    {
     "name": "드래곤애로",
-    "rate": 59.9,
+    "rate": 64.1,
     "category": 1,
     "power": "50",
     "type_id": 15,
@@ -1019,7 +885,7 @@
    },
    {
     "name": "유턴",
-    "rate": 39.9,
+    "rate": 44,
     "category": 1,
     "power": "70",
     "type_id": 6,
@@ -1027,19 +893,19 @@
    },
    {
     "name": "고스트다이브",
-    "rate": 32.6,
+    "rate": 38.3,
     "category": 1,
     "power": "90",
     "type_id": 7,
     "firepower": 30181
    },
    {
-    "name": "도깨비불",
-    "rate": 31.2,
-    "category": 3,
-    "power": "−",
-    "type_id": 9,
-    "firepower": null
+    "name": "기습",
+    "rate": 34.3,
+    "category": 1,
+    "power": "70",
+    "type_id": 16,
+    "firepower": 15649
    }
   ],
   "types": [
@@ -1110,6 +976,138 @@
   ]
  },
  {
+  "rank": 50,
+  "key": "0479-01",
+  "name": "로토무(히트)",
+  "base": 86,
+  "eff_base": 86,
+  "mega": null,
+  "spd_top": 138,
+  "spd_sort": 207,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "C": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 31.0,
+  "top_ev_abbr": "#1 HCS",
+  "eff": "none",
+  "nature": "조심",
+  "nature_dec": "(C↑A↓)",
+  "nature_rate": 43.7,
+  "ability": "부유",
+  "ability_rate": 100,
+  "ability_jp": "ふゆう",
+  "spd_notes": [],
+  "weather": null,
+  "item": "구애스카프",
+  "item_jp": "こだわりスカーフ",
+  "item_rate": 33.3,
+  "item_spd": {
+   "mult": 1.5,
+   "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
+  },
+  "bulk_phys": 39243,
+  "bulk_spec": 39243,
+  "top_moves": [
+   {
+    "name": "오버히트",
+    "rate": 97.7,
+    "category": 2,
+    "power": "130",
+    "type_id": 9,
+    "firepower": 33540
+   },
+   {
+    "name": "볼트체인지",
+    "rate": 84.2,
+    "category": 2,
+    "power": "70",
+    "type_id": 12,
+    "firepower": 18060
+   },
+   {
+    "name": "도깨비불",
+    "rate": 74.5,
+    "category": 3,
+    "power": "−",
+    "type_id": 9,
+    "firepower": null
+   },
+   {
+    "name": "10만볼트",
+    "rate": 52.7,
+    "category": 2,
+    "power": "90",
+    "type_id": 12,
+    "firepower": 23220
+   }
+  ],
+  "types": [
+   {
+    "id": 12,
+    "name": "でんき"
+   },
+   {
+    "id": 9,
+    "name": "ほのお"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 4,
+    "multiplier": 4
+   },
+   {
+    "type_id": 5,
+    "multiplier": 2
+   },
+   {
+    "type_id": 10,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 2,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 6,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 9,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 11,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 12,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 14,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 17,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 8,
+    "multiplier": 0.25
+   },
+   {
+    "type_id": 4,
+    "multiplier": 0
+   }
+  ]
+ },
+ {
   "rank": 34,
   "key": "0428-00",
   "name": "메가이어롭",
@@ -1127,17 +1125,16 @@
   "top_ev_all": {
    "A": 32,
    "S": 32,
-   "H": 1,
-   "B": 1
+   "H": 2
   },
-  "top_ev_rate": 80.1,
-  "top_ev_abbr": "#1 HABS",
+  "top_ev_rate": 81.0,
+  "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 70.8,
+  "nature_rate": 73,
   "ability": "유연",
-  "ability_rate": 74.4,
+  "ability_rate": 73,
   "ability_jp": "じゅうなん",
   "spd_notes": [],
   "weather": null,
@@ -1145,12 +1142,12 @@
   "item_jp": "ミミロップナイト",
   "item_rate": 97,
   "item_spd": null,
-  "bulk_phys": 39453,
-  "bulk_spec": 39796,
+  "bulk_phys": 39387,
+  "bulk_spec": 40078,
   "top_moves": [
    {
     "name": "속이다",
-    "rate": 74.2,
+    "rate": 75.8,
     "category": 1,
     "power": "40",
     "type_id": 0,
@@ -1158,7 +1155,7 @@
    },
    {
     "name": "인파이트",
-    "rate": 59.3,
+    "rate": 61.6,
     "category": 1,
     "power": "120",
     "type_id": 1,
@@ -1166,7 +1163,7 @@
    },
    {
     "name": "트리플악셀",
-    "rate": 57.6,
+    "rate": 60.9,
     "category": 1,
     "power": "20",
     "type_id": 14,
@@ -1174,7 +1171,7 @@
    },
    {
     "name": "무릎차기",
-    "rate": 36.5,
+    "rate": 34.4,
     "category": 1,
     "power": "130",
     "type_id": 1,
@@ -1243,12 +1240,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 43.5,
+  "top_ev_rate": 44.0,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 51.5,
+  "nature_rate": 46.3,
   "ability": "황금몸체",
   "ability_rate": 100,
   "ability_jp": "おうごんのからだ",
@@ -1256,7 +1253,7 @@
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 42.7,
+  "item_rate": 38.7,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
@@ -1266,7 +1263,7 @@
   "top_moves": [
    {
     "name": "섀도볼",
-    "rate": 97.6,
+    "rate": 97.3,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -1274,7 +1271,7 @@
    },
    {
     "name": "골드러시",
-    "rate": 86,
+    "rate": 84.6,
     "category": 2,
     "power": "120",
     "type_id": 8,
@@ -1282,7 +1279,7 @@
    },
    {
     "name": "나쁜음모",
-    "rate": 47.1,
+    "rate": 52,
     "category": 3,
     "power": "−",
     "type_id": 16,
@@ -1290,7 +1287,7 @@
    },
    {
     "name": "HP회복",
-    "rate": 43.6,
+    "rate": 49.7,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -1396,27 +1393,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 48.9,
+  "top_ev_rate": 49.8,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 89.2,
+  "nature_rate": 87.4,
   "ability": "맹화",
-  "ability_rate": 90.4,
+  "ability_rate": 90.1,
   "ability_jp": "もうか",
   "spd_notes": [],
   "weather": null,
   "item": "마폭시나이트",
   "item_jp": "マフォクシナイト",
-  "item_rate": 98.5,
+  "item_rate": 98.7,
   "item_spd": null,
   "bulk_phys": 34024,
   "bulk_spec": 53625,
   "top_moves": [
    {
     "name": "화염방사",
-    "rate": 73.8,
+    "rate": 80.7,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -1424,27 +1421,27 @@
    },
    {
     "name": "나쁜음모",
-    "rate": 51.7,
+    "rate": 54.1,
     "category": 3,
     "power": "−",
     "type_id": 16,
     "firepower": null
    },
    {
-    "name": "사이코쇼크",
-    "rate": 49.8,
-    "category": 2,
-    "power": "80",
-    "type_id": 13,
-    "firepower": 25320
-   },
-   {
     "name": "사이코키네시스",
-    "rate": 44.4,
+    "rate": 51.7,
     "category": 2,
     "power": "90",
     "type_id": 13,
     "firepower": 28485
+   },
+   {
+    "name": "사이코쇼크",
+    "rate": 45.4,
+    "category": 2,
+    "power": "80",
+    "type_id": 13,
+    "firepower": 25320
    }
   ],
   "types": [
@@ -1534,27 +1531,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 85.7,
+  "top_ev_rate": 85.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 74.1,
+  "nature_rate": 76.4,
   "ability": "피뢰침",
-  "ability_rate": 88.1,
+  "ability_rate": 86.9,
   "ability_jp": "ひらいしん",
   "spd_notes": [],
   "weather": null,
   "item": "라이츄나이트Y",
   "item_jp": "ライチュウナイトＹ",
-  "item_rate": 96.5,
+  "item_rate": 96.3,
   "item_spd": null,
   "bulk_phys": 25000,
   "bulk_spec": 33333,
   "top_moves": [
    {
     "name": "전자포",
-    "rate": 96.1,
+    "rate": 95.8,
     "category": 2,
     "power": "120",
     "type_id": 12,
@@ -1562,7 +1559,7 @@
    },
    {
     "name": "기합구슬",
-    "rate": 95.5,
+    "rate": 95.1,
     "category": 2,
     "power": "120",
     "type_id": 1,
@@ -1570,7 +1567,7 @@
    },
    {
     "name": "풀묶기",
-    "rate": 75.5,
+    "rate": 73.5,
     "category": 2,
     "power": "−",
     "type_id": 11,
@@ -1578,7 +1575,7 @@
    },
    {
     "name": "볼트체인지",
-    "rate": 26.3,
+    "rate": 29,
     "category": 2,
     "power": "70",
     "type_id": 12,
@@ -1632,12 +1629,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 75.9,
+  "top_ev_rate": 78.9,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 81.7,
+  "nature_rate": 82.3,
   "ability": "저주받은바디",
   "ability_rate": 100,
   "ability_jp": "のろわれボディ",
@@ -1645,30 +1642,30 @@
   "weather": null,
   "item": "팬텀나이트",
   "item_jp": "ゲンガナイト",
-  "item_rate": 60.3,
+  "item_rate": 59.9,
   "item_spd": null,
   "bulk_phys": 33333,
   "bulk_spec": 38333,
   "top_moves": [
    {
-    "name": "오물웨이브",
-    "rate": 81.9,
-    "category": 2,
-    "power": "95",
-    "type_id": 3,
-    "firepower": 31635
-   },
-   {
     "name": "섀도볼",
-    "rate": 78.5,
+    "rate": 82.6,
     "category": 2,
     "power": "80",
     "type_id": 7,
     "firepower": 26640
    },
    {
+    "name": "오물웨이브",
+    "rate": 78.4,
+    "category": 2,
+    "power": "95",
+    "type_id": 3,
+    "firepower": 31635
+   },
+   {
     "name": "길동무",
-    "rate": 51.4,
+    "rate": 55.7,
     "category": 3,
     "power": "−",
     "type_id": 7,
@@ -1676,7 +1673,7 @@
    },
    {
     "name": "얼다바람",
-    "rate": 44.8,
+    "rate": 40.8,
     "category": 2,
     "power": "55",
     "type_id": 14,
@@ -1758,27 +1755,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 76.0,
+  "top_ev_rate": 72.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 72.5,
+  "nature_rate": 75,
   "ability": "긴장감",
-  "ability_rate": 66.1,
+  "ability_rate": 69.3,
   "ability_jp": "きんちょうかん",
   "spd_notes": [],
   "weather": null,
   "item": "화염레오나이트",
   "item_jp": "カエンジシナイト",
-  "item_rate": 99.1,
+  "item_rate": 97.9,
   "item_spd": null,
   "bulk_phys": 44418,
   "bulk_spec": 42039,
   "top_moves": [
    {
     "name": "화염방사",
-    "rate": 90.6,
+    "rate": 89.2,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -1786,7 +1783,7 @@
    },
    {
     "name": "오버히트",
-    "rate": 67.8,
+    "rate": 64.7,
     "category": 2,
     "power": "130",
     "type_id": 9,
@@ -1794,19 +1791,19 @@
    },
    {
     "name": "하이퍼보이스",
-    "rate": 55.7,
+    "rate": 48.2,
     "category": 2,
     "power": "90",
     "type_id": 0,
     "firepower": 24435
    },
    {
-    "name": "니트로차지",
-    "rate": 37.3,
-    "category": 1,
-    "power": "50",
-    "type_id": 9,
-    "firepower": 7275
+    "name": "열사의대지",
+    "rate": 36.3,
+    "category": 2,
+    "power": "70",
+    "type_id": 4,
+    "firepower": 12670
    }
   ],
   "types": [
@@ -1869,6 +1866,135 @@
   ]
  },
  {
+  "rank": 36,
+  "key": "0658-00",
+  "name": "개굴닌자",
+  "base": 122,
+  "eff_base": 122,
+  "mega": null,
+  "spd_top": 191,
+  "spd_sort": 191,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "C": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 84.0,
+  "top_ev_abbr": "#1 HCS",
+  "eff": "up",
+  "nature": "겁쟁이",
+  "nature_dec": "(S↑A↓)",
+  "nature_rate": 50.5,
+  "ability": "변환자재",
+  "ability_rate": 73.4,
+  "ability_jp": "へんげんじざい",
+  "spd_notes": [],
+  "weather": null,
+  "item": "기합의띠",
+  "item_jp": "きあいのタスキ",
+  "item_rate": 42.6,
+  "item_spd": null,
+  "bulk_phys": 31540,
+  "bulk_spec": 32990,
+  "top_moves": [
+   {
+    "name": "냉동빔",
+    "rate": 87.8,
+    "category": 2,
+    "power": "90",
+    "type_id": 14,
+    "firepower": 13950
+   },
+   {
+    "name": "악의파동",
+    "rate": 79.3,
+    "category": 2,
+    "power": "80",
+    "type_id": 16,
+    "firepower": 18600
+   },
+   {
+    "name": "오물웨이브",
+    "rate": 56.2,
+    "category": 2,
+    "power": "95",
+    "type_id": 3,
+    "firepower": 14725
+   },
+   {
+    "name": "물수리검",
+    "rate": 53.6,
+    "category": 2,
+    "power": "15",
+    "type_id": 10,
+    "firepower": 3487
+   }
+  ],
+  "types": [
+   {
+    "id": 10,
+    "name": "みず"
+   },
+   {
+    "id": 16,
+    "name": "あく"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 1,
+    "multiplier": 2
+   },
+   {
+    "type_id": 6,
+    "multiplier": 2
+   },
+   {
+    "type_id": 11,
+    "multiplier": 2
+   },
+   {
+    "type_id": 12,
+    "multiplier": 2
+   },
+   {
+    "type_id": 17,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 7,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 8,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 9,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 10,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 14,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 16,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 13,
+    "multiplier": 0
+   }
+  ]
+ },
+ {
   "rank": 57,
   "key": "0478-00",
   "name": "메가눈여아",
@@ -1888,27 +2014,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 63.5,
+  "top_ev_rate": 67.0,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 73.8,
+  "nature_rate": 76.5,
   "ability": "저주받은바디",
-  "ability_rate": 79.6,
+  "ability_rate": 76.6,
   "ability_jp": "のろわれボディ",
   "spd_notes": [],
   "weather": null,
   "item": "눈여아나이트",
   "item_jp": "ユキメノコナイト",
-  "item_rate": 96.8,
+  "item_rate": 94.8,
   "item_spd": null,
   "bulk_phys": 32190,
   "bulk_spec": 42920,
   "top_moves": [
    {
     "name": "눈보라",
-    "rate": 97.1,
+    "rate": 95.4,
     "category": 2,
     "power": "110",
     "type_id": 14,
@@ -1916,7 +2042,7 @@
    },
    {
     "name": "섀도볼",
-    "rate": 82.3,
+    "rate": 81.3,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -1924,7 +2050,7 @@
    },
    {
     "name": "오로라베일",
-    "rate": 67.9,
+    "rate": 66,
     "category": 3,
     "power": "−",
     "type_id": 14,
@@ -1932,7 +2058,7 @@
    },
    {
     "name": "10만볼트",
-    "rate": 54.6,
+    "rate": 50.2,
     "category": 2,
     "power": "90",
     "type_id": 12,
@@ -2009,14 +2135,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 48.4,
+  "top_ev_rate": 49.2,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 39.6,
+  "nature_rate": 46.8,
   "ability": "짓궂은마음",
-  "ability_rate": 98.9,
+  "ability_rate": 97.8,
   "ability_jp": "いたずらごころ",
   "spd_notes": [
    {
@@ -2029,14 +2155,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 52.4,
+  "item_rate": 49.5,
   "item_spd": null,
   "bulk_phys": 35000,
   "bulk_spec": 31667,
   "top_moves": [
    {
     "name": "문포스",
-    "rate": 88.7,
+    "rate": 85.7,
     "category": 2,
     "power": "95",
     "type_id": 17,
@@ -2044,7 +2170,7 @@
    },
    {
     "name": "앵콜",
-    "rate": 64.4,
+    "rate": 59.1,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -2052,7 +2178,7 @@
    },
    {
     "name": "순풍",
-    "rate": 51.7,
+    "rate": 50.2,
     "category": 3,
     "power": "−",
     "type_id": 2,
@@ -2060,7 +2186,7 @@
    },
    {
     "name": "씨뿌리기",
-    "rate": 43.2,
+    "rate": 44.5,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -2145,27 +2271,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 39.9,
+  "top_ev_rate": 45.4,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 72.6,
+  "nature_rate": 68.9,
   "ability": "심술꾸러기",
-  "ability_rate": 99.7,
+  "ability_rate": 99.3,
   "ability_jp": "あまのじゃく",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 27.7,
+  "item_rate": 25.2,
   "item_spd": null,
   "bulk_phys": 42530,
   "bulk_spec": 42530,
   "top_moves": [
    {
     "name": "리프스톰",
-    "rate": 99.9,
+    "rate": 99.6,
     "category": 2,
     "power": "130",
     "type_id": 11,
@@ -2173,7 +2299,7 @@
    },
    {
     "name": "뱀눈초리",
-    "rate": 68.6,
+    "rate": 62.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -2181,7 +2307,7 @@
    },
    {
     "name": "용의파동",
-    "rate": 45.4,
+    "rate": 49.7,
     "category": 2,
     "power": "85",
     "type_id": 15,
@@ -2189,7 +2315,7 @@
    },
    {
     "name": "도발",
-    "rate": 37.1,
+    "rate": 32,
     "category": 3,
     "power": "−",
     "type_id": 16,
@@ -2263,14 +2389,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 56.9,
+  "top_ev_rate": 56.4,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 54.5,
+  "nature_rate": 53.2,
   "ability": "정신력",
-  "ability_rate": 83.3,
+  "ability_rate": 83.9,
   "ability_jp": "せいしんりょく",
   "spd_notes": [
    {
@@ -2283,14 +2409,14 @@
   "weather": null,
   "item": "루카리오나이트",
   "item_jp": "ルカリオナイト",
-  "item_rate": 93.5,
+  "item_rate": 91,
   "item_spd": null,
   "bulk_phys": 38628,
   "bulk_spec": 32190,
   "top_moves": [
    {
     "name": "인파이트",
-    "rate": 64.3,
+    "rate": 63.5,
     "category": 1,
     "power": "120",
     "type_id": 1,
@@ -2298,7 +2424,7 @@
    },
    {
     "name": "불릿펀치",
-    "rate": 47.8,
+    "rate": 48.6,
     "category": 1,
     "power": "40",
     "type_id": 8,
@@ -2306,7 +2432,7 @@
    },
    {
     "name": "칼춤",
-    "rate": 46.5,
+    "rate": 45,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -2314,7 +2440,7 @@
    },
    {
     "name": "코멧펀치",
-    "rate": 40,
+    "rate": 38.6,
     "category": 1,
     "power": "90",
     "type_id": 8,
@@ -2399,27 +2525,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 79.8,
+  "top_ev_rate": 78.2,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 75.7,
+  "nature_rate": 71.5,
   "ability": "테크니션",
-  "ability_rate": 91.8,
+  "ability_rate": 89.9,
   "ability_jp": "テクニシャン",
   "spd_notes": [],
   "weather": null,
   "item": "광각렌즈",
   "item_jp": "こうかくレンズ",
-  "item_rate": 75.8,
+  "item_rate": 59.7,
   "item_spd": null,
   "bulk_phys": 33066,
   "bulk_spec": 34903,
   "top_moves": [
    {
     "name": "쥐베기",
-    "rate": 94.5,
+    "rate": 95.7,
     "category": 1,
     "power": "20",
     "type_id": 0,
@@ -2427,7 +2553,7 @@
    },
    {
     "name": "정리정돈",
-    "rate": 88.5,
+    "rate": 82.5,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -2435,7 +2561,7 @@
    },
    {
     "name": "앵콜",
-    "rate": 63.3,
+    "rate": 56.9,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -2443,7 +2569,7 @@
    },
    {
     "name": "물기",
-    "rate": 48.4,
+    "rate": 41.5,
     "category": 1,
     "power": "60",
     "type_id": 16,
@@ -2489,51 +2615,51 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 49.5,
+  "top_ev_rate": 52.9,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 75.9,
+  "nature_rate": 77.9,
   "ability": "위협",
-  "ability_rate": 97.5,
+  "ability_rate": 96.1,
   "ability_jp": "いかく",
   "spd_notes": [],
   "weather": null,
   "item": "찌르호크나이트",
   "item_jp": "ムクホークナイト",
-  "item_rate": 95.9,
+  "item_rate": 94.5,
   "item_spd": null,
   "bulk_phys": 47299,
   "bulk_spec": 43358,
   "top_moves": [
    {
     "name": "인파이트",
-    "rate": 98.9,
+    "rate": 98.2,
     "category": 1,
     "power": "120",
     "type_id": 1,
     "firepower": 34560
    },
    {
-    "name": "날개쉬기",
-    "rate": 91.4,
-    "category": 3,
-    "power": "−",
-    "type_id": 2,
-    "firepower": null
-   },
-   {
     "name": "브레이브버드",
-    "rate": 90.6,
+    "rate": 91.4,
     "category": 1,
     "power": "120",
     "type_id": 2,
     "firepower": 34560
    },
    {
+    "name": "날개쉬기",
+    "rate": 89.9,
+    "category": 3,
+    "power": "−",
+    "type_id": 2,
+    "firepower": null
+   },
+   {
     "name": "브레이즈킥",
-    "rate": 52.4,
+    "rate": 53.6,
     "category": 1,
     "power": "85",
     "type_id": 9,
@@ -2615,27 +2741,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 49.0,
+  "top_ev_rate": 45.4,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 60.6,
+  "nature_rate": 55.9,
   "ability": "클리어바디",
-  "ability_rate": 99.4,
+  "ability_rate": 99.1,
   "ability_jp": "クリアボディ",
   "spd_notes": [],
   "weather": null,
   "item": "메타그로스나이트",
   "item_jp": "メタグロスナイト",
-  "item_rate": 96.9,
+  "item_rate": 97.3,
   "item_spd": null,
   "bulk_phys": 64939,
   "bulk_spec": 49659,
   "top_moves": [
    {
     "name": "사이코팽",
-    "rate": 76.7,
+    "rate": 90.6,
     "category": 1,
     "power": "85",
     "type_id": 13,
@@ -2643,7 +2769,7 @@
    },
    {
     "name": "불릿펀치",
-    "rate": 74,
+    "rate": 86.6,
     "category": 1,
     "power": "40",
     "type_id": 8,
@@ -2651,7 +2777,7 @@
    },
    {
     "name": "지진",
-    "rate": 70.6,
+    "rate": 75.9,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -2659,7 +2785,7 @@
    },
    {
     "name": "냉동펀치",
-    "rate": 62.4,
+    "rate": 59.7,
     "category": 1,
     "power": "75",
     "type_id": 14,
@@ -2752,12 +2878,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 90.4,
+  "top_ev_rate": 88.8,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 69.4,
+  "nature_rate": 69,
   "ability": "일루전",
   "ability_rate": 100,
   "ability_jp": "イリュージョン",
@@ -2765,14 +2891,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 72.7,
+  "item_rate": 67,
   "item_spd": null,
   "bulk_phys": 25693,
   "bulk_spec": 25693,
   "top_moves": [
    {
     "name": "원한",
-    "rate": 63,
+    "rate": 68.1,
     "category": 2,
     "power": "75",
     "type_id": 7,
@@ -2780,7 +2906,7 @@
    },
    {
     "name": "얼다바람",
-    "rate": 57.8,
+    "rate": 48.2,
     "category": 2,
     "power": "55",
     "type_id": 14,
@@ -2788,7 +2914,7 @@
    },
    {
     "name": "화염방사",
-    "rate": 36.7,
+    "rate": 40.7,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -2796,7 +2922,7 @@
    },
    {
     "name": "섀도볼",
-    "rate": 34.4,
+    "rate": 28.3,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -2857,27 +2983,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 45.3,
+  "top_ev_rate": 35.6,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 85.7,
+  "nature_rate": 82.5,
   "ability": "눈퍼뜨리기",
-  "ability_rate": 99.7,
+  "ability_rate": 99.6,
   "ability_jp": "ゆきふらし",
   "spd_notes": [],
   "weather": "날씨: 설경 (아군 눈치우기 발동)",
   "item": "빛의점토",
   "item_jp": "ひかりのねんど",
-  "item_rate": 80.3,
+  "item_rate": 90.3,
   "item_spd": null,
   "bulk_phys": 34672,
   "bulk_spec": 43796,
   "top_moves": [
    {
     "name": "오로라베일",
-    "rate": 94.8,
+    "rate": 98,
     "category": 3,
     "power": "−",
     "type_id": 14,
@@ -2885,7 +3011,7 @@
    },
    {
     "name": "프리즈드라이",
-    "rate": 85,
+    "rate": 84.8,
     "category": 2,
     "power": "70",
     "type_id": 14,
@@ -2893,19 +3019,19 @@
    },
    {
     "name": "눈보라",
-    "rate": 75.7,
+    "rate": 75.1,
     "category": 2,
     "power": "110",
     "type_id": 14,
     "firepower": 21945
    },
    {
-    "name": "문포스",
-    "rate": 64.1,
-    "category": 2,
-    "power": "95",
-    "type_id": 17,
-    "firepower": 18952
+    "name": "앵콜",
+    "rate": 54.3,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
    }
   ],
   "types": [
@@ -2970,27 +3096,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 75.8,
+  "top_ev_rate": 74.8,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 77.6,
+  "nature_rate": 74.4,
   "ability": "건조피부",
-  "ability_rate": 97,
+  "ability_rate": 93,
   "ability_jp": "かんそうはだ",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 43.7,
+  "item_rate": 39.8,
   "item_spd": null,
   "bulk_phys": 24350,
   "bulk_spec": 38555,
   "top_moves": [
    {
     "name": "10만볼트",
-    "rate": 79.8,
+    "rate": 75.2,
     "category": 2,
     "power": "90",
     "type_id": 12,
@@ -2998,7 +3124,7 @@
    },
    {
     "name": "풀묶기",
-    "rate": 57.6,
+    "rate": 54.2,
     "category": 2,
     "power": "−",
     "type_id": 11,
@@ -3006,7 +3132,7 @@
    },
    {
     "name": "꼬리자르기",
-    "rate": 56.2,
+    "rate": 53.5,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -3014,7 +3140,7 @@
    },
    {
     "name": "볼트체인지",
-    "rate": 46.3,
+    "rate": 40.3,
     "category": 2,
     "power": "70",
     "type_id": 12,
@@ -3088,27 +3214,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 74.2,
+  "top_ev_rate": 76.0,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 65.4,
+  "nature_rate": 63.8,
   "ability": "자연회복",
-  "ability_rate": 91.7,
+  "ability_rate": 91.3,
   "ability_jp": "しぜんかいふく",
   "spd_notes": [],
   "weather": null,
   "item": "아쿠스타나이트",
   "item_jp": "スターミナイト",
-  "item_rate": 95.8,
+  "item_rate": 94.4,
   "item_spd": null,
   "bulk_phys": 41667,
   "bulk_spec": 41667,
   "top_moves": [
    {
     "name": "아쿠아브레이크",
-    "rate": 89.6,
+    "rate": 87,
     "category": 1,
     "power": "85",
     "type_id": 10,
@@ -3116,7 +3242,7 @@
    },
    {
     "name": "아쿠아제트",
-    "rate": 89.1,
+    "rate": 86.6,
     "category": 1,
     "power": "40",
     "type_id": 10,
@@ -3124,7 +3250,7 @@
    },
    {
     "name": "아이스스피너",
-    "rate": 70.1,
+    "rate": 68.4,
     "category": 1,
     "power": "80",
     "type_id": 14,
@@ -3132,7 +3258,7 @@
    },
    {
     "name": "퀵턴",
-    "rate": 59.3,
+    "rate": 56,
     "category": 1,
     "power": "60",
     "type_id": 10,
@@ -3213,14 +3339,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 71.4,
+  "top_ev_rate": 77.2,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 58.3,
+  "nature_rate": 53.7,
   "ability": "곡예",
-  "ability_rate": 79.1,
+  "ability_rate": 77.8,
   "ability_jp": "かるわざ",
   "spd_notes": [
    {
@@ -3233,30 +3359,30 @@
   "weather": null,
   "item": "하양허브",
   "item_jp": "しろいハーブ",
-  "item_rate": 46.3,
+  "item_rate": 50.7,
   "item_spd": null,
   "bulk_phys": 30560,
   "bulk_spec": 38200,
   "top_moves": [
    {
-    "name": "인파이트",
-    "rate": 97.8,
-    "category": 1,
-    "power": "120",
-    "type_id": 1,
-    "firepower": 36000
-   },
-   {
     "name": "페이탈크로",
-    "rate": 96.9,
+    "rate": 96.6,
     "category": 1,
     "power": "80",
     "type_id": 3,
     "firepower": 24000
    },
    {
+    "name": "인파이트",
+    "rate": 96.1,
+    "category": 1,
+    "power": "120",
+    "type_id": 1,
+    "firepower": 36000
+   },
+   {
     "name": "속이다",
-    "rate": 46.2,
+    "rate": 54.5,
     "category": 1,
     "power": "40",
     "type_id": 0,
@@ -3264,7 +3390,7 @@
    },
    {
     "name": "지옥찌르기",
-    "rate": 41.6,
+    "rate": 34.8,
     "category": 1,
     "power": "80",
     "type_id": 16,
@@ -3337,51 +3463,51 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 80.0,
+  "top_ev_rate": 69.0,
   "top_ev_abbr": "#1 HAS",
   "eff": "up",
   "nature": "명랑",
   "nature_dec": "(S↑C↓)",
-  "nature_rate": 60.8,
+  "nature_rate": 57.5,
   "ability": "까칠한피부",
-  "ability_rate": 99.4,
+  "ability_rate": 99.1,
   "ability_jp": "さめはだ",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 41.9,
+  "item_rate": 38,
   "item_spd": null,
   "bulk_phys": 51764,
   "bulk_spec": 47263,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 99.7,
+    "rate": 99.5,
     "category": 1,
     "power": "100",
     "type_id": 4,
     "firepower": 27300
    },
    {
-    "name": "역린",
-    "rate": 53.6,
-    "category": 1,
-    "power": "120",
-    "type_id": 15,
-    "firepower": 32760
-   },
-   {
     "name": "스텔스록",
-    "rate": 44.5,
+    "rate": 48.6,
     "category": 3,
     "power": "−",
     "type_id": 5,
     "firepower": null
    },
    {
+    "name": "역린",
+    "rate": 46.2,
+    "category": 1,
+    "power": "120",
+    "type_id": 15,
+    "firepower": 32760
+   },
+   {
     "name": "암석봉인",
-    "rate": 39.3,
+    "rate": 34.7,
     "category": 1,
     "power": "60",
     "type_id": 5,
@@ -3451,27 +3577,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 27.9,
+  "top_ev_rate": 29.1,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 51.2,
+  "nature_rate": 53.1,
   "ability": "플라워베일",
-  "ability_rate": 97,
+  "ability_rate": 97.6,
   "ability_jp": "フラワーベール",
   "spd_notes": [],
   "weather": null,
   "item": "플라엣테나이트",
   "item_jp": "フラエッテナイト",
-  "item_rate": 95.8,
+  "item_rate": 96.2,
   "item_spd": null,
   "bulk_phys": 39311,
   "bulk_spec": 61723,
   "top_moves": [
    {
     "name": "문포스",
-    "rate": 86.5,
+    "rate": 85.2,
     "category": 2,
     "power": "95",
     "type_id": 17,
@@ -3479,7 +3605,7 @@
    },
    {
     "name": "명상",
-    "rate": 86,
+    "rate": 85,
     "category": 3,
     "power": "−",
     "type_id": 13,
@@ -3487,7 +3613,7 @@
    },
    {
     "name": "드레인키스",
-    "rate": 73.5,
+    "rate": 76.2,
     "category": 2,
     "power": "50",
     "type_id": 17,
@@ -3495,7 +3621,7 @@
    },
    {
     "name": "파멸의빛",
-    "rate": 51.1,
+    "rate": 59.2,
     "category": 2,
     "power": "140",
     "type_id": 17,
@@ -3552,14 +3678,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 22.8,
+  "top_ev_rate": 23.2,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 35.8,
+  "nature_rate": 35.5,
   "ability": "가속",
-  "ability_rate": 99.4,
+  "ability_rate": 99.1,
   "ability_jp": "かそく",
   "spd_notes": [
    {
@@ -3572,14 +3698,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 37.3,
+  "item_rate": 35.6,
   "item_spd": null,
   "bulk_phys": 33479,
   "bulk_spec": 33479,
   "top_moves": [
    {
     "name": "루미나콜리전",
-    "rate": 86.6,
+    "rate": 81.4,
     "category": 2,
     "power": "80",
     "type_id": 13,
@@ -3587,7 +3713,7 @@
    },
    {
     "name": "방어",
-    "rate": 78,
+    "rate": 80.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -3595,7 +3721,7 @@
    },
    {
     "name": "바톤터치",
-    "rate": 71.6,
+    "rate": 77.3,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -3603,7 +3729,7 @@
    },
    {
     "name": "명상",
-    "rate": 63.3,
+    "rate": 69,
     "category": 3,
     "power": "−",
     "type_id": 13,
@@ -3656,27 +3782,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 51.4,
+  "top_ev_rate": 58.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 95.1,
+  "nature_rate": 92.7,
   "ability": "복안",
-  "ability_rate": 99.8,
+  "ability_rate": 99.3,
   "ability_jp": "ふくがん",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 84.6,
+  "item_rate": 76.2,
   "item_spd": null,
   "bulk_phys": 26740,
   "bulk_spec": 26740,
   "top_moves": [
    {
     "name": "수면가루",
-    "rate": 99.9,
+    "rate": 99.5,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -3684,7 +3810,7 @@
    },
    {
     "name": "나비춤",
-    "rate": 98.4,
+    "rate": 96.1,
     "category": 3,
     "power": "−",
     "type_id": 6,
@@ -3692,7 +3818,7 @@
    },
    {
     "name": "폭풍",
-    "rate": 97.1,
+    "rate": 95.3,
     "category": 2,
     "power": "110",
     "type_id": 2,
@@ -3700,7 +3826,7 @@
    },
    {
     "name": "대타출동",
-    "rate": 89.9,
+    "rate": 83.9,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -3759,6 +3885,144 @@
   ]
  },
  {
+  "rank": 65,
+  "key": "0689-00",
+  "name": "메가거북손데스",
+  "base": 68,
+  "eff_base": 88,
+  "mega": {
+   "name": "메가거북손데스",
+   "base": 88,
+   "abil": "단단한발톱",
+   "abil_jp": "かたいツメ"
+  },
+  "spd_top": 154,
+  "spd_sort": 154,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "A": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 52.4,
+  "top_ev_abbr": "#1 HAS",
+  "eff": "up",
+  "nature": "명랑",
+  "nature_dec": "(S↑C↓)",
+  "nature_rate": 53.4,
+  "ability": "단단한발톱",
+  "ability_rate": 92.6,
+  "ability_jp": "かたいツメ",
+  "spd_notes": [],
+  "weather": null,
+  "item": "거북손데스나이트",
+  "item_jp": "ガメノデスナイト",
+  "item_rate": 95.8,
+  "item_spd": null,
+  "bulk_phys": 54380,
+  "bulk_spec": 45679,
+  "top_moves": [
+   {
+    "name": "껍질깨기",
+    "rate": 97.8,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "인파이트",
+    "rate": 95.3,
+    "category": 1,
+    "power": "120",
+    "type_id": 1,
+    "firepower": 34560
+   },
+   {
+    "name": "락블레스트",
+    "rate": 68.6,
+    "category": 1,
+    "power": "25",
+    "type_id": 5,
+    "firepower": 7200
+   },
+   {
+    "name": "지진",
+    "rate": 46.4,
+    "category": 1,
+    "power": "100",
+    "type_id": 4,
+    "firepower": 19200
+   }
+  ],
+  "types": [
+   {
+    "id": 5,
+    "name": "いわ"
+   },
+   {
+    "id": 1,
+    "name": "かくとう"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 1,
+    "multiplier": 2
+   },
+   {
+    "type_id": 4,
+    "multiplier": 2
+   },
+   {
+    "type_id": 8,
+    "multiplier": 2
+   },
+   {
+    "type_id": 10,
+    "multiplier": 2
+   },
+   {
+    "type_id": 11,
+    "multiplier": 2
+   },
+   {
+    "type_id": 13,
+    "multiplier": 2
+   },
+   {
+    "type_id": 17,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 0,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 3,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 5,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 6,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 9,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 16,
+    "multiplier": 0.5
+   }
+  ]
+ },
+ {
   "rank": 8,
   "key": "0006-00",
   "name": "메가리자몽",
@@ -3778,27 +4042,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 49.5,
+  "top_ev_rate": 50.2,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 43,
+  "nature_rate": 42.8,
   "ability": "맹화",
-  "ability_rate": 85.8,
+  "ability_rate": 84.1,
   "ability_jp": "もうか",
   "spd_notes": [],
   "weather": null,
   "item": "리자몽나이트Y",
   "item_jp": "リザードナイトＹ",
-  "item_rate": 77.5,
+  "item_rate": 76.3,
   "item_spd": null,
   "bulk_phys": 36959,
   "bulk_spec": 50912,
   "top_moves": [
    {
     "name": "솔라빔",
-    "rate": 76,
+    "rate": 75.4,
     "category": 2,
     "power": "120",
     "type_id": 11,
@@ -3806,7 +4070,7 @@
    },
    {
     "name": "화염방사",
-    "rate": 47.8,
+    "rate": 46.7,
     "category": 2,
     "power": "90",
     "type_id": 9,
@@ -3814,7 +4078,7 @@
    },
    {
     "name": "에어슬래시",
-    "rate": 45.9,
+    "rate": 44.6,
     "category": 2,
     "power": "75",
     "type_id": 2,
@@ -3822,7 +4086,7 @@
    },
    {
     "name": "오버히트",
-    "rate": 31.7,
+    "rate": 31.5,
     "category": 2,
     "power": "130",
     "type_id": 9,
@@ -3904,12 +4168,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 67.6,
+  "top_ev_rate": 55.6,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 68,
+  "nature_rate": 75.2,
   "ability": "가속",
   "ability_rate": 97.6,
   "ability_jp": "かそく",
@@ -3924,14 +4188,14 @@
   "weather": null,
   "item": "번치코나이트",
   "item_jp": "バシャーモナイト",
-  "item_rate": 70.5,
+  "item_rate": 76.8,
   "item_spd": null,
   "bulk_phys": 38200,
   "bulk_spec": 38200,
   "top_moves": [
    {
     "name": "플레어드라이브",
-    "rate": 80.4,
+    "rate": 84.9,
     "category": 1,
     "power": "120",
     "type_id": 9,
@@ -3939,23 +4203,23 @@
    },
    {
     "name": "인파이트",
-    "rate": 63.3,
+    "rate": 63.8,
     "category": 1,
     "power": "120",
     "type_id": 1,
     "firepower": 41940
    },
    {
-    "name": "방어",
-    "rate": 57.9,
+    "name": "칼춤",
+    "rate": 56.4,
     "category": 3,
     "power": "−",
     "type_id": 0,
     "firepower": null
    },
    {
-    "name": "칼춤",
-    "rate": 51.1,
+    "name": "방어",
+    "rate": 50.9,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -4037,20 +4301,20 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 44.3,
+  "top_ev_rate": 42.7,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 62.8,
+  "nature_rate": 61.5,
   "ability": "멀티스케일",
-  "ability_rate": 98.9,
+  "ability_rate": 98.1,
   "ability_jp": "マルチスケイル",
   "spd_notes": [],
   "weather": null,
   "item": "망나뇽나이트",
   "item_jp": "カイリュナイト",
-  "item_rate": 68.2,
+  "item_rate": 65.6,
   "item_spd": null,
   "bulk_phys": 110365,
   "bulk_spec": 118540,
@@ -4065,7 +4329,7 @@
    },
    {
     "name": "용성군",
-    "rate": 59.7,
+    "rate": 59.6,
     "category": 2,
     "power": "130",
     "type_id": 15,
@@ -4073,18 +4337,18 @@
    },
    {
     "name": "에어슬래시",
-    "rate": 40.2,
+    "rate": 33.8,
     "category": 2,
     "power": "75",
     "type_id": 2,
     "firepower": 24300
    },
    {
-    "name": "10만볼트",
-    "rate": 38,
+    "name": "화염방사",
+    "rate": 33.3,
     "category": 2,
     "power": "90",
-    "type_id": 12,
+    "type_id": 9,
     "firepower": 19440
    }
   ],
@@ -4144,123 +4408,6 @@
   ]
  },
  {
-  "rank": 33,
-  "key": "0637-00",
-  "name": "불카모스",
-  "base": 100,
-  "eff_base": 100,
-  "mega": null,
-  "spd_top": 152,
-  "spd_sort": 152,
-  "top_pt_s": 32,
-  "top_ev_all": {
-   "C": 32,
-   "S": 32,
-   "H": 2
-  },
-  "top_ev_rate": 22.5,
-  "top_ev_abbr": "#1 HCS",
-  "eff": "none",
-  "nature": "조심",
-  "nature_dec": "(C↑A↓)",
-  "nature_rate": 37.9,
-  "ability": "불꽃몸",
-  "ability_rate": 89.1,
-  "ability_jp": "ほのおのからだ",
-  "spd_notes": [],
-  "weather": null,
-  "item": "자뭉열매",
-  "item_jp": "オボンのみ",
-  "item_rate": 45.5,
-  "item_spd": null,
-  "bulk_phys": 33504,
-  "bulk_spec": 49270,
-  "top_moves": [
-   {
-    "name": "나비춤",
-    "rate": 97.6,
-    "category": 3,
-    "power": "−",
-    "type_id": 6,
-    "firepower": null
-   },
-   {
-    "name": "불꽃춤",
-    "rate": 82.2,
-    "category": 2,
-    "power": "80",
-    "type_id": 9,
-    "firepower": 24600
-   },
-   {
-    "name": "기가드레인",
-    "rate": 72.1,
-    "category": 2,
-    "power": "75",
-    "type_id": 11,
-    "firepower": 15375
-   },
-   {
-    "name": "아침햇살",
-    "rate": 58,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   }
-  ],
-  "types": [
-   {
-    "id": 6,
-    "name": "むし"
-   },
-   {
-    "id": 9,
-    "name": "ほのお"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 5,
-    "multiplier": 4
-   },
-   {
-    "type_id": 2,
-    "multiplier": 2
-   },
-   {
-    "type_id": 10,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 1,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 6,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 8,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 14,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 17,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 11,
-    "multiplier": 0.25
-   }
-  ]
- },
- {
   "rank": 63,
   "key": "0282-00",
   "name": "메가가디안",
@@ -4280,35 +4427,43 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 43.8,
+  "top_ev_rate": 49.5,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 63.7,
+  "nature_rate": 61.8,
   "ability": "트레이스",
-  "ability_rate": 96.1,
+  "ability_rate": 93,
   "ability_jp": "トレース",
   "spd_notes": [],
   "weather": null,
   "item": "가디안나이트",
   "item_jp": "サーナイトナイト",
-  "item_rate": 63.9,
+  "item_rate": 57,
   "item_spd": null,
   "bulk_phys": 29988,
   "bulk_spec": 54684,
   "top_moves": [
    {
     "name": "진공파",
-    "rate": 64.4,
+    "rate": 58.7,
     "category": 2,
     "power": "40",
     "type_id": 1,
     "firepower": 9520
    },
    {
+    "name": "문포스",
+    "rate": 52.4,
+    "category": 2,
+    "power": "95",
+    "type_id": 17,
+    "firepower": 33915
+   },
+   {
     "name": "하이퍼보이스",
-    "rate": 58.5,
+    "rate": 45.3,
     "category": 2,
     "power": "90",
     "type_id": 0,
@@ -4316,19 +4471,11 @@
    },
    {
     "name": "10만볼트",
-    "rate": 43.5,
+    "rate": 43.6,
     "category": 2,
     "power": "90",
     "type_id": 12,
     "firepower": 21420
-   },
-   {
-    "name": "문포스",
-    "rate": 39.7,
-    "category": 2,
-    "power": "95",
-    "type_id": 17,
-    "firepower": 33915
    }
   ],
   "types": [
@@ -4390,55 +4537,55 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 36.6,
+  "top_ev_rate": 35.5,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 87.7,
+  "nature_rate": 84.4,
   "ability": "배짱",
-  "ability_rate": 88.5,
+  "ability_rate": 87.5,
   "ability_jp": "きもったま",
   "spd_notes": [],
   "weather": null,
   "item": "캥카나이트",
   "item_jp": "ガルーラナイト",
-  "item_rate": 94.1,
+  "item_rate": 89.7,
   "item_spd": null,
   "bulk_phys": 53139,
   "bulk_spec": 53139,
   "top_moves": [
    {
-    "name": "냉동펀치",
-    "rate": 73.4,
+    "name": "속이다",
+    "rate": 67.7,
     "category": 1,
-    "power": "75",
-    "type_id": 14,
-    "firepower": 14550
+    "power": "40",
+    "type_id": 0,
+    "firepower": 11640
    },
    {
     "name": "지진",
-    "rate": 70,
+    "rate": 62.9,
     "category": 1,
     "power": "100",
     "type_id": 4,
     "firepower": 19400
    },
    {
+    "name": "냉동펀치",
+    "rate": 61.8,
+    "category": 1,
+    "power": "75",
+    "type_id": 14,
+    "firepower": 14550
+   },
+   {
     "name": "기습",
-    "rate": 59.3,
+    "rate": 60.5,
     "category": 1,
     "power": "70",
     "type_id": 16,
     "firepower": 13580
-   },
-   {
-    "name": "속이다",
-    "rate": 57.7,
-    "category": 1,
-    "power": "40",
-    "type_id": 0,
-    "firepower": 11640
    }
   ],
   "types": [
@@ -4476,35 +4623,43 @@
    "H": 1,
    "B": 1
   },
-  "top_ev_rate": 81.7,
+  "top_ev_rate": 81.8,
   "top_ev_abbr": "#1 HBCS",
   "eff": "up",
   "nature": "겁쟁이",
   "nature_dec": "(S↑A↓)",
-  "nature_rate": 58.4,
+  "nature_rate": 55,
   "ability": "독화장",
-  "ability_rate": 94.3,
+  "ability_rate": 94.4,
   "ability_jp": "どくげしょう",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 68.3,
+  "item_rate": 71.8,
   "item_spd": null,
   "bulk_phys": 42942,
   "bulk_spec": 39073,
   "top_moves": [
    {
     "name": "파워젬",
-    "rate": 81.6,
+    "rate": 86.1,
     "category": 2,
     "power": "80",
     "type_id": 5,
     "firepower": 21840
    },
    {
+    "name": "대지의힘",
+    "rate": 58.7,
+    "category": 2,
+    "power": "90",
+    "type_id": 4,
+    "firepower": 16380
+   },
+   {
     "name": "스텔스록",
-    "rate": 56.1,
+    "rate": 55.8,
     "category": 3,
     "power": "−",
     "type_id": 5,
@@ -4512,19 +4667,11 @@
    },
    {
     "name": "오물웨이브",
-    "rate": 55,
+    "rate": 52.4,
     "category": 2,
     "power": "95",
     "type_id": 3,
     "firepower": 25935
-   },
-   {
-    "name": "대지의힘",
-    "rate": 54.9,
-    "category": 2,
-    "power": "90",
-    "type_id": 4,
-    "firepower": 16380
    }
   ],
   "types": [
@@ -4595,15 +4742,14 @@
   "top_ev_all": {
    "A": 32,
    "S": 32,
-   "H": 1,
-   "B": 1
+   "H": 2
   },
-  "top_ev_rate": 51.5,
-  "top_ev_abbr": "#1 HABS",
+  "top_ev_rate": 58.5,
+  "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 77.3,
+  "nature_rate": 76.6,
   "ability": "탈",
   "ability_rate": 100,
   "ability_jp": "ばけのかわ",
@@ -4611,30 +4757,30 @@
   "weather": null,
   "item": "생명의구슬",
   "item_jp": "いのちのたま",
-  "item_rate": 76.6,
+  "item_rate": 84.5,
   "item_spd": null,
-  "bulk_phys": 32192,
-  "bulk_spec": 39842,
+  "bulk_phys": 32117,
+  "bulk_spec": 40146,
   "top_moves": [
    {
-    "name": "야습",
-    "rate": 96.2,
-    "category": 1,
-    "power": "40",
-    "type_id": 7,
-    "firepower": 12166
-   },
-   {
     "name": "치근거리기",
-    "rate": 96,
+    "rate": 96.2,
     "category": 1,
     "power": "90",
     "type_id": 17,
     "firepower": 27373
    },
    {
+    "name": "야습",
+    "rate": 96.1,
+    "category": 1,
+    "power": "40",
+    "type_id": 7,
+    "firepower": 12166
+   },
+   {
     "name": "칼춤",
-    "rate": 80,
+    "rate": 80.8,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -4642,7 +4788,7 @@
    },
    {
     "name": "섀도크루",
-    "rate": 60.4,
+    "rate": 62.7,
     "category": 1,
     "power": "70",
     "type_id": 7,
@@ -4689,84 +4835,84 @@
   ]
  },
  {
-  "rank": 65,
-  "key": "0689-00",
-  "name": "메가거북손데스",
-  "base": 68,
-  "eff_base": 88,
+  "rank": 16,
+  "key": "0130-00",
+  "name": "메가갸라도스",
+  "base": 81,
+  "eff_base": 81,
   "mega": {
-   "name": "메가거북손데스",
-   "base": 88,
-   "abil": "단단한발톱",
-   "abil_jp": "かたいツメ"
+   "name": "메가갸라도스",
+   "base": 81,
+   "abil": "틀깨기",
+   "abil_jp": "かたやぶり"
   },
-  "spd_top": 140,
-  "spd_sort": 140,
+  "spd_top": 146,
+  "spd_sort": 146,
   "top_pt_s": 32,
   "top_ev_all": {
    "A": 32,
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 46.0,
+  "top_ev_rate": 45.2,
   "top_ev_abbr": "#1 HAS",
-  "eff": "none",
-  "nature": "고집",
-  "nature_dec": "(A↑C↓)",
-  "nature_rate": 52.1,
-  "ability": "단단한발톱",
-  "ability_rate": 92.5,
-  "ability_jp": "かたいツメ",
+  "eff": "up",
+  "nature": "명랑",
+  "nature_dec": "(S↑C↓)",
+  "nature_rate": 42.6,
+  "ability": "위협",
+  "ability_rate": 98.5,
+  "ability_jp": "いかく",
   "spd_notes": [],
   "weather": null,
-  "item": "거북손데스나이트",
-  "item_jp": "ガメノデスナイト",
-  "item_rate": 97.9,
+  "item": "갸라도스나이트",
+  "item_jp": "ギャラドスナイト",
+  "item_rate": 54.1,
   "item_spd": null,
-  "bulk_phys": 54380,
-  "bulk_spec": 45679,
+  "bulk_phys": 53985,
+  "bulk_spec": 62774,
   "top_moves": [
    {
-    "name": "껍질깨기",
-    "rate": 98.5,
+    "name": "폭포오르기",
+    "rate": 90.4,
+    "category": 1,
+    "power": "80",
+    "type_id": 10,
+    "firepower": 24840
+   },
+   {
+    "name": "용의춤",
+    "rate": 69,
     "category": 3,
     "power": "−",
-    "type_id": 0,
+    "type_id": 15,
     "firepower": null
    },
    {
-    "name": "인파이트",
-    "rate": 96.7,
-    "category": 1,
-    "power": "120",
-    "type_id": 1,
-    "firepower": 37980
-   },
-   {
-    "name": "락블레스트",
-    "rate": 59.9,
-    "category": 1,
-    "power": "25",
-    "type_id": 5,
-    "firepower": 7912
-   },
-   {
     "name": "지진",
-    "rate": 48.3,
+    "rate": 65.2,
     "category": 1,
     "power": "100",
     "type_id": 4,
-    "firepower": 21100
+    "firepower": 20700
+   },
+   {
+    "name": "파워휩",
+    "rate": 49.6,
+    "category": 1,
+    "power": "120",
+    "type_id": 11,
+    "firepower": 24840
    }
   ],
   "types": [
    {
-    "id": 5,
-    "name": "いわ"
+    "id": 10,
+    "name": "みず"
    },
    {
-    "id": 1,
-    "name": "かくとう"
+    "id": 16,
+    "name": "あく"
    }
   ],
   "weaknesses": [
@@ -4775,15 +4921,7 @@
     "multiplier": 2
    },
    {
-    "type_id": 4,
-    "multiplier": 2
-   },
-   {
-    "type_id": 8,
-    "multiplier": 2
-   },
-   {
-    "type_id": 10,
+    "type_id": 6,
     "multiplier": 2
    },
    {
@@ -4791,7 +4929,7 @@
     "multiplier": 2
    },
    {
-    "type_id": 13,
+    "type_id": 12,
     "multiplier": 2
    },
    {
@@ -4801,140 +4939,19 @@
   ],
   "resistances": [
    {
-    "type_id": 0,
+    "type_id": 7,
     "multiplier": 0.5
    },
    {
-    "type_id": 3,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 5,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 6,
+    "type_id": 8,
     "multiplier": 0.5
    },
    {
     "type_id": 9,
     "multiplier": 0.5
-   },
-   {
-    "type_id": 16,
-    "multiplier": 0.5
-   }
-  ]
- },
- {
-  "rank": 50,
-  "key": "0479-01",
-  "name": "로토무(히트)",
-  "base": 86,
-  "eff_base": 86,
-  "mega": null,
-  "spd_top": 138,
-  "spd_sort": 138,
-  "top_pt_s": 32,
-  "top_ev_all": {
-   "C": 32,
-   "S": 32,
-   "H": 2
-  },
-  "top_ev_rate": 27.5,
-  "top_ev_abbr": "#1 HCS",
-  "eff": "none",
-  "nature": "조심",
-  "nature_dec": "(C↑A↓)",
-  "nature_rate": 46.5,
-  "ability": "부유",
-  "ability_rate": 100,
-  "ability_jp": "ふゆう",
-  "spd_notes": [],
-  "weather": null,
-  "item": "자뭉열매",
-  "item_jp": "オボンのみ",
-  "item_rate": 35.8,
-  "item_spd": null,
-  "bulk_phys": 39243,
-  "bulk_spec": 39243,
-  "top_moves": [
-   {
-    "name": "오버히트",
-    "rate": 97.9,
-    "category": 2,
-    "power": "130",
-    "type_id": 9,
-    "firepower": 33540
-   },
-   {
-    "name": "볼트체인지",
-    "rate": 91.2,
-    "category": 2,
-    "power": "70",
-    "type_id": 12,
-    "firepower": 18060
-   },
-   {
-    "name": "도깨비불",
-    "rate": 73.5,
-    "category": 3,
-    "power": "−",
-    "type_id": 9,
-    "firepower": null
-   },
-   {
-    "name": "10만볼트",
-    "rate": 47.9,
-    "category": 2,
-    "power": "90",
-    "type_id": 12,
-    "firepower": 23220
-   }
-  ],
-  "types": [
-   {
-    "id": 12,
-    "name": "でんき"
-   },
-   {
-    "id": 9,
-    "name": "ほのお"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 4,
-    "multiplier": 4
-   },
-   {
-    "type_id": 5,
-    "multiplier": 2
    },
    {
     "type_id": 10,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 2,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 6,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 9,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 11,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 12,
     "multiplier": 0.5
    },
    {
@@ -4942,15 +4959,11 @@
     "multiplier": 0.5
    },
    {
-    "type_id": 17,
+    "type_id": 16,
     "multiplier": 0.5
    },
    {
-    "type_id": 8,
-    "multiplier": 0.25
-   },
-   {
-    "type_id": 4,
+    "type_id": 13,
     "multiplier": 0
    }
   ]
@@ -4970,12 +4983,12 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 22.2,
+  "top_ev_rate": 30.8,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 39.8,
+  "nature_rate": 43.3,
   "ability": "부유",
   "ability_rate": 100,
   "ability_jp": "ふゆう",
@@ -4983,14 +4996,14 @@
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 35.8,
+  "item_rate": 29.4,
   "item_spd": null,
   "bulk_phys": 39243,
   "bulk_spec": 39243,
   "top_moves": [
    {
     "name": "리프스톰",
-    "rate": 99.1,
+    "rate": 98.2,
     "category": 2,
     "power": "130",
     "type_id": 11,
@@ -4998,7 +5011,7 @@
    },
    {
     "name": "볼트체인지",
-    "rate": 84.1,
+    "rate": 83,
     "category": 2,
     "power": "70",
     "type_id": 12,
@@ -5006,7 +5019,7 @@
    },
    {
     "name": "도깨비불",
-    "rate": 66.6,
+    "rate": 62.3,
     "category": 3,
     "power": "−",
     "type_id": 9,
@@ -5014,7 +5027,7 @@
    },
    {
     "name": "10만볼트",
-    "rate": 53.3,
+    "rate": 57.4,
     "category": 2,
     "power": "90",
     "type_id": 12,
@@ -5087,55 +5100,55 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 34.7,
+  "top_ev_rate": 29.3,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 50.5,
+  "nature_rate": 48.7,
   "ability": "지구력",
-  "ability_rate": 72.8,
+  "ability_rate": 77.1,
   "ability_jp": "じきゅうりょく",
   "spd_notes": [],
   "weather": null,
-  "item": "먹다남은음식",
-  "item_jp": "たべのこし",
-  "item_rate": 29.3,
+  "item": "자뭉열매",
+  "item_jp": "オボンのみ",
+  "item_rate": 31.3,
   "item_spd": null,
   "bulk_phys": 60949,
   "bulk_spec": 34538,
   "top_moves": [
    {
-    "name": "용성군",
-    "rate": 75.6,
-    "category": 2,
-    "power": "130",
-    "type_id": 15,
-    "firepower": 37830
-   },
-   {
     "name": "러스터캐논",
-    "rate": 72.1,
+    "rate": 74.7,
     "category": 2,
     "power": "80",
     "type_id": 8,
     "firepower": 23280
    },
    {
+    "name": "용성군",
+    "rate": 71.3,
+    "category": 2,
+    "power": "130",
+    "type_id": 15,
+    "firepower": 37830
+   },
+   {
     "name": "10만볼트",
-    "rate": 46.5,
+    "rate": 49.2,
     "category": 2,
     "power": "90",
     "type_id": 12,
     "firepower": 17460
    },
    {
-    "name": "일렉트로빔",
-    "rate": 45.4,
-    "category": 2,
-    "power": "130",
-    "type_id": 12,
-    "firepower": 25220
+    "name": "스텔스록",
+    "rate": 39.2,
+    "category": 3,
+    "power": "−",
+    "type_id": 5,
+    "firepower": null
    }
   ],
   "types": [
@@ -5216,20 +5229,20 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 56.5,
+  "top_ev_rate": 48.9,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 64.8,
+  "nature_rate": 67.5,
   "ability": "칼끝",
-  "ability_rate": 99,
+  "ability_rate": 98.5,
   "ability_jp": "きれあじ",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 35.6,
+  "item_rate": 34.3,
   "item_spd": null,
   "bulk_phys": 40633,
   "bulk_spec": 34538,
@@ -5244,7 +5257,7 @@
    },
    {
     "name": "성스러운칼",
-    "rate": 89.8,
+    "rate": 84.3,
     "category": 1,
     "power": "90",
     "type_id": 1,
@@ -5252,7 +5265,7 @@
    },
    {
     "name": "셸블레이드",
-    "rate": 73.3,
+    "rate": 71.5,
     "category": 1,
     "power": "75",
     "type_id": 10,
@@ -5260,7 +5273,7 @@
    },
    {
     "name": "기습",
-    "rate": 60.3,
+    "rate": 70.1,
     "category": 1,
     "power": "70",
     "type_id": 16,
@@ -5346,14 +5359,14 @@
    "H": 1,
    "B": 1
   },
-  "top_ev_rate": 84.1,
+  "top_ev_rate": 83.1,
   "top_ev_abbr": "#1 HABS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 81.3,
+  "nature_rate": 78.3,
   "ability": "깨어진갑옷",
-  "ability_rate": 87.9,
+  "ability_rate": 87.6,
   "ability_jp": "くだけるよろい",
   "spd_notes": [
    {
@@ -5366,14 +5379,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 87.7,
+  "item_rate": 86.5,
   "item_spd": null,
   "bulk_phys": 37107,
   "bulk_spec": 44088,
   "top_moves": [
    {
     "name": "야습",
-    "rate": 94.4,
+    "rate": 92.8,
     "category": 1,
     "power": "40",
     "type_id": 7,
@@ -5381,7 +5394,7 @@
    },
    {
     "name": "폴터가이스트",
-    "rate": 86.7,
+    "rate": 82.1,
     "category": 1,
     "power": "110",
     "type_id": 7,
@@ -5389,7 +5402,7 @@
    },
    {
     "name": "원한의검",
-    "rate": 85.9,
+    "rate": 79.9,
     "category": 1,
     "power": "90",
     "type_id": 9,
@@ -5397,7 +5410,7 @@
    },
    {
     "name": "칼춤",
-    "rate": 82.8,
+    "rate": 79.8,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -5494,27 +5507,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 84.9,
+  "top_ev_rate": 81.1,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 50.3,
+  "nature_rate": 49.9,
   "ability": "칼끝",
-  "ability_rate": 98.9,
+  "ability_rate": 97.9,
   "ability_jp": "きれあじ",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 70.2,
+  "item_rate": 60.6,
   "item_spd": null,
   "bulk_phys": 41131,
   "bulk_spec": 32190,
   "top_moves": [
    {
     "name": "암석도끼",
-    "rate": 99.9,
+    "rate": 99.8,
     "category": 1,
     "power": "65",
     "type_id": 5,
@@ -5522,7 +5535,7 @@
    },
    {
     "name": "시저크로스",
-    "rate": 65.8,
+    "rate": 66.4,
     "category": 1,
     "power": "80",
     "type_id": 6,
@@ -5530,7 +5543,7 @@
    },
    {
     "name": "인파이트",
-    "rate": 59.1,
+    "rate": 50.9,
     "category": 1,
     "power": "120",
     "type_id": 1,
@@ -5538,7 +5551,7 @@
    },
    {
     "name": "깜짝베기",
-    "rate": 37.7,
+    "rate": 44.4,
     "category": 1,
     "power": "70",
     "type_id": 16,
@@ -5581,140 +5594,6 @@
   ]
  },
  {
-  "rank": 16,
-  "key": "0130-00",
-  "name": "메가갸라도스",
-  "base": 81,
-  "eff_base": 81,
-  "mega": {
-   "name": "메가갸라도스",
-   "base": 81,
-   "abil": "틀깨기",
-   "abil_jp": "かたやぶり"
-  },
-  "spd_top": 133,
-  "spd_sort": 133,
-  "top_pt_s": 32,
-  "top_ev_all": {
-   "A": 32,
-   "S": 32,
-   "H": 2
-  },
-  "top_ev_rate": 33.5,
-  "top_ev_abbr": "#1 HAS",
-  "eff": "none",
-  "nature": "고집",
-  "nature_dec": "(A↑C↓)",
-  "nature_rate": 42.2,
-  "ability": "위협",
-  "ability_rate": 99.1,
-  "ability_jp": "いかく",
-  "spd_notes": [],
-  "weather": null,
-  "item": "갸라도스나이트",
-  "item_jp": "ギャラドスナイト",
-  "item_rate": 40.2,
-  "item_spd": null,
-  "bulk_phys": 53985,
-  "bulk_spec": 62774,
-  "top_moves": [
-   {
-    "name": "폭포오르기",
-    "rate": 89.7,
-    "category": 1,
-    "power": "80",
-    "type_id": 10,
-    "firepower": 27240
-   },
-   {
-    "name": "용의춤",
-    "rate": 63,
-    "category": 3,
-    "power": "−",
-    "type_id": 15,
-    "firepower": null
-   },
-   {
-    "name": "지진",
-    "rate": 60.7,
-    "category": 1,
-    "power": "100",
-    "type_id": 4,
-    "firepower": 22700
-   },
-   {
-    "name": "파워휩",
-    "rate": 57,
-    "category": 1,
-    "power": "120",
-    "type_id": 11,
-    "firepower": 27240
-   }
-  ],
-  "types": [
-   {
-    "id": 10,
-    "name": "みず"
-   },
-   {
-    "id": 16,
-    "name": "あく"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 1,
-    "multiplier": 2
-   },
-   {
-    "type_id": 6,
-    "multiplier": 2
-   },
-   {
-    "type_id": 11,
-    "multiplier": 2
-   },
-   {
-    "type_id": 12,
-    "multiplier": 2
-   },
-   {
-    "type_id": 17,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 7,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 8,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 9,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 10,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 14,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 16,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 13,
-    "multiplier": 0
-   }
-  ]
- },
- {
   "rank": 51,
   "key": "0473-00",
   "name": "맘모꾸리",
@@ -5729,27 +5608,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 72.4,
+  "top_ev_rate": 68.1,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 64.1,
+  "nature_rate": 61.1,
   "ability": "두꺼운지방",
-  "ability_rate": 61.7,
+  "ability_rate": 57.9,
   "ability_jp": "あついしぼう",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 85.8,
+  "item_rate": 83.3,
   "item_spd": null,
   "bulk_phys": 45499,
   "bulk_spec": 36399,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 98.9,
+    "rate": 98.8,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -5757,7 +5636,7 @@
    },
    {
     "name": "얼음뭉치",
-    "rate": 96.2,
+    "rate": 94.8,
     "category": 1,
     "power": "40",
     "type_id": 14,
@@ -5765,7 +5644,7 @@
    },
    {
     "name": "고드름침",
-    "rate": 49.8,
+    "rate": 46,
     "category": 1,
     "power": "25",
     "type_id": 14,
@@ -5773,7 +5652,7 @@
    },
    {
     "name": "스텔스록",
-    "rate": 35,
+    "rate": 30.9,
     "category": 3,
     "power": "−",
     "type_id": 5,
@@ -5846,14 +5725,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 79.4,
+  "top_ev_rate": 76.3,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 49.8,
+  "nature_rate": 50.6,
   "ability": "칼끝",
-  "ability_rate": 95.3,
+  "ability_rate": 94.9,
   "ability_jp": "きれあじ",
   "spd_notes": [
    {
@@ -5866,14 +5745,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 43,
+  "item_rate": 42.1,
   "item_spd": null,
   "bulk_phys": 29988,
   "bulk_spec": 47628,
   "top_moves": [
    {
     "name": "성스러운칼",
-    "rate": 94,
+    "rate": 93.5,
     "category": 1,
     "power": "90",
     "type_id": 1,
@@ -5881,7 +5760,7 @@
    },
    {
     "name": "사이코커터",
-    "rate": 82.2,
+    "rate": 77.9,
     "category": 1,
     "power": "70",
     "type_id": 13,
@@ -5889,7 +5768,7 @@
    },
    {
     "name": "리프블레이드",
-    "rate": 79.3,
+    "rate": 76.3,
     "category": 1,
     "power": "90",
     "type_id": 11,
@@ -5897,7 +5776,7 @@
    },
    {
     "name": "야습",
-    "rate": 46.5,
+    "rate": 50,
     "category": 1,
     "power": "40",
     "type_id": 7,
@@ -5940,6 +5819,110 @@
   ]
  },
  {
+  "rank": 31,
+  "key": "0584-00",
+  "name": "배바닐라",
+  "base": 79,
+  "eff_base": 79,
+  "mega": null,
+  "spd_top": 131,
+  "spd_sort": 131,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "C": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 16.9,
+  "top_ev_abbr": "#1 HCS",
+  "eff": "none",
+  "nature": "조심",
+  "nature_dec": "(C↑A↓)",
+  "nature_rate": 60.1,
+  "ability": "눈퍼뜨리기",
+  "ability_rate": 98.8,
+  "ability_jp": "ゆきふらし",
+  "spd_notes": [
+   {
+    "abil": "깨어진갑옷",
+    "text": "물리 공격 피격 시 방어 -1 / 스피드 +2랭크",
+    "top": false,
+    "tag": "선택 가능 특성"
+   }
+  ],
+  "weather": "날씨: 설경 (아군 눈치우기 발동)",
+  "item": "녹지않는얼음",
+  "item_jp": "とけないこおり",
+  "item_rate": 42.7,
+  "item_spd": null,
+  "bulk_phys": 37810,
+  "bulk_spec": 41411,
+  "top_moves": [
+   {
+    "name": "프리즈드라이",
+    "rate": 97.4,
+    "category": 2,
+    "power": "70",
+    "type_id": 14,
+    "firepower": 18690
+   },
+   {
+    "name": "눈보라",
+    "rate": 89.8,
+    "category": 2,
+    "power": "110",
+    "type_id": 14,
+    "firepower": 29370
+   },
+   {
+    "name": "얼음뭉치",
+    "rate": 72.2,
+    "category": 1,
+    "power": "40",
+    "type_id": 14,
+    "firepower": 6180
+   },
+   {
+    "name": "오로라베일",
+    "rate": 61.4,
+    "category": 3,
+    "power": "−",
+    "type_id": 14,
+    "firepower": null
+   }
+  ],
+  "types": [
+   {
+    "id": 14,
+    "name": "こおり"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 1,
+    "multiplier": 2
+   },
+   {
+    "type_id": 5,
+    "multiplier": 2
+   },
+   {
+    "type_id": 8,
+    "multiplier": 2
+   },
+   {
+    "type_id": 9,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 14,
+    "multiplier": 0.5
+   }
+  ]
+ },
+ {
   "rank": 74,
   "key": "0660-00",
   "name": "파르토",
@@ -5955,51 +5938,51 @@
    "H": 1,
    "B": 1
   },
-  "top_ev_rate": 88.9,
+  "top_ev_rate": 85.8,
   "top_ev_abbr": "#1 HABS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 75.9,
+  "nature_rate": 71.5,
   "ability": "천하장사",
-  "ability_rate": 99.8,
+  "ability_rate": 99.5,
   "ability_jp": "ちからもち",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 74.1,
+  "item_rate": 67.8,
   "item_spd": null,
   "bulk_phys": 38389,
   "bulk_spec": 37998,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 99.9,
+    "rate": 99.7,
     "category": 1,
     "power": "100",
     "type_id": 4,
     "firepower": 17700
    },
    {
-    "name": "전광석화",
-    "rate": 79.9,
-    "category": 1,
-    "power": "40",
-    "type_id": 0,
-    "firepower": 7080
-   },
-   {
     "name": "냉동펀치",
-    "rate": 76.8,
+    "rate": 78.4,
     "category": 1,
     "power": "75",
     "type_id": 14,
     "firepower": 8850
    },
    {
+    "name": "전광석화",
+    "rate": 74.8,
+    "category": 1,
+    "power": "40",
+    "type_id": 0,
+    "firepower": 7080
+   },
+   {
     "name": "번개펀치",
-    "rate": 48.4,
+    "rate": 47.3,
     "category": 1,
     "power": "75",
     "type_id": 12,
@@ -6073,27 +6056,27 @@
    "C": 32,
    "S": 29
   },
-  "top_ev_rate": 21.9,
+  "top_ev_rate": 19.9,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 72.5,
+  "nature_rate": 71.8,
   "ability": "급류",
-  "ability_rate": 72.6,
+  "ability_rate": 70.2,
   "ability_jp": "げきりゅう",
   "spd_notes": [],
   "weather": null,
   "item": "거북왕나이트",
   "item_jp": "カメックスナイト",
-  "item_rate": 93.3,
+  "item_rate": 91.4,
   "item_spd": null,
   "bulk_phys": 54161,
   "bulk_spec": 52226,
   "top_moves": [
    {
     "name": "파동탄",
-    "rate": 89.8,
+    "rate": 87.4,
     "category": 2,
     "power": "80",
     "type_id": 1,
@@ -6101,7 +6084,7 @@
    },
    {
     "name": "껍질깨기",
-    "rate": 86.4,
+    "rate": 86.9,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -6109,7 +6092,7 @@
    },
    {
     "name": "물의파동",
-    "rate": 83.9,
+    "rate": 83.2,
     "category": 2,
     "power": "60",
     "type_id": 10,
@@ -6117,7 +6100,7 @@
    },
    {
     "name": "악의파동",
-    "rate": 81,
+    "rate": 79.8,
     "category": 2,
     "power": "80",
     "type_id": 16,
@@ -6174,14 +6157,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 80.6,
+  "top_ev_rate": 68.7,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 76.2,
+  "nature_rate": 75.6,
   "ability": "깨어진갑옷",
-  "ability_rate": 90,
+  "ability_rate": 78.1,
   "ability_jp": "くだけるよろい",
   "spd_notes": [
    {
@@ -6194,14 +6177,14 @@
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 80.2,
+  "item_rate": 75.2,
   "item_spd": null,
   "bulk_phys": 47299,
   "bulk_spec": 39416,
   "top_moves": [
    {
     "name": "아머캐논",
-    "rate": 96.9,
+    "rate": 95.8,
     "category": 2,
     "power": "120",
     "type_id": 9,
@@ -6209,7 +6192,7 @@
    },
    {
     "name": "길동무",
-    "rate": 62.8,
+    "rate": 62.2,
     "category": 3,
     "power": "−",
     "type_id": 7,
@@ -6217,19 +6200,19 @@
    },
    {
     "name": "사이코키네시스",
-    "rate": 49.2,
+    "rate": 54.5,
     "category": 2,
     "power": "90",
     "type_id": 13,
     "firepower": 26190
    },
    {
-    "name": "와이드포스",
-    "rate": 39,
+    "name": "에너지볼",
+    "rate": 33.1,
     "category": 2,
-    "power": "80",
-    "type_id": 13,
-    "firepower": 23280
+    "power": "90",
+    "type_id": 11,
+    "firepower": 17460
    }
   ],
   "types": [
@@ -6300,6 +6283,135 @@
   ]
  },
  {
+  "rank": 77,
+  "key": "0545-00",
+  "name": "메가펜드라",
+  "base": 112,
+  "eff_base": 62,
+  "mega": {
+   "name": "메가펜드라",
+   "base": 62,
+   "abil": "조가비갑옷",
+   "abil_jp": "シェルアーマー"
+  },
+  "spd_top": 125,
+  "spd_sort": 125,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "A": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 17.9,
+  "top_ev_abbr": "#1 HAS",
+  "eff": "up",
+  "nature": "명랑",
+  "nature_dec": "(S↑C↓)",
+  "nature_rate": 32,
+  "ability": "가속",
+  "ability_rate": 98.9,
+  "ability_jp": "かそく",
+  "spd_notes": [
+   {
+    "abil": "가속",
+    "text": "매 턴 종료 시 스피드 +1랭크",
+    "top": false,
+    "tag": "선택 가능 특성"
+   }
+  ],
+  "weather": null,
+  "item": "펜드라나이트",
+  "item_jp": "ペンドラナイト",
+  "item_rate": 29.5,
+  "item_spd": null,
+  "bulk_phys": 56333,
+  "bulk_spec": 39667,
+  "top_moves": [
+   {
+    "name": "칼춤",
+    "rate": 71.5,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "바톤터치",
+    "rate": 62.6,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "방어",
+    "rate": 58.7,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "지진",
+    "rate": 43.8,
+    "category": 1,
+    "power": "100",
+    "type_id": 4,
+    "firepower": 19200
+   }
+  ],
+  "types": [
+   {
+    "id": 6,
+    "name": "むし"
+   },
+   {
+    "id": 3,
+    "name": "どく"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 2,
+    "multiplier": 2
+   },
+   {
+    "type_id": 5,
+    "multiplier": 2
+   },
+   {
+    "type_id": 9,
+    "multiplier": 2
+   },
+   {
+    "type_id": 13,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 3,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 6,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 17,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 1,
+    "multiplier": 0.25
+   },
+   {
+    "type_id": 11,
+    "multiplier": 0.25
+   }
+  ]
+ },
+ {
   "rank": 55,
   "key": "0248-00",
   "name": "메가마기라스",
@@ -6319,27 +6431,27 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 21.2,
+  "top_ev_rate": 23.5,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 42.4,
+  "nature_rate": 43.8,
   "ability": "모래날림",
-  "ability_rate": 99.2,
+  "ability_rate": 99,
   "ability_jp": "すなおこし",
   "spd_notes": [],
   "weather": "날씨: 모래바람 (아군 모래헤치기 발동)",
   "item": "마기라스나이트",
   "item_jp": "バンギラスナイト",
-  "item_rate": 40,
+  "item_rate": 46.3,
   "item_spd": null,
   "bulk_phys": 73212,
   "bulk_spec": 60292,
   "top_moves": [
    {
     "name": "탁쳐서떨구기",
-    "rate": 76.8,
+    "rate": 73.8,
     "category": 1,
     "power": "65",
     "type_id": 16,
@@ -6347,7 +6459,7 @@
    },
    {
     "name": "스톤에지",
-    "rate": 54.3,
+    "rate": 55.4,
     "category": 1,
     "power": "100",
     "type_id": 5,
@@ -6355,18 +6467,18 @@
    },
    {
     "name": "지진",
-    "rate": 50.6,
+    "rate": 54.3,
     "category": 1,
     "power": "100",
     "type_id": 4,
     "firepower": 23700
    },
    {
-    "name": "스텔스록",
-    "rate": 38.2,
+    "name": "용의춤",
+    "rate": 34.8,
     "category": 3,
     "power": "−",
-    "type_id": 5,
+    "type_id": 15,
     "firepower": null
    }
   ],
@@ -6461,14 +6573,14 @@
    "S": 32,
    "H": 2
   },
-  "top_ev_rate": 57.1,
+  "top_ev_rate": 56.6,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 56.3,
+  "nature_rate": 57.8,
   "ability": "급류",
-  "ability_rate": 75.3,
+  "ability_rate": 78.1,
   "ability_jp": "げきりゅう",
   "spd_notes": [
    {
@@ -6481,14 +6593,14 @@
   "weather": null,
   "item": "대짱이나이트",
   "item_jp": "ラグラージナイト",
-  "item_rate": 74.8,
+  "item_rate": 73.1,
   "item_spd": null,
   "bulk_phys": 55985,
   "bulk_spec": 55985,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 92,
+    "rate": 93.2,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -6496,7 +6608,7 @@
    },
    {
     "name": "웨이브태클",
-    "rate": 73.8,
+    "rate": 72.5,
     "category": 1,
     "power": "120",
     "type_id": 10,
@@ -6504,7 +6616,7 @@
    },
    {
     "name": "냉동펀치",
-    "rate": 71.4,
+    "rate": 70,
     "category": 1,
     "power": "75",
     "type_id": 14,
@@ -6512,7 +6624,7 @@
    },
    {
     "name": "퀵턴",
-    "rate": 66.6,
+    "rate": 64.9,
     "category": 1,
     "power": "60",
     "type_id": 10,
@@ -6559,81 +6671,69 @@
   ]
  },
  {
-  "rank": 77,
-  "key": "0545-00",
-  "name": "메가펜드라",
-  "base": 112,
-  "eff_base": 62,
-  "mega": {
-   "name": "메가펜드라",
-   "base": 62,
-   "abil": "조가비갑옷",
-   "abil_jp": "シェルアーマー"
-  },
-  "spd_top": 114,
-  "spd_sort": 114,
-  "top_pt_s": 32,
+  "rank": 33,
+  "key": "0637-00",
+  "name": "불카모스",
+  "base": 100,
+  "eff_base": 100,
+  "mega": null,
+  "spd_top": 122,
+  "spd_sort": 122,
+  "top_pt_s": 2,
   "top_ev_all": {
-   "A": 32,
-   "S": 32,
-   "H": 2
+   "B": 32,
+   "H": 32,
+   "S": 2
   },
-  "top_ev_rate": 21.0,
-  "top_ev_abbr": "#1 HAS",
+  "top_ev_rate": 24.9,
+  "top_ev_abbr": "#1 HBS",
   "eff": "none",
-  "nature": "고집",
-  "nature_dec": "(A↑C↓)",
-  "nature_rate": 33.7,
-  "ability": "가속",
-  "ability_rate": 99.4,
-  "ability_jp": "かそく",
-  "spd_notes": [
-   {
-    "abil": "가속",
-    "text": "매 턴 종료 시 스피드 +1랭크",
-    "top": false,
-    "tag": "선택 가능 특성"
-   }
-  ],
+  "nature": "조심",
+  "nature_dec": "(C↑A↓)",
+  "nature_rate": 38.7,
+  "ability": "불꽃몸",
+  "ability_rate": 91.7,
+  "ability_jp": "ほのおのからだ",
+  "spd_notes": [],
   "weather": null,
-  "item": "펜드라나이트",
-  "item_jp": "ペンドラナイト",
-  "item_rate": 38.7,
+  "item": "자뭉열매",
+  "item_jp": "オボンのみ",
+  "item_rate": 45.4,
   "item_spd": null,
-  "bulk_phys": 56333,
-  "bulk_spec": 39667,
+  "bulk_phys": 54657,
+  "bulk_spec": 58394,
   "top_moves": [
    {
-    "name": "칼춤",
-    "rate": 68.9,
+    "name": "나비춤",
+    "rate": 96.5,
+    "category": 3,
+    "power": "−",
+    "type_id": 6,
+    "firepower": null
+   },
+   {
+    "name": "불꽃춤",
+    "rate": 85.4,
+    "category": 2,
+    "power": "80",
+    "type_id": 9,
+    "firepower": 20400
+   },
+   {
+    "name": "기가드레인",
+    "rate": 71.6,
+    "category": 2,
+    "power": "75",
+    "type_id": 11,
+    "firepower": 12750
+   },
+   {
+    "name": "아침햇살",
+    "rate": 54.3,
     "category": 3,
     "power": "−",
     "type_id": 0,
     "firepower": null
-   },
-   {
-    "name": "바톤터치",
-    "rate": 55.7,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
-    "name": "방어",
-    "rate": 55.3,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
-    "name": "지진",
-    "rate": 54.2,
-    "category": 1,
-    "power": "100",
-    "type_id": 4,
-    "firepower": 21100
    }
   ],
   "types": [
@@ -6642,25 +6742,137 @@
     "name": "むし"
    },
    {
-    "id": 3,
-    "name": "どく"
+    "id": 9,
+    "name": "ほのお"
    }
   ],
   "weaknesses": [
+   {
+    "type_id": 5,
+    "multiplier": 4
+   },
    {
     "type_id": 2,
     "multiplier": 2
    },
    {
-    "type_id": 5,
+    "type_id": 10,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 1,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 6,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 8,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 14,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 17,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 11,
+    "multiplier": 0.25
+   }
+  ]
+ },
+ {
+  "rank": 88,
+  "key": "0855-00",
+  "name": "포트데스",
+  "base": 70,
+  "eff_base": 70,
+  "mega": null,
+  "spd_top": 122,
+  "spd_sort": 122,
+  "top_pt_s": 32,
+  "top_ev_all": {
+   "C": 32,
+   "S": 32,
+   "H": 2
+  },
+  "top_ev_rate": 18.5,
+  "top_ev_abbr": "#1 HCS",
+  "eff": "none",
+  "nature": "대담",
+  "nature_dec": "(B↑A↓)",
+  "nature_rate": 46.5,
+  "ability": "저주받은바디",
+  "ability_rate": 70.5,
+  "ability_jp": "のろわれボディ",
+  "spd_notes": [
+   {
+    "abil": "깨어진갑옷",
+    "text": "물리 공격 피격 시 방어 -1 / 스피드 +2랭크",
+    "top": false,
+    "tag": "선택 가능 특성"
+   }
+  ],
+  "weather": null,
+  "item": "하양허브",
+  "item_jp": "しろいハーブ",
+  "item_rate": 74.6,
+  "item_spd": null,
+  "bulk_phys": 28333,
+  "bulk_spec": 44667,
+  "top_moves": [
+   {
+    "name": "껍질깨기",
+    "rate": 97.6,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "섀도볼",
+    "rate": 85,
+    "category": 2,
+    "power": "80",
+    "type_id": 7,
+    "firepower": 22320
+   },
+   {
+    "name": "바톤터치",
+    "rate": 74.6,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "힘흡수",
+    "rate": 54.4,
+    "category": 3,
+    "power": "−",
+    "type_id": 11,
+    "firepower": null
+   }
+  ],
+  "types": [
+   {
+    "id": 7,
+    "name": "ゴースト"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 7,
     "multiplier": 2
    },
    {
-    "type_id": 9,
-    "multiplier": 2
-   },
-   {
-    "type_id": 13,
+    "type_id": 16,
     "multiplier": 2
    }
   ],
@@ -6674,16 +6886,12 @@
     "multiplier": 0.5
    },
    {
-    "type_id": 17,
-    "multiplier": 0.5
+    "type_id": 0,
+    "multiplier": 0
    },
    {
     "type_id": 1,
-    "multiplier": 0.25
-   },
-   {
-    "type_id": 11,
-    "multiplier": 0.25
+    "multiplier": 0
    }
   ]
  },
@@ -6702,27 +6910,27 @@
    "A": 32,
    "B": 2
   },
-  "top_ev_rate": 20.0,
+  "top_ev_rate": 18.6,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 41.1,
+  "nature_rate": 47.4,
   "ability": "오기",
-  "ability_rate": 55.7,
+  "ability_rate": 70.9,
   "ability_jp": "まけんき",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 52.2,
+  "item_rate": 54.7,
   "item_spd": null,
   "bulk_phys": 53854,
   "bulk_spec": 58078,
   "top_moves": [
    {
     "name": "분노주먹",
-    "rate": 98.6,
+    "rate": 98.5,
     "category": 1,
     "power": "50",
     "type_id": 7,
@@ -6730,7 +6938,7 @@
    },
    {
     "name": "드레인펀치",
-    "rate": 89.3,
+    "rate": 90.6,
     "category": 1,
     "power": "75",
     "type_id": 1,
@@ -6738,7 +6946,7 @@
    },
    {
     "name": "벌크업",
-    "rate": 76.3,
+    "rate": 81.5,
     "category": 3,
     "power": "−",
     "type_id": 1,
@@ -6746,7 +6954,7 @@
    },
    {
     "name": "도발",
-    "rate": 60.7,
+    "rate": 62.6,
     "category": 3,
     "power": "−",
     "type_id": 16,
@@ -6805,114 +7013,6 @@
   ]
  },
  {
-  "rank": 88,
-  "key": "0855-00",
-  "name": "포트데스",
-  "base": 70,
-  "eff_base": 70,
-  "mega": null,
-  "spd_top": 108,
-  "spd_sort": 108,
-  "top_pt_s": 18,
-  "top_ev_all": {
-   "H": 24,
-   "B": 24,
-   "S": 18
-  },
-  "top_ev_rate": 22.9,
-  "top_ev_abbr": "#1 HBS",
-  "eff": "none",
-  "nature": "대담",
-  "nature_dec": "(B↑A↓)",
-  "nature_rate": 50.8,
-  "ability": "저주받은바디",
-  "ability_rate": 83.1,
-  "ability_jp": "のろわれボディ",
-  "spd_notes": [
-   {
-    "abil": "깨어진갑옷",
-    "text": "물리 공격 피격 시 방어 -1 / 스피드 +2랭크",
-    "top": false,
-    "tag": "선택 가능 특성"
-   }
-  ],
-  "weather": null,
-  "item": "하양허브",
-  "item_jp": "しろいハーブ",
-  "item_rate": 84.2,
-  "item_spd": null,
-  "bulk_phys": 42168,
-  "bulk_spec": 51839,
-  "top_moves": [
-   {
-    "name": "껍질깨기",
-    "rate": 99.2,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
-    "name": "섀도볼",
-    "rate": 87.8,
-    "category": 2,
-    "power": "80",
-    "type_id": 7,
-    "firepower": 18480
-   },
-   {
-    "name": "바톤터치",
-    "rate": 80.6,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
-    "name": "힘흡수",
-    "rate": 63.4,
-    "category": 3,
-    "power": "−",
-    "type_id": 11,
-    "firepower": null
-   }
-  ],
-  "types": [
-   {
-    "id": 7,
-    "name": "ゴースト"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 7,
-    "multiplier": 2
-   },
-   {
-    "type_id": 16,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 3,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 6,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 0,
-    "multiplier": 0
-   },
-   {
-    "type_id": 1,
-    "multiplier": 0
-   }
-  ]
- },
- {
   "rank": 26,
   "key": "0479-02",
   "name": "로토무(워시)",
@@ -6927,12 +7027,12 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 31.2,
+  "top_ev_rate": 34.5,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 50.4,
+  "nature_rate": 51,
   "ability": "부유",
   "ability_rate": 100,
   "ability_jp": "ふゆう",
@@ -6940,14 +7040,14 @@
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 46.8,
+  "item_rate": 45,
   "item_spd": null,
   "bulk_phys": 60737,
   "bulk_spec": 49277,
   "top_moves": [
    {
     "name": "하이드로펌프",
-    "rate": 98.9,
+    "rate": 98.8,
     "category": 2,
     "power": "110",
     "type_id": 10,
@@ -6955,7 +7055,7 @@
    },
    {
     "name": "볼트체인지",
-    "rate": 92.2,
+    "rate": 90.6,
     "category": 2,
     "power": "70",
     "type_id": 12,
@@ -6963,7 +7063,7 @@
    },
    {
     "name": "도깨비불",
-    "rate": 86.6,
+    "rate": 87.5,
     "category": 3,
     "power": "−",
     "type_id": 9,
@@ -6971,7 +7071,7 @@
    },
    {
     "name": "10만볼트",
-    "rate": 52.8,
+    "rate": 53.4,
     "category": 2,
     "power": "90",
     "type_id": 12,
@@ -7040,14 +7140,14 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 17.4,
+  "top_ev_rate": 24.9,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 35.4,
+  "nature_rate": 38.8,
   "ability": "위협",
-  "ability_rate": 78.9,
+  "ability_rate": 76.9,
   "ability_jp": "いかく",
   "spd_notes": [
    {
@@ -7060,14 +7160,14 @@
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 47.9,
+  "item_rate": 46.9,
   "item_spd": null,
   "bulk_phys": 68672,
   "bulk_spec": 40642,
   "top_moves": [
    {
     "name": "독침봉",
-    "rate": 59.2,
+    "rate": 64.2,
     "category": 1,
     "power": "−",
     "type_id": 3,
@@ -7075,26 +7175,26 @@
    },
    {
     "name": "깨물어부수기",
-    "rate": 44.6,
+    "rate": 45.9,
     "category": 1,
     "power": "80",
     "type_id": 16,
     "firepower": 16200
    },
    {
-    "name": "독압정",
-    "rate": 42.2,
-    "category": 3,
-    "power": "−",
-    "type_id": 3,
-    "firepower": null
-   },
-   {
     "name": "작아지기",
-    "rate": 30.6,
+    "rate": 37.7,
     "category": 3,
     "power": "−",
     "type_id": 0,
+    "firepower": null
+   },
+   {
+    "name": "독압정",
+    "rate": 32.5,
+    "category": 3,
+    "power": "−",
+    "type_id": 3,
     "firepower": null
    }
   ],
@@ -7157,27 +7257,27 @@
    "C": 32,
    "S": 2
   },
-  "top_ev_rate": 38.8,
+  "top_ev_rate": 38.2,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 89.3,
+  "nature_rate": 86,
   "ability": "심록",
-  "ability_rate": 68.6,
+  "ability_rate": 66.3,
   "ability_jp": "しんりょく",
   "spd_notes": [],
   "weather": null,
   "item": "메가니움나이트",
   "item_jp": "メガニウムナイト",
-  "item_rate": 99.5,
+  "item_rate": 99,
   "item_spd": null,
   "bulk_phys": 61423,
   "bulk_spec": 61423,
   "top_moves": [
    {
     "name": "솔라빔",
-    "rate": 98.7,
+    "rate": 97.7,
     "category": 2,
     "power": "120",
     "type_id": 11,
@@ -7185,27 +7285,27 @@
    },
    {
     "name": "웨더볼",
-    "rate": 96.4,
+    "rate": 95.1,
     "category": 2,
     "power": "50",
     "type_id": 0,
     "firepower": 10700
    },
    {
-    "name": "광합성",
-    "rate": 82.2,
-    "category": 3,
-    "power": "−",
-    "type_id": 11,
-    "firepower": null
-   },
-   {
     "name": "매지컬샤인",
-    "rate": 75.9,
+    "rate": 76.1,
     "category": 2,
     "power": "80",
     "type_id": 17,
     "firepower": 25680
+   },
+   {
+    "name": "광합성",
+    "rate": 71.7,
+    "category": 3,
+    "power": "−",
+    "type_id": 11,
+    "firepower": null
    }
   ],
   "types": [
@@ -7291,12 +7391,12 @@
    "A": 32,
    "S": 2
   },
-  "top_ev_rate": 13.1,
+  "top_ev_rate": 15.1,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
-  "nature": "조심",
-  "nature_dec": "(C↑A↓)",
-  "nature_rate": 31.2,
+  "nature": "고집",
+  "nature_dec": "(A↑C↓)",
+  "nature_rate": 30.2,
   "ability": "부유",
   "ability_rate": 100,
   "ability_jp": "ふゆう",
@@ -7304,42 +7404,42 @@
   "weather": null,
   "item": "저리더프나이트",
   "item_jp": "シビルドナイト",
-  "item_rate": 95.8,
+  "item_rate": 93.9,
   "item_spd": null,
   "bulk_phys": 46715,
   "bulk_spec": 51387,
   "top_moves": [
    {
     "name": "썬더다이브",
-    "rate": 44.8,
+    "rate": 56.8,
     "category": 1,
     "power": "100",
     "type_id": 12,
-    "firepower": 26550
+    "firepower": 32400
    },
    {
     "name": "드레인펀치",
-    "rate": 44.6,
+    "rate": 53.5,
     "category": 1,
     "power": "75",
     "type_id": 1,
-    "firepower": 13275
-   },
-   {
-    "name": "10만볼트",
-    "rate": 43.3,
-    "category": 2,
-    "power": "90",
-    "type_id": 12,
-    "firepower": 22950
+    "firepower": 16200
    },
    {
     "name": "똬리틀기",
-    "rate": 40.4,
+    "rate": 49.7,
     "category": 3,
     "power": "−",
     "type_id": 3,
     "firepower": null
+   },
+   {
+    "name": "10만볼트",
+    "rate": 33.8,
+    "category": 2,
+    "power": "90",
+    "type_id": 12,
+    "firepower": 18765
    }
   ],
   "types": [
@@ -7388,27 +7488,27 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 43.1,
+  "top_ev_rate": 44.2,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 63.7,
+  "nature_rate": 59.7,
   "ability": "승기",
-  "ability_rate": 57.5,
+  "ability_rate": 64.3,
   "ability_jp": "かちき",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 62.2,
+  "item_rate": 65.2,
   "item_spd": null,
   "bulk_phys": 64384,
   "bulk_spec": 72248,
   "top_moves": [
    {
     "name": "열탕",
-    "rate": 95.3,
+    "rate": 94,
     "category": 2,
     "power": "80",
     "type_id": 10,
@@ -7416,27 +7516,27 @@
    },
    {
     "name": "HP회복",
-    "rate": 94.7,
+    "rate": 91.1,
     "category": 3,
     "power": "−",
     "type_id": 0,
     "firepower": null
    },
    {
-    "name": "미러코트",
-    "rate": 64.6,
-    "category": 2,
-    "power": "−",
-    "type_id": 13,
-    "firepower": null
-   },
-   {
     "name": "냉동빔",
-    "rate": 58.4,
+    "rate": 69.1,
     "category": 2,
     "power": "90",
     "type_id": 14,
     "firepower": 10800
+   },
+   {
+    "name": "미러코트",
+    "rate": 61.5,
+    "category": 2,
+    "power": "−",
+    "type_id": 13,
+    "firepower": null
    }
   ],
   "types": [
@@ -7494,14 +7594,14 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 15.4,
+  "top_ev_rate": 16.7,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 36.6,
+  "nature_rate": 37.4,
   "ability": "엽록소",
-  "ability_rate": 68.3,
+  "ability_rate": 67.6,
   "ability_jp": "ようりょくそ",
   "spd_notes": [
    {
@@ -7514,14 +7614,14 @@
   "weather": null,
   "item": "이상해꽃나이트",
   "item_jp": "フシギバナイト",
-  "item_rate": 89.2,
+  "item_rate": 83.8,
   "item_spd": null,
   "bulk_phys": 79623,
   "bulk_spec": 64608,
   "top_moves": [
    {
     "name": "대지의힘",
-    "rate": 88.5,
+    "rate": 83.2,
     "category": 2,
     "power": "90",
     "type_id": 4,
@@ -7529,7 +7629,7 @@
    },
    {
     "name": "기가드레인",
-    "rate": 74.8,
+    "rate": 72.4,
     "category": 2,
     "power": "75",
     "type_id": 11,
@@ -7537,7 +7637,7 @@
    },
    {
     "name": "광합성",
-    "rate": 68.1,
+    "rate": 64.4,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -7545,7 +7645,7 @@
    },
    {
     "name": "오물폭탄",
-    "rate": 54.9,
+    "rate": 57,
     "category": 2,
     "power": "90",
     "type_id": 3,
@@ -7612,110 +7712,6 @@
   ]
  },
  {
-  "rank": 31,
-  "key": "0584-00",
-  "name": "배바닐라",
-  "base": 79,
-  "eff_base": 79,
-  "mega": null,
-  "spd_top": 99,
-  "spd_sort": 99,
-  "top_pt_s": 0,
-  "top_ev_all": {
-   "H": 25,
-   "C": 32,
-   "D": 1
-  },
-  "top_ev_rate": 13.3,
-  "top_ev_abbr": "#1 HCD",
-  "eff": "none",
-  "nature": "조심",
-  "nature_dec": "(C↑A↓)",
-  "nature_rate": 72.6,
-  "ability": "눈퍼뜨리기",
-  "ability_rate": 99.5,
-  "ability_jp": "ゆきふらし",
-  "spd_notes": [
-   {
-    "abil": "깨어진갑옷",
-    "text": "물리 공격 피격 시 방어 -1 / 스피드 +2랭크",
-    "top": false,
-    "tag": "선택 가능 특성"
-   }
-  ],
-  "weather": "날씨: 설경 (아군 눈치우기 발동)",
-  "item": "녹지않는얼음",
-  "item_jp": "とけないこおり",
-  "item_rate": 53.8,
-  "item_spd": null,
-  "bulk_phys": 43686,
-  "bulk_spec": 48263,
-  "top_moves": [
-   {
-    "name": "프리즈드라이",
-    "rate": 98.5,
-    "category": 2,
-    "power": "70",
-    "type_id": 14,
-    "firepower": 18690
-   },
-   {
-    "name": "눈보라",
-    "rate": 92.8,
-    "category": 2,
-    "power": "110",
-    "type_id": 14,
-    "firepower": 29370
-   },
-   {
-    "name": "얼음뭉치",
-    "rate": 84.3,
-    "category": 1,
-    "power": "40",
-    "type_id": 14,
-    "firepower": 6180
-   },
-   {
-    "name": "오로라베일",
-    "rate": 56.6,
-    "category": 3,
-    "power": "−",
-    "type_id": 14,
-    "firepower": null
-   }
-  ],
-  "types": [
-   {
-    "id": 14,
-    "name": "こおり"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 1,
-    "multiplier": 2
-   },
-   {
-    "type_id": 5,
-    "multiplier": 2
-   },
-   {
-    "type_id": 8,
-    "multiplier": 2
-   },
-   {
-    "type_id": 9,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 14,
-    "multiplier": 0.5
-   }
-  ]
- },
- {
   "rank": 32,
   "key": "0212-00",
   "name": "메가핫삼",
@@ -7735,27 +7731,27 @@
    "A": 32,
    "B": 2
   },
-  "top_ev_rate": 43.9,
+  "top_ev_rate": 47.2,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 90.8,
+  "nature_rate": 88.5,
   "ability": "테크니션",
-  "ability_rate": 97.1,
+  "ability_rate": 97.3,
   "ability_jp": "テクニシャン",
   "spd_notes": [],
   "weather": null,
   "item": "핫삼나이트",
   "item_jp": "ハッサムナイト",
-  "item_rate": 59.8,
+  "item_rate": 60.8,
   "item_spd": null,
   "bulk_phys": 69766,
   "bulk_spec": 51679,
   "top_moves": [
    {
     "name": "불릿펀치",
-    "rate": 99.8,
+    "rate": 99.7,
     "category": 1,
     "power": "40",
     "type_id": 8,
@@ -7763,7 +7759,7 @@
    },
    {
     "name": "칼춤",
-    "rate": 86,
+    "rate": 83.8,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -7771,7 +7767,7 @@
    },
    {
     "name": "인파이트",
-    "rate": 65.7,
+    "rate": 59.1,
     "category": 1,
     "power": "120",
     "type_id": 1,
@@ -7779,7 +7775,7 @@
    },
    {
     "name": "탁쳐서떨구기",
-    "rate": 51.7,
+    "rate": 46.4,
     "category": 1,
     "power": "65",
     "type_id": 16,
@@ -7861,14 +7857,14 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 44.4,
+  "top_ev_rate": 40.4,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 54.4,
+  "nature_rate": 52.7,
   "ability": "변덕쟁이",
-  "ability_rate": 72.6,
+  "ability_rate": 74.2,
   "ability_jp": "ムラっけ",
   "spd_notes": [
    {
@@ -7881,14 +7877,14 @@
   "weather": null,
   "item": "스코빌런나이트",
   "item_jp": "スコヴィラナイト",
-  "item_rate": 82.9,
+  "item_rate": 81,
   "item_spd": null,
   "bulk_phys": 57333,
   "bulk_spec": 44779,
   "top_moves": [
    {
     "name": "씨뿌리기",
-    "rate": 90.8,
+    "rate": 90,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -7896,27 +7892,27 @@
    },
    {
     "name": "방어",
-    "rate": 84.9,
+    "rate": 86.3,
     "category": 3,
     "power": "−",
     "type_id": 0,
     "firepower": null
    },
    {
-    "name": "화염방사",
-    "rate": 74.4,
-    "category": 2,
-    "power": "90",
-    "type_id": 9,
-    "firepower": 21330
-   },
-   {
     "name": "기가드레인",
-    "rate": 70.9,
+    "rate": 70.6,
     "category": 2,
     "power": "75",
     "type_id": 11,
     "firepower": 17775
+   },
+   {
+    "name": "화염방사",
+    "rate": 70.1,
+    "category": 2,
+    "power": "90",
+    "type_id": 9,
+    "firepower": 21330
    }
   ],
   "types": [
@@ -7982,27 +7978,27 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 68.5,
+  "top_ev_rate": 67.0,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 73.1,
+  "nature_rate": 71,
   "ability": "통찰",
-  "ability_rate": 84.9,
+  "ability_rate": 84.3,
   "ability_jp": "おみとおし",
   "spd_notes": [],
   "weather": null,
   "item": "다크펫나이트",
   "item_jp": "ジュペッタナイト",
-  "item_rate": 99.4,
+  "item_rate": 98.6,
   "item_spd": null,
   "bulk_phys": 40358,
   "bulk_spec": 42854,
   "top_moves": [
    {
     "name": "길동무",
-    "rate": 98.6,
+    "rate": 97.3,
     "category": 3,
     "power": "−",
     "type_id": 7,
@@ -8010,7 +8006,7 @@
    },
    {
     "name": "폴터가이스트",
-    "rate": 97.1,
+    "rate": 95.3,
     "category": 1,
     "power": "110",
     "type_id": 7,
@@ -8018,7 +8014,7 @@
    },
    {
     "name": "앵콜",
-    "rate": 78.2,
+    "rate": 75.4,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -8026,7 +8022,7 @@
    },
    {
     "name": "야습",
-    "rate": 59.7,
+    "rate": 57.8,
     "category": 1,
     "power": "40",
     "type_id": 7,
@@ -8069,6 +8065,135 @@
   ]
  },
  {
+  "rank": 100,
+  "key": "0071-00",
+  "name": "메가우츠보트",
+  "base": 70,
+  "eff_base": 70,
+  "mega": {
+   "name": "메가우츠보트",
+   "base": 70,
+   "abil": "내용물분출",
+   "abil_jp": "とびだすなかみ"
+  },
+  "spd_top": 92,
+  "spd_sort": 92,
+  "top_pt_s": 2,
+  "top_ev_all": {
+   "H": 32,
+   "C": 32,
+   "S": 2
+  },
+  "top_ev_rate": 32.8,
+  "top_ev_abbr": "#1 HCS",
+  "eff": "none",
+  "nature": "조심",
+  "nature_dec": "(C↑A↓)",
+  "nature_rate": 27.4,
+  "ability": "엽록소",
+  "ability_rate": 85.8,
+  "ability_jp": "ようりょくそ",
+  "spd_notes": [
+   {
+    "abil": "엽록소",
+    "text": "쾌청할 때 스피드 2배",
+    "top": false,
+    "tag": "선택 가능 특성"
+   }
+  ],
+  "weather": null,
+  "item": "우츠보트나이트",
+  "item_jp": "ウツボットナイト",
+  "item_rate": 93.9,
+  "item_spd": null,
+  "bulk_phys": 47774,
+  "bulk_spec": 52324,
+  "top_moves": [
+   {
+    "name": "힘흡수",
+    "rate": 94.9,
+    "category": 3,
+    "power": "−",
+    "type_id": 11,
+    "firepower": null
+   },
+   {
+    "name": "기가드레인",
+    "rate": 54.1,
+    "category": 2,
+    "power": "75",
+    "type_id": 11,
+    "firepower": 23062
+   },
+   {
+    "name": "기습",
+    "rate": 46.5,
+    "category": 1,
+    "power": "70",
+    "type_id": 16,
+    "firepower": 9100
+   },
+   {
+    "name": "앵콜",
+    "rate": 33.9,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   }
+  ],
+  "types": [
+   {
+    "id": 11,
+    "name": "くさ"
+   },
+   {
+    "id": 3,
+    "name": "どく"
+   }
+  ],
+  "weaknesses": [
+   {
+    "type_id": 2,
+    "multiplier": 2
+   },
+   {
+    "type_id": 9,
+    "multiplier": 2
+   },
+   {
+    "type_id": 13,
+    "multiplier": 2
+   },
+   {
+    "type_id": 14,
+    "multiplier": 2
+   }
+  ],
+  "resistances": [
+   {
+    "type_id": 1,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 10,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 12,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 17,
+    "multiplier": 0.5
+   },
+   {
+    "type_id": 11,
+    "multiplier": 0.25
+   }
+  ]
+ },
+ {
   "rank": 60,
   "key": "0132-00",
   "name": "메타몽",
@@ -8081,28 +8206,28 @@
   "top_ev_all": {
    "H": 32,
    "B": 32,
-   "A": 2
+   "D": 2
   },
-  "top_ev_rate": 22.4,
-  "top_ev_abbr": "#1 HAB",
+  "top_ev_rate": 24.2,
+  "top_ev_abbr": "#1 HBD",
   "eff": "down",
   "nature": "무사태평",
   "nature_dec": "(B↑S↓)",
-  "nature_rate": 21.7,
+  "nature_rate": 23.6,
   "ability": "괴짜",
-  "ability_rate": 99.4,
+  "ability_rate": 98.8,
   "ability_jp": "かわりもの",
   "spd_notes": [],
   "weather": null,
   "item": "구애스카프",
   "item_jp": "こだわりスカーフ",
-  "item_rate": 79.9,
+  "item_rate": 79.2,
   "item_spd": {
    "mult": 1.5,
    "desc": "구애스카프: 스피드 1.5배 (기술 1가지만 사용 가능)"
   },
   "bulk_phys": 37713,
-  "bulk_spec": 25645,
+  "bulk_spec": 26399,
   "top_moves": [
    {
     "name": "변신",
@@ -8152,27 +8277,27 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 42.3,
+  "top_ev_rate": 43.1,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 68.1,
+  "nature_rate": 69.3,
   "ability": "천진",
-  "ability_rate": 87.6,
+  "ability_rate": 84.7,
   "ability_jp": "てんねん",
   "spd_notes": [],
   "weather": null,
   "item": "픽시나이트",
   "item_jp": "ピクシナイト",
-  "item_rate": 73.9,
+  "item_rate": 72.7,
   "item_spd": null,
   "bulk_phys": 71265,
   "bulk_spec": 64876,
   "top_moves": [
    {
     "name": "달의불빛",
-    "rate": 83.9,
+    "rate": 86.1,
     "category": 3,
     "power": "−",
     "type_id": 17,
@@ -8180,7 +8305,7 @@
    },
    {
     "name": "문포스",
-    "rate": 82.6,
+    "rate": 80.8,
     "category": 2,
     "power": "95",
     "type_id": 17,
@@ -8188,7 +8313,7 @@
    },
    {
     "name": "코스믹파워",
-    "rate": 60.7,
+    "rate": 68.4,
     "category": 3,
     "power": "−",
     "type_id": 13,
@@ -8196,7 +8321,7 @@
    },
    {
     "name": "어시스트파워",
-    "rate": 42.2,
+    "rate": 45.4,
     "category": 2,
     "power": "20",
     "type_id": 13,
@@ -8277,14 +8402,14 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 47.4,
+  "top_ev_rate": 55.3,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 50.4,
+  "nature_rate": 57.7,
   "ability": "옹골참",
-  "ability_rate": 81.1,
+  "ability_rate": 84.2,
   "ability_jp": "がんじょう",
   "spd_notes": [
    {
@@ -8297,14 +8422,14 @@
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 30.3,
+  "item_rate": 36.4,
   "item_spd": null,
   "bulk_phys": 80350,
   "bulk_spec": 38501,
   "top_moves": [
    {
     "name": "날개쉬기",
-    "rate": 69.7,
+    "rate": 75.8,
     "category": 3,
     "power": "−",
     "type_id": 2,
@@ -8312,27 +8437,27 @@
    },
    {
     "name": "스텔스록",
-    "rate": 57.6,
+    "rate": 65.1,
     "category": 3,
     "power": "−",
     "type_id": 5,
     "firepower": null
    },
    {
-    "name": "날려버리기",
-    "rate": 47.9,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
     "name": "바디프레스",
-    "rate": 37.9,
+    "rate": 48.2,
     "category": 1,
     "power": "80",
     "type_id": 1,
     "firepower": 8000
+   },
+   {
+    "name": "날려버리기",
+    "rate": 43.6,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
    }
   ],
   "types": [
@@ -8413,27 +8538,27 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 53.9,
+  "top_ev_rate": 53.4,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 74.7,
+  "nature_rate": 71.7,
   "ability": "내열",
-  "ability_rate": 96.1,
+  "ability_rate": 92.8,
   "ability_jp": "たいねつ",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 48.8,
+  "item_rate": 43.6,
   "item_spd": null,
   "bulk_phys": 68428,
   "bulk_spec": 44175,
   "top_moves": [
    {
     "name": "흔들흔들포",
-    "rate": 95,
+    "rate": 96.7,
     "category": 2,
     "power": "80",
     "type_id": 11,
@@ -8441,7 +8566,7 @@
    },
    {
     "name": "힘흡수",
-    "rate": 94.4,
+    "rate": 92.6,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -8449,7 +8574,7 @@
    },
    {
     "name": "섀도볼",
-    "rate": 78.9,
+    "rate": 72.8,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -8457,7 +8582,7 @@
    },
    {
     "name": "명상",
-    "rate": 63.5,
+    "rate": 63.2,
     "category": 3,
     "power": "−",
     "type_id": 13,
@@ -8528,135 +8653,6 @@
   ]
  },
  {
-  "rank": 100,
-  "key": "0071-00",
-  "name": "메가우츠보트",
-  "base": 70,
-  "eff_base": 70,
-  "mega": {
-   "name": "메가우츠보트",
-   "base": 70,
-   "abil": "내용물분출",
-   "abil_jp": "とびだすなかみ"
-  },
-  "spd_top": 90,
-  "spd_sort": 90,
-  "top_pt_s": 0,
-  "top_ev_all": {
-   "H": 32,
-   "C": 32,
-   "A": 2
-  },
-  "top_ev_rate": 34.5,
-  "top_ev_abbr": "#1 HAC",
-  "eff": "none",
-  "nature": "고집",
-  "nature_dec": "(A↑C↓)",
-  "nature_rate": 20,
-  "ability": "엽록소",
-  "ability_rate": 85.4,
-  "ability_jp": "ようりょくそ",
-  "spd_notes": [
-   {
-    "abil": "엽록소",
-    "text": "쾌청할 때 스피드 2배",
-    "top": false,
-    "tag": "선택 가능 특성"
-   }
-  ],
-  "weather": null,
-  "item": "우츠보트나이트",
-  "item_jp": "ウツボットナイト",
-  "item_rate": 96.5,
-  "item_spd": null,
-  "bulk_phys": 47774,
-  "bulk_spec": 52324,
-  "top_moves": [
-   {
-    "name": "힘흡수",
-    "rate": 98.2,
-    "category": 3,
-    "power": "−",
-    "type_id": 11,
-    "firepower": null
-   },
-   {
-    "name": "기가드레인",
-    "rate": 55.1,
-    "category": 2,
-    "power": "75",
-    "type_id": 11,
-    "firepower": 18900
-   },
-   {
-    "name": "기습",
-    "rate": 50.6,
-    "category": 1,
-    "power": "70",
-    "type_id": 16,
-    "firepower": 11270
-   },
-   {
-    "name": "앵콜",
-    "rate": 30.5,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   }
-  ],
-  "types": [
-   {
-    "id": 11,
-    "name": "くさ"
-   },
-   {
-    "id": 3,
-    "name": "どく"
-   }
-  ],
-  "weaknesses": [
-   {
-    "type_id": 2,
-    "multiplier": 2
-   },
-   {
-    "type_id": 9,
-    "multiplier": 2
-   },
-   {
-    "type_id": 13,
-    "multiplier": 2
-   },
-   {
-    "type_id": 14,
-    "multiplier": 2
-   }
-  ],
-  "resistances": [
-   {
-    "type_id": 1,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 10,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 12,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 17,
-    "multiplier": 0.5
-   },
-   {
-    "type_id": 11,
-    "multiplier": 0.25
-   }
-  ]
- },
- {
   "rank": 76,
   "key": "0560-00",
   "name": "메가곤율거니",
@@ -8676,27 +8672,27 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 28.0,
+  "top_ev_rate": 29.4,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 58.9,
+  "nature_rate": 58.1,
   "ability": "위협",
-  "ability_rate": 97.4,
+  "ability_rate": 97.6,
   "ability_jp": "いかく",
   "spd_notes": [],
   "weather": null,
   "item": "곤율거니나이트",
   "item_jp": "ズルズキナイト",
-  "item_rate": 98.5,
+  "item_rate": 95.8,
   "item_spd": null,
   "bulk_phys": 65703,
   "bulk_spec": 64866,
   "top_moves": [
    {
     "name": "드레인펀치",
-    "rate": 87.3,
+    "rate": 85.5,
     "category": 1,
     "power": "75",
     "type_id": 1,
@@ -8704,7 +8700,7 @@
    },
    {
     "name": "탁쳐서떨구기",
-    "rate": 71.1,
+    "rate": 73,
     "category": 1,
     "power": "65",
     "type_id": 16,
@@ -8712,19 +8708,19 @@
    },
    {
     "name": "용의춤",
-    "rate": 44,
+    "rate": 49.6,
     "category": 3,
     "power": "−",
     "type_id": 15,
     "firepower": null
    },
    {
-    "name": "벌크업",
-    "rate": 31.5,
-    "category": 3,
-    "power": "−",
-    "type_id": 1,
-    "firepower": null
+    "name": "냉동펀치",
+    "rate": 32.5,
+    "category": 1,
+    "power": "75",
+    "type_id": 14,
+    "firepower": 15000
    }
   ],
   "types": [
@@ -8785,27 +8781,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 69.7,
+  "top_ev_rate": 71.1,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 61.5,
+  "nature_rate": 65.8,
   "ability": "프레셔",
-  "ability_rate": 64.8,
+  "ability_rate": 58,
   "ability_jp": "プレッシャー",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 68.6,
+  "item_rate": 68.1,
   "item_spd": null,
   "bulk_phys": 78309,
   "bulk_spec": 53370,
   "top_moves": [
    {
     "name": "날개쉬기",
-    "rate": 98.5,
+    "rate": 98.1,
     "category": 3,
     "power": "−",
     "type_id": 2,
@@ -8813,7 +8809,7 @@
    },
    {
     "name": "바디프레스",
-    "rate": 84.3,
+    "rate": 86.3,
     "category": 1,
     "power": "80",
     "type_id": 1,
@@ -8821,7 +8817,7 @@
    },
    {
     "name": "철벽",
-    "rate": 79.5,
+    "rate": 82,
     "category": 3,
     "power": "−",
     "type_id": 8,
@@ -8829,7 +8825,7 @@
    },
    {
     "name": "유턴",
-    "rate": 68.5,
+    "rate": 64,
     "category": 1,
     "power": "70",
     "type_id": 6,
@@ -8914,27 +8910,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 53.0,
+  "top_ev_rate": 57.7,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 76.2,
+  "nature_rate": 76.6,
   "ability": "천진",
-  "ability_rate": 98.7,
+  "ability_rate": 98.3,
   "ability_jp": "てんねん",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 46.9,
+  "item_rate": 47.1,
   "item_spd": null,
   "bulk_phys": 78034,
   "bulk_spec": 49798,
   "top_moves": [
    {
     "name": "플레어송",
-    "rate": 99.6,
+    "rate": 99.2,
     "category": 2,
     "power": "80",
     "type_id": 9,
@@ -8942,7 +8938,7 @@
    },
    {
     "name": "태만함",
-    "rate": 96.3,
+    "rate": 95.2,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -8950,7 +8946,7 @@
    },
    {
     "name": "도깨비불",
-    "rate": 85.5,
+    "rate": 85.3,
     "category": 3,
     "power": "−",
     "type_id": 9,
@@ -8958,7 +8954,7 @@
    },
    {
     "name": "섀도볼",
-    "rate": 46.3,
+    "rate": 47.9,
     "category": 2,
     "power": "80",
     "type_id": 7,
@@ -9051,27 +9047,27 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 62.1,
+  "top_ev_rate": 60.4,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 54.5,
+  "nature_rate": 51.7,
   "ability": "정신력",
-  "ability_rate": 64.3,
+  "ability_rate": 60,
   "ability_jp": "せいしんりょく",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 90.8,
+  "item_rate": 88.2,
   "item_spd": null,
   "bulk_phys": 79620,
   "bulk_spec": 74706,
   "top_moves": [
    {
     "name": "속임수",
-    "rate": 97.2,
+    "rate": 95.1,
     "category": 1,
     "power": "95",
     "type_id": 16,
@@ -9079,7 +9075,7 @@
    },
    {
     "name": "방어",
-    "rate": 85,
+    "rate": 82.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9087,7 +9083,7 @@
    },
    {
     "name": "희망사항",
-    "rate": 83,
+    "rate": 79.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9095,7 +9091,7 @@
    },
    {
     "name": "하품",
-    "rate": 54.4,
+    "rate": 50.4,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9152,27 +9148,27 @@
    "C": 32,
    "S": 2
   },
-  "top_ev_rate": 25.4,
+  "top_ev_rate": 26.1,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 68.3,
+  "nature_rate": 70.5,
   "ability": "급류",
-  "ability_rate": 93.8,
+  "ability_rate": 92.6,
   "ability_jp": "げきりゅう",
   "spd_notes": [],
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 56.1,
+  "item_rate": 58.2,
   "item_spd": null,
   "bulk_phys": 42769,
   "bulk_spec": 61878,
   "top_moves": [
    {
     "name": "문포스",
-    "rate": 97.3,
+    "rate": 96.9,
     "category": 2,
     "power": "95",
     "type_id": 17,
@@ -9180,7 +9176,7 @@
    },
    {
     "name": "물거품아리아",
-    "rate": 86.2,
+    "rate": 84.6,
     "category": 2,
     "power": "90",
     "type_id": 10,
@@ -9188,7 +9184,7 @@
    },
    {
     "name": "아쿠아제트",
-    "rate": 68.6,
+    "rate": 68.9,
     "category": 1,
     "power": "40",
     "type_id": 10,
@@ -9196,7 +9192,7 @@
    },
    {
     "name": "앵콜",
-    "rate": 41.8,
+    "rate": 41,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9269,31 +9265,31 @@
   "spd_sort": 82,
   "top_pt_s": 2,
   "top_ev_all": {
-   "C": 32,
    "H": 32,
+   "C": 32,
    "S": 2
   },
-  "top_ev_rate": 34.4,
+  "top_ev_rate": 31.0,
   "top_ev_abbr": "#1 HCS",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 63.4,
+  "nature_rate": 63.7,
   "ability": "페어리스킨",
-  "ability_rate": 98.7,
+  "ability_rate": 98.2,
   "ability_jp": "フェアリースキン",
   "spd_notes": [],
   "weather": null,
   "item": "ようせいのハネ",
   "item_jp": "ようせいのハネ",
-  "item_rate": 36.4,
+  "item_rate": 41.7,
   "item_spd": null,
   "bulk_phys": 41776,
   "bulk_spec": 73723,
   "top_moves": [
    {
     "name": "하이퍼보이스",
-    "rate": 97,
+    "rate": 95.2,
     "category": 2,
     "power": "90",
     "type_id": 0,
@@ -9301,7 +9297,7 @@
    },
    {
     "name": "하품",
-    "rate": 69.8,
+    "rate": 65.4,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9309,7 +9305,7 @@
    },
    {
     "name": "전광석화",
-    "rate": 66.6,
+    "rate": 61.6,
     "category": 1,
     "power": "40",
     "type_id": 0,
@@ -9317,7 +9313,7 @@
    },
    {
     "name": "매지컬플레임",
-    "rate": 51.4,
+    "rate": 49.8,
     "category": 2,
     "power": "75",
     "type_id": 9,
@@ -9374,54 +9370,54 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 38.1,
+  "top_ev_rate": 30.1,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 62.5,
+  "nature_rate": 59.1,
   "ability": "짓궂은마음",
-  "ability_rate": 99.5,
+  "ability_rate": 99.1,
   "ability_jp": "いたずらごころ",
   "spd_notes": [],
   "weather": null,
   "item": "빛의점토",
   "item_jp": "ひかりのねんど",
-  "item_rate": 79.6,
+  "item_rate": 69.2,
   "item_spd": null,
   "bulk_phys": 57504,
   "bulk_spec": 47674,
   "top_moves": [
    {
-    "name": "리플렉터",
-    "rate": 86.5,
-    "category": 3,
-    "power": "−",
-    "type_id": 13,
-    "firepower": null
-   },
-   {
     "name": "소울크래시",
-    "rate": 82.9,
+    "rate": 79.4,
     "category": 1,
     "power": "−",
     "type_id": 17,
     "firepower": null
    },
    {
-    "name": "빛의장막",
-    "rate": 79.7,
+    "name": "막말내뱉기",
+    "rate": 77.4,
+    "category": 3,
+    "power": "−",
+    "type_id": 16,
+    "firepower": null
+   },
+   {
+    "name": "리플렉터",
+    "rate": 73.8,
     "category": 3,
     "power": "−",
     "type_id": 13,
     "firepower": null
    },
    {
-    "name": "막말내뱉기",
-    "rate": 75.3,
+    "name": "빛의장막",
+    "rate": 69.7,
     "category": 3,
     "power": "−",
-    "type_id": 16,
+    "type_id": 13,
     "firepower": null
    }
   ],
@@ -9484,12 +9480,12 @@
    "B": 1,
    "D": 1
   },
-  "top_ev_rate": 37.1,
+  "top_ev_rate": 41.6,
   "top_ev_abbr": "#1 HABD",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 58.4,
+  "nature_rate": 56,
   "ability": "배틀스위치",
   "ability_rate": 100,
   "ability_jp": "バトルスイッチ",
@@ -9497,14 +9493,14 @@
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 54.8,
+  "item_rate": 48.8,
   "item_spd": null,
   "bulk_phys": 65418,
   "bulk_spec": 65418,
   "top_moves": [
    {
     "name": "야습",
-    "rate": 95.7,
+    "rate": 94.3,
     "category": 1,
     "power": "40",
     "type_id": 7,
@@ -9512,7 +9508,7 @@
    },
    {
     "name": "킹실드",
-    "rate": 83.9,
+    "rate": 82.8,
     "category": 3,
     "power": "−",
     "type_id": 8,
@@ -9520,7 +9516,7 @@
    },
    {
     "name": "폴터가이스트",
-    "rate": 73.1,
+    "rate": 68.7,
     "category": 1,
     "power": "110",
     "type_id": 7,
@@ -9528,7 +9524,7 @@
    },
    {
     "name": "성스러운칼",
-    "rate": 41.6,
+    "rate": 42.6,
     "category": 1,
     "power": "90",
     "type_id": 1,
@@ -9629,27 +9625,27 @@
    "D": 32,
    "B": 2
   },
-  "top_ev_rate": 18.3,
+  "top_ev_rate": 17.7,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 40.4,
+  "nature_rate": 47.1,
   "ability": "승기",
-  "ability_rate": 72.4,
+  "ability_rate": 79.1,
   "ability_jp": "かちき",
   "spd_notes": [],
   "weather": null,
   "item": "シュカのみ",
   "item_jp": "シュカのみ",
-  "item_rate": 38,
+  "item_rate": 36.5,
   "item_spd": null,
   "bulk_phys": 51119,
   "bulk_spec": 71102,
   "top_moves": [
    {
     "name": "파도타기",
-    "rate": 67.2,
+    "rate": 70.5,
     "category": 2,
     "power": "90",
     "type_id": 10,
@@ -9657,7 +9653,7 @@
    },
    {
     "name": "냉동빔",
-    "rate": 58.4,
+    "rate": 61.5,
     "category": 2,
     "power": "90",
     "type_id": 14,
@@ -9665,7 +9661,7 @@
    },
    {
     "name": "스텔스록",
-    "rate": 58.2,
+    "rate": 51.4,
     "category": 3,
     "power": "−",
     "type_id": 5,
@@ -9673,7 +9669,7 @@
    },
    {
     "name": "하품",
-    "rate": 56.6,
+    "rate": 49.5,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -9766,27 +9762,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 24.8,
+  "top_ev_rate": 23.6,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "조심",
   "nature_dec": "(C↑A↓)",
-  "nature_rate": 33.8,
+  "nature_rate": 34.9,
   "ability": "조가비갑옷",
-  "ability_rate": 38.9,
+  "ability_rate": 38.8,
   "ability_jp": "シェルアーマー",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 43,
+  "item_rate": 43.3,
   "item_spd": null,
   "bulk_phys": 69158,
   "bulk_spec": 78258,
   "top_moves": [
    {
     "name": "러스터캐논",
-    "rate": 61.9,
+    "rate": 60.4,
     "category": 2,
     "power": "80",
     "type_id": 8,
@@ -9794,7 +9790,7 @@
    },
    {
     "name": "용성군",
-    "rate": 44,
+    "rate": 42.9,
     "category": 2,
     "power": "130",
     "type_id": 15,
@@ -9802,7 +9798,7 @@
    },
    {
     "name": "틀어박히기",
-    "rate": 41.4,
+    "rate": 41.6,
     "category": 3,
     "power": "−",
     "type_id": 8,
@@ -9810,7 +9806,7 @@
    },
    {
     "name": "10만볼트",
-    "rate": 38.3,
+    "rate": 38.5,
     "category": 2,
     "power": "90",
     "type_id": 12,
@@ -9895,31 +9891,31 @@
   "spd_sort": 80,
   "top_pt_s": 0,
   "top_ev_all": {
-   "A": 32,
    "H": 32,
-   "B": 2
+   "B": 32,
+   "D": 2
   },
-  "top_ev_rate": 13.8,
-  "top_ev_abbr": "#1 HAB",
+  "top_ev_rate": 14.0,
+  "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 31.5,
+  "nature_rate": 31.7,
   "ability": "위협",
-  "ability_rate": 97.9,
+  "ability_rate": 97.7,
   "ability_jp": "いかく",
   "spd_notes": [],
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 61.9,
+  "item_rate": 56.9,
   "item_spd": null,
-  "bulk_phys": 55046,
-  "bulk_spec": 54063,
+  "bulk_phys": 69791,
+  "bulk_spec": 55046,
   "top_moves": [
    {
     "name": "막말내뱉기",
-    "rate": 85.9,
+    "rate": 84,
     "category": 3,
     "power": "−",
     "type_id": 16,
@@ -9927,27 +9923,27 @@
    },
    {
     "name": "플레어드라이브",
-    "rate": 81.6,
+    "rate": 78.4,
     "category": 1,
     "power": "120",
     "type_id": 9,
-    "firepower": 32940
+    "firepower": 26640
    },
    {
     "name": "DD래리어트",
-    "rate": 66.6,
+    "rate": 66.9,
     "category": 1,
     "power": "85",
     "type_id": 16,
-    "firepower": 23332
+    "firepower": 18870
    },
    {
     "name": "속이다",
-    "rate": 44.7,
+    "rate": 53.4,
     "category": 1,
     "power": "40",
     "type_id": 0,
-    "firepower": 7320
+    "firepower": 5920
    }
   ],
   "types": [
@@ -10024,27 +10020,27 @@
    "B": 32,
    "A": 2
   },
-  "top_ev_rate": 37.5,
+  "top_ev_rate": 36.7,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 52.8,
+  "nature_rate": 52,
   "ability": "스킬링크",
-  "ability_rate": 86.2,
+  "ability_rate": 91.3,
   "ability_jp": "スキルリンク",
   "spd_notes": [],
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 57.5,
+  "item_rate": 55.6,
   "item_spd": null,
   "bulk_phys": 57783,
   "bulk_spec": 43224,
   "top_moves": [
    {
     "name": "부리캐논",
-    "rate": 99.8,
+    "rate": 98.9,
     "category": 1,
     "power": "120",
     "type_id": 2,
@@ -10052,7 +10048,7 @@
    },
    {
     "name": "기관총",
-    "rate": 78.1,
+    "rate": 81.3,
     "category": 1,
     "power": "25",
     "type_id": 11,
@@ -10060,7 +10056,7 @@
    },
    {
     "name": "락블레스트",
-    "rate": 65,
+    "rate": 67.1,
     "category": 1,
     "power": "25",
     "type_id": 5,
@@ -10068,7 +10064,7 @@
    },
    {
     "name": "날개쉬기",
-    "rate": 56.8,
+    "rate": 58.5,
     "category": 3,
     "power": "−",
     "type_id": 2,
@@ -10133,27 +10129,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 27.4,
+  "top_ev_rate": 32.9,
   "top_ev_abbr": "#1 HBD",
   "eff": "down",
   "nature": "무사태평",
   "nature_dec": "(B↑S↓)",
-  "nature_rate": 35.4,
+  "nature_rate": 35.9,
   "ability": "잔비",
-  "ability_rate": 99.7,
+  "ability_rate": 99.5,
   "ability_jp": "あめふらし",
   "spd_notes": [],
   "weather": "날씨: 비 (아군 쓱쓱 발동)",
   "item": "축축한바위",
   "item_jp": "しめったいわ",
-  "item_rate": 75.2,
+  "item_rate": 73.7,
   "item_spd": null,
   "bulk_phys": 61762,
   "bulk_spec": 37382,
   "top_moves": [
    {
     "name": "폭풍",
-    "rate": 99,
+    "rate": 98.2,
     "category": 2,
     "power": "110",
     "type_id": 2,
@@ -10161,7 +10157,7 @@
    },
    {
     "name": "유턴",
-    "rate": 95.3,
+    "rate": 91.4,
     "category": 1,
     "power": "70",
     "type_id": 6,
@@ -10169,7 +10165,7 @@
    },
    {
     "name": "냉동빔",
-    "rate": 72.4,
+    "rate": 62.5,
     "category": 2,
     "power": "90",
     "type_id": 14,
@@ -10177,7 +10173,7 @@
    },
    {
     "name": "파도타기",
-    "rate": 56.2,
+    "rate": 47.7,
     "category": 2,
     "power": "90",
     "type_id": 10,
@@ -10251,22 +10247,22 @@
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 93.9,
+  "nature_rate": 92,
   "ability": "총대장",
-  "ability_rate": 88.5,
+  "ability_rate": 86.4,
   "ability_jp": "そうだいしょう",
   "spd_notes": [],
   "weather": null,
   "item": "검은안경",
   "item_jp": "くろいメガネ",
-  "item_rate": 52,
+  "item_rate": 54.3,
   "item_spd": null,
   "bulk_phys": 70511,
   "bulk_spec": 52883,
   "top_moves": [
    {
     "name": "기습",
-    "rate": 99.4,
+    "rate": 99.1,
     "category": 1,
     "power": "70",
     "type_id": 16,
@@ -10274,7 +10270,7 @@
    },
    {
     "name": "도게자",
-    "rate": 95.7,
+    "rate": 94.9,
     "category": 1,
     "power": "85",
     "type_id": 16,
@@ -10282,7 +10278,7 @@
    },
    {
     "name": "아이언헤드",
-    "rate": 91.5,
+    "rate": 90.9,
     "category": 1,
     "power": "80",
     "type_id": 8,
@@ -10290,7 +10286,7 @@
    },
    {
     "name": "칼춤",
-    "rate": 78.6,
+    "rate": 76.7,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -10383,27 +10379,27 @@
    "H": 32,
    "S": 2
   },
-  "top_ev_rate": 69.8,
+  "top_ev_rate": 67.7,
   "top_ev_abbr": "#1 HAS",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 92.8,
+  "nature_rate": 90.4,
   "ability": "천하장사",
-  "ability_rate": 95.8,
+  "ability_rate": 94.4,
   "ability_jp": "ちからもち",
   "spd_notes": [],
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 75.8,
+  "item_rate": 71.9,
   "item_spd": null,
   "bulk_phys": 50365,
   "bulk_spec": 50365,
   "top_moves": [
    {
     "name": "아쿠아제트",
-    "rate": 95.6,
+    "rate": 94.7,
     "category": 1,
     "power": "40",
     "type_id": 10,
@@ -10411,7 +10407,7 @@
    },
    {
     "name": "치근거리기",
-    "rate": 95.5,
+    "rate": 94.1,
     "category": 1,
     "power": "90",
     "type_id": 17,
@@ -10419,7 +10415,7 @@
    },
    {
     "name": "배북",
-    "rate": 65.9,
+    "rate": 64.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -10427,7 +10423,7 @@
    },
    {
     "name": "엄청난힘",
-    "rate": 50.2,
+    "rate": 47.1,
     "category": 1,
     "power": "120",
     "type_id": 1,
@@ -10517,24 +10513,24 @@
   "spd_sort": 70,
   "top_pt_s": 0,
   "top_ev_all": {
-   "A": 32,
    "H": 32,
+   "A": 32,
    "B": 2
   },
-  "top_ev_rate": 73.2,
+  "top_ev_rate": 60.8,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 84.1,
+  "nature_rate": 85.4,
   "ability": "위협",
-  "ability_rate": 97.4,
+  "ability_rate": 96.5,
   "ability_jp": "いかく",
   "spd_notes": [],
   "weather": null,
   "item": "입치트나이트",
   "item_jp": "クチートナイト",
-  "item_rate": 99.8,
+  "item_rate": 99.6,
   "item_spd": null,
   "bulk_phys": 56153,
   "bulk_spec": 43929,
@@ -10549,7 +10545,7 @@
    },
    {
     "name": "기습",
-    "rate": 98.7,
+    "rate": 98.6,
     "category": 1,
     "power": "70",
     "type_id": 16,
@@ -10557,7 +10553,7 @@
    },
    {
     "name": "칼춤",
-    "rate": 81.8,
+    "rate": 87.6,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -10565,7 +10561,7 @@
    },
    {
     "name": "아이언헤드",
-    "rate": 47.2,
+    "rate": 30.3,
     "category": 1,
     "power": "80",
     "type_id": 8,
@@ -10654,27 +10650,27 @@
    "D": 32,
    "B": 2
   },
-  "top_ev_rate": 30.1,
+  "top_ev_rate": 30.6,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 70.6,
+  "nature_rate": 69.2,
   "ability": "모래날림",
-  "ability_rate": 99.6,
+  "ability_rate": 99.5,
   "ability_jp": "すなおこし",
   "spd_notes": [],
   "weather": "날씨: 모래바람 (아군 모래헤치기 발동)",
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 66.1,
+  "item_rate": 61.1,
   "item_spd": null,
   "bulk_phys": 73236,
   "bulk_spec": 64866,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 98.3,
+    "rate": 97.8,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -10682,7 +10678,7 @@
    },
    {
     "name": "하품",
-    "rate": 94.6,
+    "rate": 94,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -10690,7 +10686,7 @@
    },
    {
     "name": "스텔스록",
-    "rate": 87.1,
+    "rate": 85.9,
     "category": 3,
     "power": "−",
     "type_id": 5,
@@ -10698,7 +10694,7 @@
    },
    {
     "name": "태만함",
-    "rate": 58.2,
+    "rate": 59.7,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -10755,27 +10751,27 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 39.1,
+  "top_ev_rate": 28.5,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "차분",
   "nature_dec": "(D↑A↓)",
-  "nature_rate": 53.9,
+  "nature_rate": 52.7,
   "ability": "일렉트릭변환",
-  "ability_rate": 99.4,
+  "ability_rate": 98.6,
   "ability_jp": "でんきにかえる",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 56.9,
+  "item_rate": 52.9,
   "item_spd": null,
   "bulk_phys": 59387,
   "bulk_spec": 70949,
   "top_moves": [
    {
     "name": "파라볼라차지",
-    "rate": 94.8,
+    "rate": 91.9,
     "category": 2,
     "power": "65",
     "type_id": 12,
@@ -10783,23 +10779,23 @@
    },
    {
     "name": "태만함",
-    "rate": 88.7,
+    "rate": 83.8,
     "category": 3,
     "power": "−",
     "type_id": 0,
     "firepower": null
    },
    {
-    "name": "볼트체인지",
-    "rate": 68.1,
-    "category": 2,
-    "power": "70",
-    "type_id": 12,
-    "firepower": 12915
+    "name": "물붓기",
+    "rate": 74.1,
+    "category": 3,
+    "power": "−",
+    "type_id": 10,
+    "firepower": null
    },
    {
     "name": "맹독",
-    "rate": 66,
+    "rate": 62.7,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -10848,27 +10844,27 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 42.6,
+  "top_ev_rate": 43.8,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 84.8,
+  "nature_rate": 83.2,
   "ability": "철주먹",
-  "ability_rate": 70.7,
+  "ability_rate": 71.5,
   "ability_jp": "てつのこぶし",
   "spd_notes": [],
   "weather": null,
   "item": "생명의구슬",
   "item_jp": "いのちのたま",
-  "item_rate": 38.1,
+  "item_rate": 35.7,
   "item_spd": null,
   "bulk_phys": 60350,
   "bulk_spec": 43844,
   "top_moves": [
    {
     "name": "마하펀치",
-    "rate": 93.9,
+    "rate": 93.3,
     "category": 1,
     "power": "40",
     "type_id": 1,
@@ -10876,7 +10872,7 @@
    },
    {
     "name": "드레인펀치",
-    "rate": 78.7,
+    "rate": 82.3,
     "category": 1,
     "power": "75",
     "type_id": 1,
@@ -10884,7 +10880,7 @@
    },
    {
     "name": "냉동펀치",
-    "rate": 71.2,
+    "rate": 73.2,
     "category": 1,
     "power": "75",
     "type_id": 14,
@@ -10892,7 +10888,7 @@
    },
    {
     "name": "번개펀치",
-    "rate": 44.6,
+    "rate": 41,
     "category": 1,
     "power": "75",
     "type_id": 12,
@@ -10954,27 +10950,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 55.6,
+  "top_ev_rate": 57.7,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "장난꾸러기",
   "nature_dec": "(B↑C↓)",
-  "nature_rate": 78,
+  "nature_rate": 74.4,
   "ability": "방탄",
-  "ability_rate": 96.7,
+  "ability_rate": 93.6,
   "ability_jp": "ぼうだん",
   "spd_notes": [],
   "weather": null,
   "item": "브리가론나이트",
   "item_jp": "ブリガロナイト",
-  "item_rate": 80.6,
+  "item_rate": 79,
   "item_spd": null,
   "bulk_phys": 106277,
   "bulk_spec": 65000,
   "top_moves": [
    {
     "name": "바디프레스",
-    "rate": 86.6,
+    "rate": 83.5,
     "category": 1,
     "power": "80",
     "type_id": 1,
@@ -10982,7 +10978,7 @@
    },
    {
     "name": "광합성",
-    "rate": 68.3,
+    "rate": 63.4,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -10990,7 +10986,7 @@
    },
    {
     "name": "철벽",
-    "rate": 64.4,
+    "rate": 63.4,
     "category": 3,
     "power": "−",
     "type_id": 8,
@@ -10998,7 +10994,7 @@
    },
    {
     "name": "씨뿌리기",
-    "rate": 42.6,
+    "rate": 42.5,
     "category": 3,
     "power": "−",
     "type_id": 11,
@@ -11083,12 +11079,12 @@
    "A": 32,
    "B": 2
   },
-  "top_ev_rate": 31.3,
+  "top_ev_rate": 32.1,
   "top_ev_abbr": "#1 HAB",
   "eff": "none",
   "nature": "고집",
   "nature_dec": "(A↑C↓)",
-  "nature_rate": 42.9,
+  "nature_rate": 42.7,
   "ability": "수포",
   "ability_rate": 97.1,
   "ability_jp": "すいほう",
@@ -11096,14 +11092,14 @@
   "weather": null,
   "item": "자뭉열매",
   "item_jp": "オボンのみ",
-  "item_rate": 59,
+  "item_rate": 51.6,
   "item_spd": null,
   "bulk_phys": 48540,
   "bulk_spec": 64720,
   "top_moves": [
    {
     "name": "끈적끈적네트",
-    "rate": 97,
+    "rate": 92,
     "category": 3,
     "power": "−",
     "type_id": 6,
@@ -11111,7 +11107,7 @@
    },
    {
     "name": "아쿠아브레이크",
-    "rate": 86.4,
+    "rate": 86.5,
     "category": 1,
     "power": "85",
     "type_id": 10,
@@ -11119,7 +11115,7 @@
    },
    {
     "name": "미러코트",
-    "rate": 77.5,
+    "rate": 75.1,
     "category": 2,
     "power": "−",
     "type_id": 13,
@@ -11127,7 +11123,7 @@
    },
    {
     "name": "덤벼들기",
-    "rate": 30.3,
+    "rate": 30.6,
     "category": 1,
     "power": "80",
     "type_id": 6,
@@ -11209,27 +11205,27 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 25.5,
+  "top_ev_rate": 30.9,
   "top_ev_abbr": "#1 HBD",
   "eff": "down",
   "nature": "건방",
   "nature_dec": "(D↑S↓)",
-  "nature_rate": 28.1,
+  "nature_rate": 43.5,
   "ability": "적응력",
-  "ability_rate": 73.5,
+  "ability_rate": 63.4,
   "ability_jp": "てきおうりょく",
   "spd_notes": [],
   "weather": null,
   "item": "드래캄나이트",
   "item_jp": "ドラミドナイト",
-  "item_rate": 98,
+  "item_rate": 98.2,
   "item_spd": null,
   "bulk_phys": 53148,
   "bulk_spec": 89976,
   "top_moves": [
    {
     "name": "퀵턴",
-    "rate": 86.7,
+    "rate": 92.1,
     "category": 1,
     "power": "60",
     "type_id": 10,
@@ -11237,7 +11233,7 @@
    },
    {
     "name": "용성군",
-    "rate": 85,
+    "rate": 89.9,
     "category": 2,
     "power": "130",
     "type_id": 15,
@@ -11245,7 +11241,7 @@
    },
    {
     "name": "맹독",
-    "rate": 46.1,
+    "rate": 61.5,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -11253,7 +11249,7 @@
    },
    {
     "name": "독압정",
-    "rate": 41,
+    "rate": 42.5,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -11334,27 +11330,27 @@
    "D": 32,
    "B": 2
   },
-  "top_ev_rate": 31.5,
+  "top_ev_rate": 30.8,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 34.8,
+  "nature_rate": 37.6,
   "ability": "재생력",
-  "ability_rate": 97.5,
+  "ability_rate": 94.5,
   "ability_jp": "さいせいりょく",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 68.1,
+  "item_rate": 70.2,
   "item_spd": null,
   "bulk_phys": 66467,
   "bulk_spec": 74107,
   "top_moves": [
    {
     "name": "HP회복",
-    "rate": 97.1,
+    "rate": 94.5,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -11362,7 +11358,7 @@
    },
    {
     "name": "맹독",
-    "rate": 91.4,
+    "rate": 91.6,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -11370,7 +11366,7 @@
    },
    {
     "name": "토치카",
-    "rate": 58.1,
+    "rate": 68.8,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -11378,7 +11374,7 @@
    },
    {
     "name": "엉겨붙기",
-    "rate": 57.9,
+    "rate": 57.2,
     "category": 2,
     "power": "20",
     "type_id": 6,
@@ -11459,27 +11455,27 @@
    "D": 32,
    "B": 2
   },
-  "top_ev_rate": 19.9,
+  "top_ev_rate": 22.4,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "신중",
   "nature_dec": "(D↑C↓)",
-  "nature_rate": 41.1,
+  "nature_rate": 45.1,
   "ability": "두꺼운지방",
-  "ability_rate": 94,
+  "ability_rate": 89.7,
   "ability_jp": "あついしぼう",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 41,
+  "item_rate": 43.1,
   "item_spd": null,
   "bulk_phys": 56518,
   "bulk_spec": 105241,
   "top_moves": [
    {
     "name": "지진",
-    "rate": 66.7,
+    "rate": 61,
     "category": 1,
     "power": "100",
     "type_id": 4,
@@ -11487,7 +11483,7 @@
    },
    {
     "name": "하품",
-    "rate": 47.9,
+    "rate": 45.7,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -11495,19 +11491,19 @@
    },
    {
     "name": "냉동펀치",
-    "rate": 38.7,
+    "rate": 32.8,
     "category": 1,
     "power": "75",
     "type_id": 14,
     "firepower": 9750
    },
    {
-    "name": "누르기",
-    "rate": 27.8,
+    "name": "땅가르기",
+    "rate": 29.8,
     "category": 1,
-    "power": "85",
-    "type_id": 0,
-    "firepower": 16575
+    "power": "−",
+    "type_id": 4,
+    "firepower": null
    }
   ],
   "types": [
@@ -11557,27 +11553,27 @@
    "H": 32,
    "D": 2
   },
-  "top_ev_rate": 60.8,
+  "top_ev_rate": 52.2,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 72.4,
+  "nature_rate": 66.3,
   "ability": "재생력",
-  "ability_rate": 91.7,
+  "ability_rate": 89.5,
   "ability_jp": "さいせいりょく",
   "spd_notes": [],
   "weather": null,
   "item": "야도란나이트",
   "item_jp": "ヤドランナイト",
-  "item_rate": 58.9,
+  "item_rate": 64.1,
   "item_spd": null,
   "bulk_phys": 114024,
   "bulk_spec": 50131,
   "top_moves": [
    {
     "name": "태만함",
-    "rate": 85.6,
+    "rate": 84.3,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -11585,7 +11581,7 @@
    },
    {
     "name": "열탕",
-    "rate": 83.7,
+    "rate": 81.3,
     "category": 2,
     "power": "80",
     "type_id": 10,
@@ -11593,7 +11589,7 @@
    },
    {
     "name": "철벽",
-    "rate": 52.4,
+    "rate": 49.6,
     "category": 3,
     "power": "−",
     "type_id": 8,
@@ -11601,7 +11597,7 @@
    },
    {
     "name": "바디프레스",
-    "rate": 39.7,
+    "rate": 36.1,
     "category": 1,
     "power": "80",
     "type_id": 1,
@@ -11682,43 +11678,43 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 45.1,
+  "top_ev_rate": 43.1,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "차분",
   "nature_dec": "(D↑A↓)",
-  "nature_rate": 56.7,
+  "nature_rate": 54.5,
   "ability": "재생력",
-  "ability_rate": 99.7,
+  "ability_rate": 98.8,
   "ability_jp": "さいせいりょく",
   "spd_notes": [],
   "weather": null,
   "item": "먹다남은음식",
   "item_jp": "たべのこし",
-  "item_rate": 38.1,
+  "item_rate": 37.3,
   "item_spd": null,
   "bulk_phys": 50131,
   "bulk_spec": 79620,
   "top_moves": [
    {
-    "name": "태만함",
-    "rate": 55,
-    "category": 3,
-    "power": "−",
-    "type_id": 0,
-    "firepower": null
-   },
-   {
     "name": "화염방사",
-    "rate": 53.2,
+    "rate": 51.4,
     "category": 2,
     "power": "90",
     "type_id": 9,
     "firepower": 11700
    },
    {
+    "name": "태만함",
+    "rate": 50.8,
+    "category": 3,
+    "power": "−",
+    "type_id": 0,
+    "firepower": null
+   },
+   {
     "name": "썰렁개그",
-    "rate": 48.5,
+    "rate": 46.5,
     "category": 3,
     "power": "−",
     "type_id": 14,
@@ -11726,7 +11722,7 @@
    },
    {
     "name": "맹독",
-    "rate": 40.8,
+    "rate": 38.2,
     "category": 3,
     "power": "−",
     "type_id": 3,
@@ -11796,27 +11792,27 @@
    "C": 32,
    "B": 2
   },
-  "top_ev_rate": 46.2,
+  "top_ev_rate": 53.7,
   "top_ev_abbr": "#1 HBC",
   "eff": "down",
   "nature": "냉정",
   "nature_dec": "(C↑S↓)",
-  "nature_rate": 42.2,
+  "nature_rate": 47.8,
   "ability": "눈퍼뜨리기",
-  "ability_rate": 98.8,
+  "ability_rate": 98.2,
   "ability_jp": "ゆきふらし",
   "spd_notes": [],
   "weather": "날씨: 설경 (아군 눈치우기 발동)",
   "item": "눈설왕나이트",
   "item_jp": "ユキノオナイト",
-  "item_rate": 54.1,
+  "item_rate": 53.5,
   "item_spd": null,
   "bulk_phys": 60873,
   "bulk_spec": 59915,
   "top_moves": [
    {
     "name": "눈보라",
-    "rate": 94.1,
+    "rate": 94.5,
     "category": 2,
     "power": "110",
     "type_id": 14,
@@ -11824,7 +11820,7 @@
    },
    {
     "name": "얼음뭉치",
-    "rate": 67,
+    "rate": 56.7,
     "category": 1,
     "power": "40",
     "type_id": 14,
@@ -11832,7 +11828,7 @@
    },
    {
     "name": "기가드레인",
-    "rate": 66,
+    "rate": 54.4,
     "category": 2,
     "power": "75",
     "type_id": 11,
@@ -11840,7 +11836,7 @@
    },
    {
     "name": "대지의힘",
-    "rate": 48.2,
+    "rate": 50.1,
     "category": 2,
     "power": "90",
     "type_id": 4,
@@ -11921,43 +11917,35 @@
    "H": 32,
    "B": 2
   },
-  "top_ev_rate": 44.8,
+  "top_ev_rate": 41.1,
   "top_ev_abbr": "#1 HBC",
   "eff": "down",
   "nature": "냉정",
   "nature_dec": "(C↑S↓)",
-  "nature_rate": 40.5,
+  "nature_rate": 42.2,
   "ability": "매직미러",
-  "ability_rate": 99.3,
+  "ability_rate": 98.6,
   "ability_jp": "マジックミラー",
   "spd_notes": [],
   "weather": null,
   "item": "기합의띠",
   "item_jp": "きあいのタスキ",
-  "item_rate": 40.4,
+  "item_rate": 42.6,
   "item_spd": null,
   "bulk_phys": 46686,
   "bulk_spec": 49080,
   "top_moves": [
    {
     "name": "트릭룸",
-    "rate": 81.6,
+    "rate": 78.2,
     "category": 3,
     "power": "−",
     "type_id": 13,
     "firepower": null
    },
    {
-    "name": "미스트버스트",
-    "rate": 58.4,
-    "category": 2,
-    "power": "100",
-    "type_id": 17,
-    "firepower": 30900
-   },
-   {
     "name": "매지컬플레임",
-    "rate": 50.1,
+    "rate": 54,
     "category": 2,
     "power": "75",
     "type_id": 9,
@@ -11965,11 +11953,19 @@
    },
    {
     "name": "사이코키네시스",
-    "rate": 43.6,
+    "rate": 50.4,
     "category": 2,
     "power": "90",
     "type_id": 13,
     "firepower": 27810
+   },
+   {
+    "name": "미스트버스트",
+    "rate": 47.6,
+    "category": 2,
+    "power": "100",
+    "type_id": 17,
+    "firepower": 30900
    }
   ],
   "types": [
@@ -12031,27 +12027,27 @@
    "B": 32,
    "D": 2
   },
-  "top_ev_rate": 42.0,
+  "top_ev_rate": 45.5,
   "top_ev_abbr": "#1 HBD",
   "eff": "none",
   "nature": "대담",
   "nature_dec": "(B↑A↓)",
-  "nature_rate": 43.8,
+  "nature_rate": 41.3,
   "ability": "짓궂은마음",
-  "ability_rate": 98.7,
+  "ability_rate": 99.1,
   "ability_jp": "いたずらごころ",
   "spd_notes": [],
   "weather": null,
   "item": "깜까미나이트",
   "item_jp": "ヤミラミナイト",
-  "item_rate": 40.6,
+  "item_rate": 32.9,
   "item_spd": null,
   "bulk_phys": 67613,
   "bulk_spec": 52333,
   "top_moves": [
    {
     "name": "도깨비불",
-    "rate": 80.3,
+    "rate": 80.5,
     "category": 3,
     "power": "−",
     "type_id": 9,
@@ -12059,7 +12055,7 @@
    },
    {
     "name": "속임수",
-    "rate": 70.6,
+    "rate": 61.3,
     "category": 1,
     "power": "95",
     "type_id": 16,
@@ -12067,7 +12063,7 @@
    },
    {
     "name": "HP회복",
-    "rate": 58.9,
+    "rate": 53.2,
     "category": 3,
     "power": "−",
     "type_id": 0,
@@ -12075,7 +12071,7 @@
    },
    {
     "name": "앵콜",
-    "rate": 52.4,
+    "rate": 51.8,
     "category": 3,
     "power": "−",
     "type_id": 0,

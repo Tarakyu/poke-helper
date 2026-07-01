@@ -15,16 +15,16 @@
   ],
   "top_ability": {
    "name": "さめはだ",
-   "rate": 99.4
+   "rate": 99.1
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 60.8
+   "rate": 57.5
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 41.9
+   "rate": 38
   },
   "top_ev": {
    "ev": {
@@ -32,13 +32,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 80.0
+   "rate": 69.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 99.7,
+    "rate": 99.5,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -47,18 +47,8 @@
    },
    {
     "rank": 2,
-    "name": "げきりん",
-    "rate": 53.6,
-    "category": 1,
-    "category_label": "物理",
-    "power": "120",
-    "type_id": 15,
-    "type_name": "ドラゴン"
-   },
-   {
-    "rank": 3,
     "name": "ステルスロック",
-    "rate": 44.5,
+    "rate": 48.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -66,9 +56,19 @@
     "type_name": "いわ"
    },
    {
+    "rank": 3,
+    "name": "げきりん",
+    "rate": 46.2,
+    "category": 1,
+    "category_label": "物理",
+    "power": "120",
+    "type_id": 15,
+    "type_name": "ドラゴン"
+   },
+   {
     "rank": 4,
     "name": "がんせきふうじ",
-    "rate": 39.3,
+    "rate": 34.7,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -190,16 +190,16 @@
   ],
   "top_ability": {
    "name": "じきゅうりょく",
-   "rate": 72.8
+   "rate": 77.1
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 50.5
+   "rate": 48.7
   },
   "top_item": {
-   "name": "たべのこし",
-   "rate": 29.3
+   "name": "オボンのみ",
+   "rate": 31.3
   },
   "top_ev": {
    "ev": {
@@ -207,23 +207,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 34.7
+   "rate": 29.3
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "りゅうせいぐん",
-    "rate": 75.6,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "130",
-    "type_id": 15,
-    "type_name": "ドラゴン"
-   },
-   {
-    "rank": 2,
     "name": "ラスターカノン",
-    "rate": 72.1,
+    "rate": 74.7,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -231,9 +221,19 @@
     "type_name": "はがね"
    },
    {
+    "rank": 2,
+    "name": "りゅうせいぐん",
+    "rate": 71.3,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "130",
+    "type_id": 15,
+    "type_name": "ドラゴン"
+   },
+   {
     "rank": 3,
     "name": "１０まんボルト",
-    "rate": 46.5,
+    "rate": 49.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -242,13 +242,13 @@
    },
    {
     "rank": 4,
-    "name": "エレクトロビーム",
-    "rate": 45.4,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "130",
-    "type_id": 12,
-    "type_name": "でんき"
+    "name": "ステルスロック",
+    "rate": 39.2,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 5,
+    "type_name": "いわ"
    }
   ],
   "stats": {
@@ -384,16 +384,16 @@
   ],
   "top_ability": {
    "name": "ひらいしん",
-   "rate": 88.1
+   "rate": 86.9
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 74.1
+   "rate": 76.4
   },
   "top_item": {
    "name": "ライチュウナイトＹ",
-   "rate": 96.5
+   "rate": 96.3
   },
   "top_ev": {
    "ev": {
@@ -401,13 +401,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 85.7
+   "rate": 85.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "でんじほう",
-    "rate": 96.1,
+    "rate": 95.8,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -417,7 +417,7 @@
    {
     "rank": 2,
     "name": "きあいだま",
-    "rate": 95.5,
+    "rate": 95.1,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -427,7 +427,7 @@
    {
     "rank": 3,
     "name": "くさむすび",
-    "rate": 75.5,
+    "rate": 73.5,
     "category": 2,
     "category_label": "特殊",
     "power": "−",
@@ -437,7 +437,7 @@
    {
     "rank": 4,
     "name": "ボルトチェンジ",
-    "rate": 26.3,
+    "rate": 29,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -665,16 +665,16 @@
   ],
   "top_ability": {
    "name": "へんげんじざい",
-   "rate": 95.3
+   "rate": 95.6
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 56.3
+   "rate": 59.8
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 75.5
+   "rate": 71.6
   },
   "top_ev": {
    "ev": {
@@ -682,13 +682,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 84.8
+   "rate": 85.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "トリックフラワー",
-    "rate": 98.1,
+    "rate": 98.3,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -698,7 +698,7 @@
    {
     "rank": 2,
     "name": "トリプルアクセル",
-    "rate": 87.1,
+    "rate": 89.8,
     "category": 1,
     "category_label": "物理",
     "power": "20",
@@ -708,7 +708,7 @@
    {
     "rank": 3,
     "name": "とんぼがえり",
-    "rate": 72.6,
+    "rate": 71.7,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -718,7 +718,7 @@
    {
     "rank": 4,
     "name": "はたきおとす",
-    "rate": 67,
+    "rate": 68.6,
     "category": 1,
     "category_label": "物理",
     "power": "65",
@@ -871,36 +871,25 @@
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 77.3
+   "rate": 76.6
   },
   "top_item": {
    "name": "いのちのたま",
-   "rate": 76.6
+   "rate": 84.5
   },
   "top_ev": {
    "ev": {
     "A": 32,
     "S": 32,
-    "H": 1,
-    "B": 1
+    "H": 2
    },
-   "rate": 51.5
+   "rate": 58.5
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "かげうち",
-    "rate": 96.2,
-    "category": 1,
-    "category_label": "物理",
-    "power": "40",
-    "type_id": 7,
-    "type_name": "ゴースト"
-   },
-   {
-    "rank": 2,
     "name": "じゃれつく",
-    "rate": 96,
+    "rate": 96.2,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -908,9 +897,19 @@
     "type_name": "フェアリー"
    },
    {
+    "rank": 2,
+    "name": "かげうち",
+    "rate": 96.1,
+    "category": 1,
+    "category_label": "物理",
+    "power": "40",
+    "type_id": 7,
+    "type_name": "ゴースト"
+   },
+   {
     "rank": 3,
     "name": "つるぎのまい",
-    "rate": 80,
+    "rate": 80.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -920,7 +919,7 @@
    {
     "rank": 4,
     "name": "シャドークロー",
-    "rate": 60.4,
+    "rate": 62.7,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -1037,16 +1036,16 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 97.5
+   "rate": 96.1
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 75.9
+   "rate": 77.9
   },
   "top_item": {
    "name": "ムクホークナイト",
-   "rate": 95.9
+   "rate": 94.5
   },
   "top_ev": {
    "ev": {
@@ -1054,13 +1053,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 49.5
+   "rate": 52.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "インファイト",
-    "rate": 98.9,
+    "rate": 98.2,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -1069,18 +1068,8 @@
    },
    {
     "rank": 2,
-    "name": "はねやすめ",
-    "rate": 91.4,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 2,
-    "type_name": "ひこう"
-   },
-   {
-    "rank": 3,
     "name": "ブレイブバード",
-    "rate": 90.6,
+    "rate": 91.4,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -1088,9 +1077,19 @@
     "type_name": "ひこう"
    },
    {
+    "rank": 3,
+    "name": "はねやすめ",
+    "rate": 89.9,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 2,
+    "type_name": "ひこう"
+   },
+   {
     "rank": 4,
     "name": "ブレイズキック",
-    "rate": 52.4,
+    "rate": 53.6,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -1428,16 +1427,16 @@
   ],
   "top_ability": {
    "name": "げきりゅう",
-   "rate": 75.3
+   "rate": 78.1
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 56.3
+   "rate": 57.8
   },
   "top_item": {
    "name": "ラグラージナイト",
-   "rate": 74.8
+   "rate": 73.1
   },
   "top_ev": {
    "ev": {
@@ -1445,13 +1444,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 57.1
+   "rate": 56.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 92,
+    "rate": 93.2,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -1461,7 +1460,7 @@
    {
     "rank": 2,
     "name": "ウェーブタックル",
-    "rate": 73.8,
+    "rate": 72.5,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -1471,7 +1470,7 @@
    {
     "rank": 3,
     "name": "れいとうパンチ",
-    "rate": 71.4,
+    "rate": 70,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -1481,7 +1480,7 @@
    {
     "rank": 4,
     "name": "クイックターン",
-    "rate": 66.6,
+    "rate": 64.9,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -1751,16 +1750,16 @@
   ],
   "top_ability": {
    "name": "もうか",
-   "rate": 85.8
+   "rate": 84.1
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 43
+   "rate": 42.8
   },
   "top_item": {
    "name": "リザードナイトＹ",
-   "rate": 77.5
+   "rate": 76.3
   },
   "top_ev": {
    "ev": {
@@ -1768,13 +1767,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 49.5
+   "rate": 50.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ソーラービーム",
-    "rate": 76,
+    "rate": 75.4,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -1784,7 +1783,7 @@
    {
     "rank": 2,
     "name": "かえんほうしゃ",
-    "rate": 47.8,
+    "rate": 46.7,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -1794,7 +1793,7 @@
    {
     "rank": 3,
     "name": "エアスラッシュ",
-    "rate": 45.9,
+    "rate": 44.6,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -1804,7 +1803,7 @@
    {
     "rank": 4,
     "name": "オーバーヒート",
-    "rate": 31.7,
+    "rate": 31.5,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -2143,16 +2142,16 @@
   ],
   "top_ability": {
    "name": "プレッシャー",
-   "rate": 64.8
+   "rate": 58
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 61.5
+   "rate": 65.8
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 68.6
+   "rate": 68.1
   },
   "top_ev": {
    "ev": {
@@ -2160,13 +2159,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 69.7
+   "rate": 71.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "はねやすめ",
-    "rate": 98.5,
+    "rate": 98.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -2176,7 +2175,7 @@
    {
     "rank": 2,
     "name": "ボディプレス",
-    "rate": 84.3,
+    "rate": 86.3,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -2186,7 +2185,7 @@
    {
     "rank": 3,
     "name": "てっぺき",
-    "rate": 79.5,
+    "rate": 82,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -2196,7 +2195,7 @@
    {
     "rank": 4,
     "name": "とんぼがえり",
-    "rate": 68.5,
+    "rate": 64,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -2337,16 +2336,16 @@
   ],
   "top_ability": {
    "name": "クリアボディ",
-   "rate": 99.4
+   "rate": 99.1
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 60.6
+   "rate": 55.9
   },
   "top_item": {
    "name": "メタグロスナイト",
-   "rate": 96.9
+   "rate": 97.3
   },
   "top_ev": {
    "ev": {
@@ -2354,13 +2353,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 49.0
+   "rate": 45.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "サイコファング",
-    "rate": 76.7,
+    "rate": 90.6,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -2370,7 +2369,7 @@
    {
     "rank": 2,
     "name": "バレットパンチ",
-    "rate": 74,
+    "rate": 86.6,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -2380,7 +2379,7 @@
    {
     "rank": 3,
     "name": "じしん",
-    "rate": 70.6,
+    "rate": 75.9,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -2390,7 +2389,7 @@
    {
     "rank": 4,
     "name": "れいとうパンチ",
-    "rate": 62.4,
+    "rate": 59.7,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -2796,16 +2795,16 @@
   ],
   "top_ability": {
    "name": "すなおこし",
-   "rate": 99.6
+   "rate": 99.5
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 70.6
+   "rate": 69.2
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 66.1
+   "rate": 61.1
   },
   "top_ev": {
    "ev": {
@@ -2813,13 +2812,13 @@
     "D": 32,
     "B": 2
    },
-   "rate": 30.1
+   "rate": 30.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 98.3,
+    "rate": 97.8,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -2829,7 +2828,7 @@
    {
     "rank": 2,
     "name": "あくび",
-    "rate": 94.6,
+    "rate": 94,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -2839,7 +2838,7 @@
    {
     "rank": 3,
     "name": "ステルスロック",
-    "rate": 87.1,
+    "rate": 85.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -2849,7 +2848,7 @@
    {
     "rank": 4,
     "name": "なまける",
-    "rate": 58.2,
+    "rate": 59.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -2963,16 +2962,16 @@
   ],
   "top_ability": {
    "name": "あめふらし",
-   "rate": 99.7
+   "rate": 99.5
   },
   "top_nature": {
    "name": "のんき",
    "dec": "(B↑S↓)",
-   "rate": 35.4
+   "rate": 35.9
   },
   "top_item": {
    "name": "しめったいわ",
-   "rate": 75.2
+   "rate": 73.7
   },
   "top_ev": {
    "ev": {
@@ -2980,13 +2979,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 27.4
+   "rate": 32.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ぼうふう",
-    "rate": 99,
+    "rate": 98.2,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -2996,7 +2995,7 @@
    {
     "rank": 2,
     "name": "とんぼがえり",
-    "rate": 95.3,
+    "rate": 91.4,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -3006,7 +3005,7 @@
    {
     "rank": 3,
     "name": "れいとうビーム",
-    "rate": 72.4,
+    "rate": 62.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -3016,7 +3015,7 @@
    {
     "rank": 4,
     "name": "なみのり",
-    "rate": 56.2,
+    "rate": 47.7,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -3142,16 +3141,16 @@
   ],
   "top_ability": {
    "name": "てきおうりょく",
-   "rate": 91.5
+   "rate": 93
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 68.5
+   "rate": 69.7
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 72.6
+   "rate": 74.5
   },
   "top_ev": {
    "ev": {
@@ -3159,13 +3158,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 87.4
+   "rate": 86.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "おはかまいり",
-    "rate": 100,
+    "rate": 99.9,
     "category": 1,
     "category_label": "物理",
     "power": "50",
@@ -3175,7 +3174,7 @@
    {
     "rank": 2,
     "name": "ウェーブタックル",
-    "rate": 97.2,
+    "rate": 94.7,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -3185,7 +3184,7 @@
    {
     "rank": 3,
     "name": "アクアジェット",
-    "rate": 90.8,
+    "rate": 86.5,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -3195,7 +3194,7 @@
    {
     "rank": 4,
     "name": "クイックターン",
-    "rate": 80.6,
+    "rate": 78.6,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -3336,16 +3335,16 @@
   ],
   "top_ability": {
    "name": "げきりゅう",
-   "rate": 93.8
+   "rate": 92.6
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 68.3
+   "rate": 70.5
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 56.1
+   "rate": 58.2
   },
   "top_ev": {
    "ev": {
@@ -3353,13 +3352,13 @@
     "C": 32,
     "S": 2
    },
-   "rate": 25.4
+   "rate": 26.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ムーンフォース",
-    "rate": 97.3,
+    "rate": 96.9,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
@@ -3369,7 +3368,7 @@
    {
     "rank": 2,
     "name": "うたかたのアリア",
-    "rate": 86.2,
+    "rate": 84.6,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -3379,7 +3378,7 @@
    {
     "rank": 3,
     "name": "アクアジェット",
-    "rate": 68.6,
+    "rate": 68.9,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -3389,7 +3388,7 @@
    {
     "rank": 4,
     "name": "アンコール",
-    "rate": 41.8,
+    "rate": 41,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -3527,11 +3526,11 @@
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 68
+   "rate": 75.2
   },
   "top_item": {
    "name": "バシャーモナイト",
-   "rate": 70.5
+   "rate": 76.8
   },
   "top_ev": {
    "ev": {
@@ -3539,13 +3538,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 67.6
+   "rate": 55.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "フレアドライブ",
-    "rate": 80.4,
+    "rate": 84.9,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -3555,7 +3554,7 @@
    {
     "rank": 2,
     "name": "インファイト",
-    "rate": 63.3,
+    "rate": 63.8,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -3564,8 +3563,8 @@
    },
    {
     "rank": 3,
-    "name": "まもる",
-    "rate": 57.9,
+    "name": "つるぎのまい",
+    "rate": 56.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -3574,8 +3573,8 @@
    },
    {
     "rank": 4,
-    "name": "つるぎのまい",
-    "rate": 51.1,
+    "name": "まもる",
+    "rate": 50.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -3913,16 +3912,16 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 99.1
+   "rate": 98.5
   },
   "top_nature": {
-   "name": "いじっぱり",
-   "dec": "(A↑C↓)",
-   "rate": 42.2
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 42.6
   },
   "top_item": {
    "name": "ギャラドスナイト",
-   "rate": 40.2
+   "rate": 54.1
   },
   "top_ev": {
    "ev": {
@@ -3930,13 +3929,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 33.5
+   "rate": 45.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "たきのぼり",
-    "rate": 89.7,
+    "rate": 90.4,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -3946,7 +3945,7 @@
    {
     "rank": 2,
     "name": "りゅうのまい",
-    "rate": 63,
+    "rate": 69,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -3956,7 +3955,7 @@
    {
     "rank": 3,
     "name": "じしん",
-    "rate": 60.7,
+    "rate": 65.2,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -3966,7 +3965,7 @@
    {
     "rank": 4,
     "name": "パワーウィップ",
-    "rate": 57,
+    "rate": 49.6,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -4342,11 +4341,11 @@
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 51.5
+   "rate": 46.3
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 42.7
+   "rate": 38.7
   },
   "top_ev": {
    "ev": {
@@ -4354,13 +4353,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 43.5
+   "rate": 44.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "シャドーボール",
-    "rate": 97.6,
+    "rate": 97.3,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -4370,7 +4369,7 @@
    {
     "rank": 2,
     "name": "ゴールドラッシュ",
-    "rate": 86,
+    "rate": 84.6,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -4380,7 +4379,7 @@
    {
     "rank": 3,
     "name": "わるだくみ",
-    "rate": 47.1,
+    "rate": 52,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -4390,7 +4389,7 @@
    {
     "rank": 4,
     "name": "じこさいせい",
-    "rate": 43.6,
+    "rate": 49.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -4548,16 +4547,16 @@
   ],
   "top_ability": {
    "name": "いたずらごころ",
-   "rate": 99.5
+   "rate": 99.1
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 62.5
+   "rate": 59.1
   },
   "top_item": {
    "name": "ひかりのねんど",
-   "rate": 79.6
+   "rate": 69.2
   },
   "top_ev": {
    "ev": {
@@ -4565,23 +4564,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 38.1
+   "rate": 30.1
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "リフレクター",
-    "rate": 86.5,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 13,
-    "type_name": "エスパー"
-   },
-   {
-    "rank": 2,
     "name": "ソウルクラッシュ",
-    "rate": 82.9,
+    "rate": 79.4,
     "category": 1,
     "category_label": "物理",
     "power": "−",
@@ -4589,9 +4578,19 @@
     "type_name": "フェアリー"
    },
    {
+    "rank": 2,
+    "name": "すてゼリフ",
+    "rate": 77.4,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 16,
+    "type_name": "あく"
+   },
+   {
     "rank": 3,
-    "name": "ひかりのかべ",
-    "rate": 79.7,
+    "name": "リフレクター",
+    "rate": 73.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -4600,13 +4599,13 @@
    },
    {
     "rank": 4,
-    "name": "すてゼリフ",
-    "rate": 75.3,
+    "name": "ひかりのかべ",
+    "rate": 69.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
-    "type_id": 16,
-    "type_name": "あく"
+    "type_id": 13,
+    "type_name": "エスパー"
    }
   ],
   "stats": {
@@ -4722,16 +4721,16 @@
   ],
   "top_ability": {
    "name": "ゆきふらし",
-   "rate": 99.7
+   "rate": 99.6
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 85.7
+   "rate": 82.5
   },
   "top_item": {
    "name": "ひかりのねんど",
-   "rate": 80.3
+   "rate": 90.3
   },
   "top_ev": {
    "ev": {
@@ -4739,13 +4738,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 45.3
+   "rate": 35.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "オーロラベール",
-    "rate": 94.8,
+    "rate": 98,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -4755,7 +4754,7 @@
    {
     "rank": 2,
     "name": "フリーズドライ",
-    "rate": 85,
+    "rate": 84.8,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -4765,7 +4764,7 @@
    {
     "rank": 3,
     "name": "ふぶき",
-    "rate": 75.7,
+    "rate": 75.1,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -4774,13 +4773,13 @@
    },
    {
     "rank": 4,
-    "name": "ムーンフォース",
-    "rate": 64.1,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "95",
-    "type_id": 17,
-    "type_name": "フェアリー"
+    "name": "アンコール",
+    "rate": 54.3,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 0,
+    "type_name": "ノーマル"
    }
   ],
   "stats": {
@@ -4900,16 +4899,16 @@
   ],
   "top_ability": {
    "name": "マルチスケイル",
-   "rate": 98.9
+   "rate": 98.1
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 62.8
+   "rate": 61.5
   },
   "top_item": {
    "name": "カイリュナイト",
-   "rate": 68.2
+   "rate": 65.6
   },
   "top_ev": {
    "ev": {
@@ -4917,7 +4916,7 @@
     "S": 32,
     "H": 2
    },
-   "rate": 44.3
+   "rate": 42.7
   },
   "top_moves": [
    {
@@ -4933,7 +4932,7 @@
    {
     "rank": 2,
     "name": "りゅうせいぐん",
-    "rate": 59.7,
+    "rate": 59.6,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -4943,7 +4942,7 @@
    {
     "rank": 3,
     "name": "エアスラッシュ",
-    "rate": 40.2,
+    "rate": 33.8,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -4952,13 +4951,13 @@
    },
    {
     "rank": 4,
-    "name": "１０まんボルト",
-    "rate": 38,
+    "name": "かえんほうしゃ",
+    "rate": 33.3,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
-    "type_id": 12,
-    "type_name": "でんき"
+    "type_id": 9,
+    "type_name": "ほのお"
    }
   ],
   "stats": {
@@ -5291,16 +5290,16 @@
   ],
   "top_ability": {
    "name": "どくげしょう",
-   "rate": 94.3
+   "rate": 94.4
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 58.4
+   "rate": 55
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 68.3
+   "rate": 71.8
   },
   "top_ev": {
    "ev": {
@@ -5309,13 +5308,13 @@
     "H": 1,
     "B": 1
    },
-   "rate": 81.7
+   "rate": 81.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "パワージェム",
-    "rate": 81.6,
+    "rate": 86.1,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -5324,8 +5323,18 @@
    },
    {
     "rank": 2,
+    "name": "だいちのちから",
+    "rate": 58.7,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "90",
+    "type_id": 4,
+    "type_name": "じめん"
+   },
+   {
+    "rank": 3,
     "name": "ステルスロック",
-    "rate": 56.1,
+    "rate": 55.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -5333,24 +5342,14 @@
     "type_name": "いわ"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "name": "ヘドロウェーブ",
-    "rate": 55,
+    "rate": 52.4,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
     "type_id": 3,
     "type_name": "どく"
-   },
-   {
-    "rank": 4,
-    "name": "だいちのちから",
-    "rate": 54.9,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "90",
-    "type_id": 4,
-    "type_name": "じめん"
    }
   ],
   "stats": {
@@ -5479,16 +5478,16 @@
   ],
   "top_ability": {
    "name": "そうだいしょう",
-   "rate": 88.5
+   "rate": 86.4
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 93.9
+   "rate": 92
   },
   "top_item": {
    "name": "くろいメガネ",
-   "rate": 52
+   "rate": 54.3
   },
   "top_ev": {
    "ev": {
@@ -5502,7 +5501,7 @@
    {
     "rank": 1,
     "name": "ふいうち",
-    "rate": 99.4,
+    "rate": 99.1,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -5512,7 +5511,7 @@
    {
     "rank": 2,
     "name": "ドゲザン",
-    "rate": 95.7,
+    "rate": 94.9,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -5522,7 +5521,7 @@
    {
     "rank": 3,
     "name": "アイアンヘッド",
-    "rate": 91.5,
+    "rate": 90.9,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -5532,7 +5531,7 @@
    {
     "rank": 4,
     "name": "つるぎのまい",
-    "rate": 78.6,
+    "rate": 76.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -5685,11 +5684,11 @@
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 58.4
+   "rate": 56
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 54.8
+   "rate": 48.8
   },
   "top_ev": {
    "ev": {
@@ -5698,13 +5697,13 @@
     "B": 1,
     "D": 1
    },
-   "rate": 37.1
+   "rate": 41.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "かげうち",
-    "rate": 95.7,
+    "rate": 94.3,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -5714,7 +5713,7 @@
    {
     "rank": 2,
     "name": "キングシールド",
-    "rate": 83.9,
+    "rate": 82.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -5724,7 +5723,7 @@
    {
     "rank": 3,
     "name": "ポルターガイスト",
-    "rate": 73.1,
+    "rate": 68.7,
     "category": 1,
     "category_label": "物理",
     "power": "110",
@@ -5734,7 +5733,7 @@
    {
     "rank": 4,
     "name": "せいなるつるぎ",
-    "rate": 41.6,
+    "rate": 42.6,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -5892,24 +5891,24 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 97.4
+   "rate": 96.5
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 84.1
+   "rate": 85.4
   },
   "top_item": {
    "name": "クチートナイト",
-   "rate": 99.8
+   "rate": 99.6
   },
   "top_ev": {
    "ev": {
-    "A": 32,
     "H": 32,
+    "A": 32,
     "B": 2
    },
-   "rate": 73.2
+   "rate": 60.8
   },
   "top_moves": [
    {
@@ -5925,7 +5924,7 @@
    {
     "rank": 2,
     "name": "ふいうち",
-    "rate": 98.7,
+    "rate": 98.6,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -5935,7 +5934,7 @@
    {
     "rank": 3,
     "name": "つるぎのまい",
-    "rate": 81.8,
+    "rate": 87.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -5945,7 +5944,7 @@
    {
     "rank": 4,
     "name": "アイアンヘッド",
-    "rate": 47.2,
+    "rate": 30.3,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -6338,11 +6337,11 @@
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 65.5
+   "rate": 67.5
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 81.8
+   "rate": 84.9
   },
   "top_ev": {
    "ev": {
@@ -6350,13 +6349,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 84.9
+   "rate": 88.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "あくのはどう",
-    "rate": 99.4,
+    "rate": 99.2,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -6366,7 +6365,7 @@
    {
     "rank": 2,
     "name": "りゅうせいぐん",
-    "rate": 94.9,
+    "rate": 95.3,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -6376,7 +6375,7 @@
    {
     "rank": 3,
     "name": "とんぼがえり",
-    "rate": 72.8,
+    "rate": 74.5,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -6386,7 +6385,7 @@
    {
     "rank": 4,
     "name": "かえんほうしゃ",
-    "rate": 55.1,
+    "rate": 53.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -6535,11 +6534,11 @@
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 50.4
+   "rate": 51
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 46.8
+   "rate": 45
   },
   "top_ev": {
    "ev": {
@@ -6547,13 +6546,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 31.2
+   "rate": 34.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ハイドロポンプ",
-    "rate": 98.9,
+    "rate": 98.8,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -6563,7 +6562,7 @@
    {
     "rank": 2,
     "name": "ボルトチェンジ",
-    "rate": 92.2,
+    "rate": 90.6,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -6573,7 +6572,7 @@
    {
     "rank": 3,
     "name": "おにび",
-    "rate": 86.6,
+    "rate": 87.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -6583,7 +6582,7 @@
    {
     "rank": 4,
     "name": "１０まんボルト",
-    "rate": 52.8,
+    "rate": 53.4,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -6712,11 +6711,11 @@
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 81.7
+   "rate": 82.3
   },
   "top_item": {
    "name": "ゲンガナイト",
-   "rate": 60.3
+   "rate": 59.9
   },
   "top_ev": {
    "ev": {
@@ -6724,23 +6723,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 75.9
+   "rate": 78.9
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "ヘドロウェーブ",
-    "rate": 81.9,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "95",
-    "type_id": 3,
-    "type_name": "どく"
-   },
-   {
-    "rank": 2,
     "name": "シャドーボール",
-    "rate": 78.5,
+    "rate": 82.6,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -6748,9 +6737,19 @@
     "type_name": "ゴースト"
    },
    {
+    "rank": 2,
+    "name": "ヘドロウェーブ",
+    "rate": 78.4,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "95",
+    "type_id": 3,
+    "type_name": "どく"
+   },
+   {
     "rank": 3,
     "name": "みちづれ",
-    "rate": 51.4,
+    "rate": 55.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -6760,7 +6759,7 @@
    {
     "rank": 4,
     "name": "こごえるかぜ",
-    "rate": 44.8,
+    "rate": 40.8,
     "category": 2,
     "category_label": "特殊",
     "power": "55",
@@ -7098,16 +7097,16 @@
   ],
   "top_ability": {
    "name": "てんねん",
-   "rate": 98.7
+   "rate": 98.3
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 76.2
+   "rate": 76.6
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 46.9
+   "rate": 47.1
   },
   "top_ev": {
    "ev": {
@@ -7115,13 +7114,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 53.0
+   "rate": 57.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "フレアソング",
-    "rate": 99.6,
+    "rate": 99.2,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -7131,7 +7130,7 @@
    {
     "rank": 2,
     "name": "なまける",
-    "rate": 96.3,
+    "rate": 95.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -7141,7 +7140,7 @@
    {
     "rank": 3,
     "name": "おにび",
-    "rate": 85.5,
+    "rate": 85.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -7151,7 +7150,7 @@
    {
     "rank": 4,
     "name": "シャドーボール",
-    "rate": 46.3,
+    "rate": 47.9,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -7301,16 +7300,16 @@
   ],
   "top_ability": {
    "name": "てきおうりょく",
-   "rate": 73.5
+   "rate": 63.4
   },
   "top_nature": {
    "name": "なまいき",
    "dec": "(D↑S↓)",
-   "rate": 28.1
+   "rate": 43.5
   },
   "top_item": {
    "name": "ドラミドナイト",
-   "rate": 98
+   "rate": 98.2
   },
   "top_ev": {
    "ev": {
@@ -7318,13 +7317,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 25.5
+   "rate": 30.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "クイックターン",
-    "rate": 86.7,
+    "rate": 92.1,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -7334,7 +7333,7 @@
    {
     "rank": 2,
     "name": "りゅうせいぐん",
-    "rate": 85,
+    "rate": 89.9,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -7344,7 +7343,7 @@
    {
     "rank": 3,
     "name": "どくどく",
-    "rate": 46.1,
+    "rate": 61.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -7354,7 +7353,7 @@
    {
     "rank": 4,
     "name": "どくびし",
-    "rate": 41,
+    "rate": 42.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -7709,16 +7708,16 @@
   ],
   "top_ability": {
    "name": "もうか",
-   "rate": 90.4
+   "rate": 90.1
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 89.2
+   "rate": 87.4
   },
   "top_item": {
    "name": "マフォクシナイト",
-   "rate": 98.5
+   "rate": 98.7
   },
   "top_ev": {
    "ev": {
@@ -7726,13 +7725,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 48.9
+   "rate": 49.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "かえんほうしゃ",
-    "rate": 73.8,
+    "rate": 80.7,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -7742,7 +7741,7 @@
    {
     "rank": 2,
     "name": "わるだくみ",
-    "rate": 51.7,
+    "rate": 54.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -7751,21 +7750,21 @@
    },
    {
     "rank": 3,
-    "name": "サイコショック",
-    "rate": 49.8,
+    "name": "サイコキネシス",
+    "rate": 51.7,
     "category": 2,
     "category_label": "特殊",
-    "power": "80",
+    "power": "90",
     "type_id": 13,
     "type_name": "エスパー"
    },
    {
     "rank": 4,
-    "name": "サイコキネシス",
-    "rate": 44.4,
+    "name": "サイコショック",
+    "rate": 45.4,
     "category": 2,
     "category_label": "特殊",
-    "power": "90",
+    "power": "80",
     "type_id": 13,
     "type_name": "エスパー"
    }
@@ -8152,30 +8151,30 @@
   ],
   "top_ability": {
    "name": "ゆきふらし",
-   "rate": 99.5
+   "rate": 98.8
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 72.6
+   "rate": 60.1
   },
   "top_item": {
    "name": "とけないこおり",
-   "rate": 53.8
+   "rate": 42.7
   },
   "top_ev": {
    "ev": {
-    "H": 25,
     "C": 32,
-    "D": 1
+    "S": 32,
+    "H": 2
    },
-   "rate": 13.3
+   "rate": 16.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "フリーズドライ",
-    "rate": 98.5,
+    "rate": 97.4,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -8185,7 +8184,7 @@
    {
     "rank": 2,
     "name": "ふぶき",
-    "rate": 92.8,
+    "rate": 89.8,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -8195,7 +8194,7 @@
    {
     "rank": 3,
     "name": "こおりのつぶて",
-    "rate": 84.3,
+    "rate": 72.2,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -8205,7 +8204,7 @@
    {
     "rank": 4,
     "name": "オーロラベール",
-    "rate": 56.6,
+    "rate": 61.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -8315,16 +8314,16 @@
   ],
   "top_ability": {
    "name": "テクニシャン",
-   "rate": 97.1
+   "rate": 97.3
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 90.8
+   "rate": 88.5
   },
   "top_item": {
    "name": "ハッサムナイト",
-   "rate": 59.8
+   "rate": 60.8
   },
   "top_ev": {
    "ev": {
@@ -8332,13 +8331,13 @@
     "A": 32,
     "B": 2
    },
-   "rate": 43.9
+   "rate": 47.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "バレットパンチ",
-    "rate": 99.8,
+    "rate": 99.7,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -8348,7 +8347,7 @@
    {
     "rank": 2,
     "name": "つるぎのまい",
-    "rate": 86,
+    "rate": 83.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -8358,7 +8357,7 @@
    {
     "rank": 3,
     "name": "インファイト",
-    "rate": 65.7,
+    "rate": 59.1,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -8368,7 +8367,7 @@
    {
     "rank": 4,
     "name": "はたきおとす",
-    "rate": 51.7,
+    "rate": 46.4,
     "category": 1,
     "category_label": "物理",
     "power": "65",
@@ -8706,30 +8705,30 @@
   ],
   "top_ability": {
    "name": "ほのおのからだ",
-   "rate": 89.1
+   "rate": 91.7
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 37.9
+   "rate": 38.7
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 45.5
+   "rate": 45.4
   },
   "top_ev": {
    "ev": {
-    "C": 32,
-    "S": 32,
-    "H": 2
+    "B": 32,
+    "H": 32,
+    "S": 2
    },
-   "rate": 22.5
+   "rate": 24.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ちょうのまい",
-    "rate": 97.6,
+    "rate": 96.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -8739,7 +8738,7 @@
    {
     "rank": 2,
     "name": "ほのおのまい",
-    "rate": 82.2,
+    "rate": 85.4,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -8749,7 +8748,7 @@
    {
     "rank": 3,
     "name": "ギガドレイン",
-    "rate": 72.1,
+    "rate": 71.6,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -8759,7 +8758,7 @@
    {
     "rank": 4,
     "name": "あさのひざし",
-    "rate": 58,
+    "rate": 54.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -8889,12 +8888,12 @@
   ],
   "top_ability": {
    "name": "じゅうなん",
-   "rate": 74.4
+   "rate": 73
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 70.8
+   "rate": 73
   },
   "top_item": {
    "name": "ミミロップナイト",
@@ -8904,16 +8903,15 @@
    "ev": {
     "A": 32,
     "S": 32,
-    "H": 1,
-    "B": 1
+    "H": 2
    },
-   "rate": 80.1
+   "rate": 81.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ねこだまし",
-    "rate": 74.2,
+    "rate": 75.8,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -8923,7 +8921,7 @@
    {
     "rank": 2,
     "name": "インファイト",
-    "rate": 59.3,
+    "rate": 61.6,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -8933,7 +8931,7 @@
    {
     "rank": 3,
     "name": "トリプルアクセル",
-    "rate": 57.6,
+    "rate": 60.9,
     "category": 1,
     "category_label": "物理",
     "power": "20",
@@ -8943,7 +8941,7 @@
    {
     "rank": 4,
     "name": "とびひざげり",
-    "rate": 36.5,
+    "rate": 34.4,
     "category": 1,
     "category_label": "物理",
     "power": "130",
@@ -9247,16 +9245,16 @@
   ],
   "top_ability": {
    "name": "しんりょく",
-   "rate": 68.6
+   "rate": 66.3
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 89.3
+   "rate": 86
   },
   "top_item": {
    "name": "メガニウムナイト",
-   "rate": 99.5
+   "rate": 99
   },
   "top_ev": {
    "ev": {
@@ -9264,13 +9262,13 @@
     "C": 32,
     "S": 2
    },
-   "rate": 38.8
+   "rate": 38.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ソーラービーム",
-    "rate": 98.7,
+    "rate": 97.7,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -9280,7 +9278,7 @@
    {
     "rank": 2,
     "name": "ウェザーボール",
-    "rate": 96.4,
+    "rate": 95.1,
     "category": 2,
     "category_label": "特殊",
     "power": "50",
@@ -9289,23 +9287,23 @@
    },
    {
     "rank": 3,
-    "name": "こうごうせい",
-    "rate": 82.2,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 11,
-    "type_name": "くさ"
-   },
-   {
-    "rank": 4,
     "name": "マジカルシャイン",
-    "rate": 75.9,
+    "rate": 76.1,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
     "type_id": 17,
     "type_name": "フェアリー"
+   },
+   {
+    "rank": 4,
+    "name": "こうごうせい",
+    "rate": 71.7,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 11,
+    "type_name": "くさ"
    }
   ],
   "stats": {
@@ -9672,16 +9670,16 @@
   ],
   "top_ability": {
    "name": "へんげんじざい",
-   "rate": 84.7
+   "rate": 73.4
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 47.9
+   "rate": 50.5
   },
   "top_item": {
-   "name": "ゲッコウガナイト",
-   "rate": 46
+   "name": "きあいのタスキ",
+   "rate": 42.6
   },
   "top_ev": {
    "ev": {
@@ -9689,13 +9687,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 74.3
+   "rate": 84.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "れいとうビーム",
-    "rate": 89.2,
+    "rate": 87.8,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -9705,7 +9703,7 @@
    {
     "rank": 2,
     "name": "あくのはどう",
-    "rate": 74.3,
+    "rate": 79.3,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -9715,7 +9713,7 @@
    {
     "rank": 3,
     "name": "ヘドロウェーブ",
-    "rate": 64.2,
+    "rate": 56.2,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
@@ -9725,7 +9723,7 @@
    {
     "rank": 4,
     "name": "みずしゅりけん",
-    "rate": 37.7,
+    "rate": 53.6,
     "category": 2,
     "category_label": "特殊",
     "power": "15",
@@ -9786,238 +9784,7 @@
     "base": 530
    }
   },
-  "mega_form": {
-   "key": "0658-03",
-   "display_name": "メガゲッコウガ",
-   "stats": {
-    "hp": {
-     "base": 72,
-     "max": 179,
-     "neutral": 179,
-     "noEV": 147,
-     "down": 147,
-     "min": 132
-    },
-    "attack": {
-     "base": 125,
-     "max": 194,
-     "neutral": 177,
-     "noEV": 145,
-     "down": 130,
-     "min": 117
-    },
-    "defense": {
-     "base": 77,
-     "max": 141,
-     "neutral": 129,
-     "noEV": 97,
-     "down": 87,
-     "min": 73
-    },
-    "sp_attack": {
-     "base": 133,
-     "max": 203,
-     "neutral": 185,
-     "noEV": 153,
-     "down": 137,
-     "min": 124
-    },
-    "sp_defense": {
-     "base": 81,
-     "max": 146,
-     "neutral": 133,
-     "noEV": 101,
-     "down": 90,
-     "min": 77
-    },
-    "speed": {
-     "base": 142,
-     "max": 213,
-     "neutral": 194,
-     "noEV": 162,
-     "down": 145,
-     "min": 132
-    },
-    "total": {
-     "base": 630
-    }
-   },
-   "abilities": [
-    "へんげんじざい"
-   ],
-   "types": [
-    {
-     "id": 10,
-     "name": "みず"
-    },
-    {
-     "id": 16,
-     "name": "あく"
-    }
-   ],
-   "effectiveness": {
-    "weaknesses": [
-     {
-      "type_id": 1,
-      "type_name": "かくとう",
-      "display_name": "かくとう",
-      "multiplier": 2,
-      "base_multiplier": 2,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×2",
-      "base_label": "×2",
-      "base_row_class": "is-2x",
-      "row_class": "is-2x"
-     },
-     {
-      "type_id": 6,
-      "type_name": "むし",
-      "display_name": "むし",
-      "multiplier": 2,
-      "base_multiplier": 2,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×2",
-      "base_label": "×2",
-      "base_row_class": "is-2x",
-      "row_class": "is-2x"
-     },
-     {
-      "type_id": 11,
-      "type_name": "くさ",
-      "display_name": "くさ",
-      "multiplier": 2,
-      "base_multiplier": 2,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×2",
-      "base_label": "×2",
-      "base_row_class": "is-2x",
-      "row_class": "is-2x"
-     },
-     {
-      "type_id": 12,
-      "type_name": "でんき",
-      "display_name": "でんき",
-      "multiplier": 2,
-      "base_multiplier": 2,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×2",
-      "base_label": "×2",
-      "base_row_class": "is-2x",
-      "row_class": "is-2x"
-     },
-     {
-      "type_id": 17,
-      "type_name": "フェアリー",
-      "display_name": "フェアリー",
-      "multiplier": 2,
-      "base_multiplier": 2,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×2",
-      "base_label": "×2",
-      "base_row_class": "is-2x",
-      "row_class": "is-2x"
-     }
-    ],
-    "resistances": [
-     {
-      "type_id": 7,
-      "type_name": "ゴースト",
-      "display_name": "ゴースト",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 8,
-      "type_name": "はがね",
-      "display_name": "はがね",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 9,
-      "type_name": "ほのお",
-      "display_name": "ほのお",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 10,
-      "type_name": "みず",
-      "display_name": "みず",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 14,
-      "type_name": "こおり",
-      "display_name": "こおり",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 16,
-      "type_name": "あく",
-      "display_name": "あく",
-      "multiplier": 0.5,
-      "base_multiplier": 0.5,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "1/2",
-      "base_label": "1/2",
-      "base_row_class": "is-05x",
-      "row_class": "is-05x"
-     },
-     {
-      "type_id": 13,
-      "type_name": "エスパー",
-      "display_name": "エスパー",
-      "multiplier": 0,
-      "base_multiplier": 0,
-      "ability_name": null,
-      "is_ability_affected": false,
-      "label": "×0",
-      "base_label": "×0",
-      "base_row_class": "is-0x",
-      "row_class": "is-0x"
-     }
-    ]
-   }
-  },
+  "mega_form": null,
   "types": [
    {
     "id": 10,
@@ -10098,16 +9865,16 @@
   ],
   "top_ability": {
    "name": "しぜんかいふく",
-   "rate": 91.7
+   "rate": 91.3
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 65.4
+   "rate": 63.8
   },
   "top_item": {
    "name": "スターミナイト",
-   "rate": 95.8
+   "rate": 94.4
   },
   "top_ev": {
    "ev": {
@@ -10115,13 +9882,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 74.2
+   "rate": 76.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "アクアブレイク",
-    "rate": 89.6,
+    "rate": 87,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -10131,7 +9898,7 @@
    {
     "rank": 2,
     "name": "アクアジェット",
-    "rate": 89.1,
+    "rate": 86.6,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -10141,7 +9908,7 @@
    {
     "rank": 3,
     "name": "アイススピナー",
-    "rate": 70.1,
+    "rate": 68.4,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -10151,7 +9918,7 @@
    {
     "rank": 4,
     "name": "クイックターン",
-    "rate": 59.3,
+    "rate": 56,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -10506,16 +10273,16 @@
   ],
   "top_ability": {
    "name": "きれあじ",
-   "rate": 99
+   "rate": 98.5
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 64.8
+   "rate": 67.5
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 35.6
+   "rate": 34.3
   },
   "top_ev": {
    "ev": {
@@ -10523,7 +10290,7 @@
     "S": 32,
     "H": 2
    },
-   "rate": 56.5
+   "rate": 48.9
   },
   "top_moves": [
    {
@@ -10539,7 +10306,7 @@
    {
     "rank": 2,
     "name": "せいなるつるぎ",
-    "rate": 89.8,
+    "rate": 84.3,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -10549,7 +10316,7 @@
    {
     "rank": 3,
     "name": "シェルブレード",
-    "rate": 73.3,
+    "rate": 71.5,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -10559,7 +10326,7 @@
    {
     "rank": 4,
     "name": "ふいうち",
-    "rate": 60.3,
+    "rate": 70.1,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -10700,16 +10467,16 @@
   ],
   "top_ability": {
    "name": "くだけるよろい",
-   "rate": 87.9
+   "rate": 87.6
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 81.3
+   "rate": 78.3
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 87.7
+   "rate": 86.5
   },
   "top_ev": {
    "ev": {
@@ -10718,13 +10485,13 @@
     "H": 1,
     "B": 1
    },
-   "rate": 84.1
+   "rate": 83.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "かげうち",
-    "rate": 94.4,
+    "rate": 92.8,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -10734,7 +10501,7 @@
    {
     "rank": 2,
     "name": "ポルターガイスト",
-    "rate": 86.7,
+    "rate": 82.1,
     "category": 1,
     "category_label": "物理",
     "power": "110",
@@ -10744,7 +10511,7 @@
    {
     "rank": 3,
     "name": "むねんのつるぎ",
-    "rate": 85.9,
+    "rate": 79.9,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -10754,7 +10521,7 @@
    {
     "rank": 4,
     "name": "つるぎのまい",
-    "rate": 82.8,
+    "rate": 79.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -10908,16 +10675,16 @@
   ],
   "top_ability": {
    "name": "まけんき",
-   "rate": 55.7
+   "rate": 70.9
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 41.1
+   "rate": 47.4
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 52.2
+   "rate": 54.7
   },
   "top_ev": {
    "ev": {
@@ -10925,13 +10692,13 @@
     "A": 32,
     "B": 2
    },
-   "rate": 20.0
+   "rate": 18.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ふんどのこぶし",
-    "rate": 98.6,
+    "rate": 98.5,
     "category": 1,
     "category_label": "物理",
     "power": "50",
@@ -10941,7 +10708,7 @@
    {
     "rank": 2,
     "name": "ドレインパンチ",
-    "rate": 89.3,
+    "rate": 90.6,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -10951,7 +10718,7 @@
    {
     "rank": 3,
     "name": "ビルドアップ",
-    "rate": 76.3,
+    "rate": 81.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -10961,7 +10728,7 @@
    {
     "rank": 4,
     "name": "ちょうはつ",
-    "rate": 60.7,
+    "rate": 62.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -11091,16 +10858,16 @@
   ],
   "top_ability": {
    "name": "すりぬけ",
-   "rate": 61.9
+   "rate": 72.1
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 26.2
+   "rate": 28.9
   },
   "top_item": {
    "name": "いのちのたま",
-   "rate": 34.7
+   "rate": 46.1
   },
   "top_ev": {
    "ev": {
@@ -11108,13 +10875,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 40.8
+   "rate": 42.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ドラゴンアロー",
-    "rate": 59.9,
+    "rate": 64.1,
     "category": 1,
     "category_label": "物理",
     "power": "50",
@@ -11124,7 +10891,7 @@
    {
     "rank": 2,
     "name": "とんぼがえり",
-    "rate": 39.9,
+    "rate": 44,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -11134,7 +10901,7 @@
    {
     "rank": 3,
     "name": "ゴーストダイブ",
-    "rate": 32.6,
+    "rate": 38.3,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -11143,13 +10910,13 @@
    },
    {
     "rank": 4,
-    "name": "おにび",
-    "rate": 31.2,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 9,
-    "type_name": "ほのお"
+    "name": "ふいうち",
+    "rate": 34.3,
+    "category": 1,
+    "category_label": "物理",
+    "power": "70",
+    "type_id": 16,
+    "type_name": "あく"
    }
   ],
   "stats": {
@@ -11289,16 +11056,16 @@
   ],
   "top_ability": {
    "name": "ようりょくそ",
-   "rate": 68.3
+   "rate": 67.6
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 36.6
+   "rate": 37.4
   },
   "top_item": {
    "name": "フシギバナイト",
-   "rate": 89.2
+   "rate": 83.8
   },
   "top_ev": {
    "ev": {
@@ -11306,13 +11073,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 15.4
+   "rate": 16.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "だいちのちから",
-    "rate": 88.5,
+    "rate": 83.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -11322,7 +11089,7 @@
    {
     "rank": 2,
     "name": "ギガドレイン",
-    "rate": 74.8,
+    "rate": 72.4,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -11332,7 +11099,7 @@
    {
     "rank": 3,
     "name": "こうごうせい",
-    "rate": 68.1,
+    "rate": 64.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -11342,7 +11109,7 @@
    {
     "rank": 4,
     "name": "ヘドロばくだん",
-    "rate": 54.9,
+    "rate": 57,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -11698,16 +11465,16 @@
   ],
   "top_ability": {
    "name": "かるわざ",
-   "rate": 79.1
+   "rate": 77.8
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 58.3
+   "rate": 53.7
   },
   "top_item": {
    "name": "しろいハーブ",
-   "rate": 46.3
+   "rate": 50.7
   },
   "top_ev": {
    "ev": {
@@ -11715,23 +11482,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 71.4
+   "rate": 77.2
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "インファイト",
-    "rate": 97.8,
-    "category": 1,
-    "category_label": "物理",
-    "power": "120",
-    "type_id": 1,
-    "type_name": "かくとう"
-   },
-   {
-    "rank": 2,
     "name": "フェイタルクロー",
-    "rate": 96.9,
+    "rate": 96.6,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -11739,9 +11496,19 @@
     "type_name": "どく"
    },
    {
+    "rank": 2,
+    "name": "インファイト",
+    "rate": 96.1,
+    "category": 1,
+    "category_label": "物理",
+    "power": "120",
+    "type_id": 1,
+    "type_name": "かくとう"
+   },
+   {
     "rank": 3,
     "name": "ねこだまし",
-    "rate": 46.2,
+    "rate": 54.5,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -11751,7 +11518,7 @@
    {
     "rank": 4,
     "name": "じごくづき",
-    "rate": 41.6,
+    "rate": 34.8,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -11880,16 +11647,16 @@
   ],
   "top_ability": {
    "name": "フラワーベール",
-   "rate": 97
+   "rate": 97.6
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 51.2
+   "rate": 53.1
   },
   "top_item": {
    "name": "フラエッテナイト",
-   "rate": 95.8
+   "rate": 96.2
   },
   "top_ev": {
    "ev": {
@@ -11897,13 +11664,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 27.9
+   "rate": 29.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ムーンフォース",
-    "rate": 86.5,
+    "rate": 85.2,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
@@ -11913,7 +11680,7 @@
    {
     "rank": 2,
     "name": "めいそう",
-    "rate": 86,
+    "rate": 85,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -11923,7 +11690,7 @@
    {
     "rank": 3,
     "name": "ドレインキッス",
-    "rate": 73.5,
+    "rate": 76.2,
     "category": 2,
     "category_label": "特殊",
     "power": "50",
@@ -11933,7 +11700,7 @@
    {
     "rank": 4,
     "name": "はめつのひかり",
-    "rate": 51.1,
+    "rate": 59.2,
     "category": 2,
     "category_label": "特殊",
     "power": "140",
@@ -12195,16 +11962,16 @@
   ],
   "top_ability": {
    "name": "せいしんりょく",
-   "rate": 64.3
+   "rate": 60
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 54.5
+   "rate": 51.7
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 90.8
+   "rate": 88.2
   },
   "top_ev": {
    "ev": {
@@ -12212,13 +11979,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 62.1
+   "rate": 60.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "イカサマ",
-    "rate": 97.2,
+    "rate": 95.1,
     "category": 1,
     "category_label": "物理",
     "power": "95",
@@ -12228,7 +11995,7 @@
    {
     "rank": 2,
     "name": "まもる",
-    "rate": 85,
+    "rate": 82.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12238,7 +12005,7 @@
    {
     "rank": 3,
     "name": "ねがいごと",
-    "rate": 83,
+    "rate": 79.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12248,7 +12015,7 @@
    {
     "rank": 4,
     "name": "あくび",
-    "rate": 54.4,
+    "rate": 50.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12362,16 +12129,16 @@
   ],
   "top_ability": {
    "name": "せいしんりょく",
-   "rate": 83.3
+   "rate": 83.9
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 54.5
+   "rate": 53.2
   },
   "top_item": {
    "name": "ルカリオナイト",
-   "rate": 93.5
+   "rate": 91
   },
   "top_ev": {
    "ev": {
@@ -12379,13 +12146,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 56.9
+   "rate": 56.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "インファイト",
-    "rate": 64.3,
+    "rate": 63.5,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -12395,7 +12162,7 @@
    {
     "rank": 2,
     "name": "バレットパンチ",
-    "rate": 47.8,
+    "rate": 48.6,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -12405,7 +12172,7 @@
    {
     "rank": 3,
     "name": "つるぎのまい",
-    "rate": 46.5,
+    "rate": 45,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12415,7 +12182,7 @@
    {
     "rank": 4,
     "name": "コメットパンチ",
-    "rate": 40,
+    "rate": 38.6,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -12788,16 +12555,16 @@
   ],
   "top_ability": {
    "name": "いたずらごころ",
-   "rate": 98.9
+   "rate": 97.8
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 39.6
+   "rate": 46.8
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 52.4
+   "rate": 49.5
   },
   "top_ev": {
    "ev": {
@@ -12805,13 +12572,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 48.4
+   "rate": 49.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ムーンフォース",
-    "rate": 88.7,
+    "rate": 85.7,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
@@ -12821,7 +12588,7 @@
    {
     "rank": 2,
     "name": "アンコール",
-    "rate": 64.4,
+    "rate": 59.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12831,7 +12598,7 @@
    {
     "rank": 3,
     "name": "おいかぜ",
-    "rate": 51.7,
+    "rate": 50.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12841,7 +12608,7 @@
    {
     "rank": 4,
     "name": "やどりぎのタネ",
-    "rate": 43.2,
+    "rate": 44.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -12982,16 +12749,16 @@
   ],
   "top_ability": {
    "name": "げきりゅう",
-   "rate": 72.6
+   "rate": 70.2
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 72.5
+   "rate": 71.8
   },
   "top_item": {
    "name": "カメックスナイト",
-   "rate": 93.3
+   "rate": 91.4
   },
   "top_ev": {
    "ev": {
@@ -12999,13 +12766,13 @@
     "C": 32,
     "S": 29
    },
-   "rate": 21.9
+   "rate": 19.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "はどうだん",
-    "rate": 89.8,
+    "rate": 87.4,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -13015,7 +12782,7 @@
    {
     "rank": 2,
     "name": "からをやぶる",
-    "rate": 86.4,
+    "rate": 86.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13025,7 +12792,7 @@
    {
     "rank": 3,
     "name": "みずのはどう",
-    "rate": 83.9,
+    "rate": 83.2,
     "category": 2,
     "category_label": "特殊",
     "power": "60",
@@ -13035,7 +12802,7 @@
    {
     "rank": 4,
     "name": "あくのはどう",
-    "rate": 81,
+    "rate": 79.8,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -13298,16 +13065,16 @@
   ],
   "top_ability": {
    "name": "でんきにかえる",
-   "rate": 99.4
+   "rate": 98.6
   },
   "top_nature": {
    "name": "おだやか",
    "dec": "(D↑A↓)",
-   "rate": 53.9
+   "rate": 52.7
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 56.9
+   "rate": 52.9
   },
   "top_ev": {
    "ev": {
@@ -13315,13 +13082,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 39.1
+   "rate": 28.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "パラボラチャージ",
-    "rate": 94.8,
+    "rate": 91.9,
     "category": 2,
     "category_label": "特殊",
     "power": "65",
@@ -13331,7 +13098,7 @@
    {
     "rank": 2,
     "name": "なまける",
-    "rate": 88.7,
+    "rate": 83.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13340,18 +13107,18 @@
    },
    {
     "rank": 3,
-    "name": "ボルトチェンジ",
-    "rate": 68.1,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "70",
-    "type_id": 12,
-    "type_name": "でんき"
+    "name": "みずびたし",
+    "rate": 74.1,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 10,
+    "type_name": "みず"
    },
    {
     "rank": 4,
     "name": "どくどく",
-    "rate": 66,
+    "rate": 62.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13460,11 +13227,11 @@
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 46.5
+   "rate": 43.7
   },
   "top_item": {
-   "name": "オボンのみ",
-   "rate": 35.8
+   "name": "こだわりスカーフ",
+   "rate": 33.3
   },
   "top_ev": {
    "ev": {
@@ -13472,13 +13239,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 27.5
+   "rate": 31.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "オーバーヒート",
-    "rate": 97.9,
+    "rate": 97.7,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -13488,7 +13255,7 @@
    {
     "rank": 2,
     "name": "ボルトチェンジ",
-    "rate": 91.2,
+    "rate": 84.2,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -13498,7 +13265,7 @@
    {
     "rank": 3,
     "name": "おにび",
-    "rate": 73.5,
+    "rate": 74.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13508,7 +13275,7 @@
    {
     "rank": 4,
     "name": "１０まんボルト",
-    "rate": 47.9,
+    "rate": 52.7,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -13650,16 +13417,16 @@
   ],
   "top_ability": {
    "name": "あついしぼう",
-   "rate": 61.7
+   "rate": 57.9
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 64.1
+   "rate": 61.1
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 85.8
+   "rate": 83.3
   },
   "top_ev": {
    "ev": {
@@ -13667,13 +13434,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 72.4
+   "rate": 68.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 98.9,
+    "rate": 98.8,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -13683,7 +13450,7 @@
    {
     "rank": 2,
     "name": "こおりのつぶて",
-    "rate": 96.2,
+    "rate": 94.8,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -13693,7 +13460,7 @@
    {
     "rank": 3,
     "name": "つららばり",
-    "rate": 49.8,
+    "rate": 46,
     "category": 1,
     "category_label": "物理",
     "power": "25",
@@ -13703,7 +13470,7 @@
    {
     "rank": 4,
     "name": "ステルスロック",
-    "rate": 35,
+    "rate": 30.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13832,30 +13599,30 @@
   ],
   "top_ability": {
    "name": "フェアリースキン",
-   "rate": 98.7
+   "rate": 98.2
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 63.4
+   "rate": 63.7
   },
   "top_item": {
    "name": "ようせいのハネ",
-   "rate": 36.4
+   "rate": 41.7
   },
   "top_ev": {
    "ev": {
-    "C": 32,
     "H": 32,
+    "C": 32,
     "S": 2
    },
-   "rate": 34.4
+   "rate": 31.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ハイパーボイス",
-    "rate": 97,
+    "rate": 95.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -13865,7 +13632,7 @@
    {
     "rank": 2,
     "name": "あくび",
-    "rate": 69.8,
+    "rate": 65.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -13875,7 +13642,7 @@
    {
     "rank": 3,
     "name": "でんこうせっか",
-    "rate": 66.6,
+    "rate": 61.6,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -13885,7 +13652,7 @@
    {
     "rank": 4,
     "name": "マジカルフレイム",
-    "rate": 51.4,
+    "rate": 49.8,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -14003,11 +13770,11 @@
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 42.9
+   "rate": 42.7
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 59
+   "rate": 51.6
   },
   "top_ev": {
    "ev": {
@@ -14015,13 +13782,13 @@
     "A": 32,
     "B": 2
    },
-   "rate": 31.3
+   "rate": 32.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ねばねばネット",
-    "rate": 97,
+    "rate": 92,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -14031,7 +13798,7 @@
    {
     "rank": 2,
     "name": "アクアブレイク",
-    "rate": 86.4,
+    "rate": 86.5,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -14041,7 +13808,7 @@
    {
     "rank": 3,
     "name": "ミラーコート",
-    "rate": 77.5,
+    "rate": 75.1,
     "category": 2,
     "category_label": "特殊",
     "power": "−",
@@ -14051,7 +13818,7 @@
    {
     "rank": 4,
     "name": "とびかかる",
-    "rate": 30.3,
+    "rate": 30.6,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -14185,16 +13952,16 @@
   ],
   "top_ability": {
    "name": "ちからもち",
-   "rate": 95.8
+   "rate": 94.4
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 92.8
+   "rate": 90.4
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 75.8
+   "rate": 71.9
   },
   "top_ev": {
    "ev": {
@@ -14202,13 +13969,13 @@
     "H": 32,
     "S": 2
    },
-   "rate": 69.8
+   "rate": 67.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "アクアジェット",
-    "rate": 95.6,
+    "rate": 94.7,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -14218,7 +13985,7 @@
    {
     "rank": 2,
     "name": "じゃれつく",
-    "rate": 95.5,
+    "rate": 94.1,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -14228,7 +13995,7 @@
    {
     "rank": 3,
     "name": "はらだいこ",
-    "rate": 65.9,
+    "rate": 64.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -14238,7 +14005,7 @@
    {
     "rank": 4,
     "name": "ばかぢから",
-    "rate": 50.2,
+    "rate": 47.1,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -14383,16 +14150,16 @@
   ],
   "top_ability": {
    "name": "すなおこし",
-   "rate": 99.2
+   "rate": 99
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 42.4
+   "rate": 43.8
   },
   "top_item": {
    "name": "バンギラスナイト",
-   "rate": 40
+   "rate": 46.3
   },
   "top_ev": {
    "ev": {
@@ -14400,13 +14167,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 21.2
+   "rate": 23.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "はたきおとす",
-    "rate": 76.8,
+    "rate": 73.8,
     "category": 1,
     "category_label": "物理",
     "power": "65",
@@ -14416,7 +14183,7 @@
    {
     "rank": 2,
     "name": "ストーンエッジ",
-    "rate": 54.3,
+    "rate": 55.4,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -14426,7 +14193,7 @@
    {
     "rank": 3,
     "name": "じしん",
-    "rate": 50.6,
+    "rate": 54.3,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -14435,13 +14202,13 @@
    },
    {
     "rank": 4,
-    "name": "ステルスロック",
-    "rate": 38.2,
+    "name": "りゅうのまい",
+    "rate": 34.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
-    "type_id": 5,
-    "type_name": "いわ"
+    "type_id": 15,
+    "type_name": "ドラゴン"
    }
   ],
   "stats": {
@@ -14843,16 +14610,16 @@
   ],
   "top_ability": {
    "name": "てんねん",
-   "rate": 87.6
+   "rate": 84.7
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 68.1
+   "rate": 69.3
   },
   "top_item": {
    "name": "ピクシナイト",
-   "rate": 73.9
+   "rate": 72.7
   },
   "top_ev": {
    "ev": {
@@ -14860,13 +14627,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 42.3
+   "rate": 43.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "つきのひかり",
-    "rate": 83.9,
+    "rate": 86.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -14876,7 +14643,7 @@
    {
     "rank": 2,
     "name": "ムーンフォース",
-    "rate": 82.6,
+    "rate": 80.8,
     "category": 2,
     "category_label": "特殊",
     "power": "95",
@@ -14886,7 +14653,7 @@
    {
     "rank": 3,
     "name": "コスモパワー",
-    "rate": 60.7,
+    "rate": 68.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -14896,7 +14663,7 @@
    {
     "rank": 4,
     "name": "アシストパワー",
-    "rate": 42.2,
+    "rate": 45.4,
     "category": 2,
     "category_label": "特殊",
     "power": "20",
@@ -15251,16 +15018,16 @@
   ],
   "top_ability": {
    "name": "のろわれボディ",
-   "rate": 79.6
+   "rate": 76.6
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 73.8
+   "rate": 76.5
   },
   "top_item": {
    "name": "ユキメノコナイト",
-   "rate": 96.8
+   "rate": 94.8
   },
   "top_ev": {
    "ev": {
@@ -15268,13 +15035,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 63.5
+   "rate": 67.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ふぶき",
-    "rate": 97.1,
+    "rate": 95.4,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -15284,7 +15051,7 @@
    {
     "rank": 2,
     "name": "シャドーボール",
-    "rate": 82.3,
+    "rate": 81.3,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -15294,7 +15061,7 @@
    {
     "rank": 3,
     "name": "オーロラベール",
-    "rate": 67.9,
+    "rate": 66,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -15304,7 +15071,7 @@
    {
     "rank": 4,
     "name": "１０まんボルト",
-    "rate": 54.6,
+    "rate": 50.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -15643,16 +15410,16 @@
   ],
   "top_ability": {
    "name": "かたやぶり",
-   "rate": 71.1
+   "rate": 77.4
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 51.6
+   "rate": 52.9
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 37.1
+   "rate": 41.3
   },
   "top_ev": {
    "ev": {
@@ -15660,13 +15427,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 78.9
+   "rate": 79.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 99.2,
+    "rate": 98.7,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -15676,7 +15443,7 @@
    {
     "rank": 2,
     "name": "アイアンヘッド",
-    "rate": 96.4,
+    "rate": 96.6,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -15686,7 +15453,7 @@
    {
     "rank": 3,
     "name": "いわなだれ",
-    "rate": 69.3,
+    "rate": 64.4,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -15696,7 +15463,7 @@
    {
     "rank": 4,
     "name": "つのドリル",
-    "rate": 30.8,
+    "rate": 30.4,
     "category": 1,
     "category_label": "物理",
     "power": "−",
@@ -15846,16 +15613,16 @@
   ],
   "top_ability": {
    "name": "かそく",
-   "rate": 99.4
+   "rate": 99.1
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 35.8
+   "rate": 35.5
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 37.3
+   "rate": 35.6
   },
   "top_ev": {
    "ev": {
@@ -15863,13 +15630,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 22.8
+   "rate": 23.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ルミナコリジョン",
-    "rate": 86.6,
+    "rate": 81.4,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -15879,7 +15646,7 @@
    {
     "rank": 2,
     "name": "まもる",
-    "rate": 78,
+    "rate": 80.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -15889,7 +15656,7 @@
    {
     "rank": 3,
     "name": "バトンタッチ",
-    "rate": 71.6,
+    "rate": 77.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -15899,7 +15666,7 @@
    {
     "rank": 4,
     "name": "めいそう",
-    "rate": 63.3,
+    "rate": 69,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -16008,24 +15775,24 @@
   ],
   "top_ability": {
    "name": "かわりもの",
-   "rate": 99.4
+   "rate": 98.8
   },
   "top_nature": {
    "name": "のんき",
    "dec": "(B↑S↓)",
-   "rate": 21.7
+   "rate": 23.6
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 79.9
+   "rate": 79.2
   },
   "top_ev": {
    "ev": {
     "H": 32,
     "B": 32,
-    "A": 2
+    "D": 2
    },
-   "rate": 22.4
+   "rate": 24.2
   },
   "top_moves": [
    {
@@ -16130,13 +15897,13 @@
    "rate": 100
   },
   "top_nature": {
-   "name": "ひかえめ",
-   "dec": "(C↑A↓)",
-   "rate": 31.2
+   "name": "いじっぱり",
+   "dec": "(A↑C↓)",
+   "rate": 30.2
   },
   "top_item": {
    "name": "シビルドナイト",
-   "rate": 95.8
+   "rate": 93.9
   },
   "top_ev": {
    "ev": {
@@ -16144,13 +15911,13 @@
     "A": 32,
     "S": 2
    },
-   "rate": 13.1
+   "rate": 15.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "サンダーダイブ",
-    "rate": 44.8,
+    "rate": 56.8,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -16160,7 +15927,7 @@
    {
     "rank": 2,
     "name": "ドレインパンチ",
-    "rate": 44.6,
+    "rate": 53.5,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -16169,23 +15936,23 @@
    },
    {
     "rank": 3,
-    "name": "１０まんボルト",
-    "rate": 43.3,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "90",
-    "type_id": 12,
-    "type_name": "でんき"
-   },
-   {
-    "rank": 4,
     "name": "とぐろをまく",
-    "rate": 40.4,
+    "rate": 49.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
     "type_id": 3,
     "type_name": "どく"
+   },
+   {
+    "rank": 4,
+    "name": "１０まんボルト",
+    "rate": 33.8,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "90",
+    "type_id": 12,
+    "type_name": "でんき"
    }
   ],
   "stats": {
@@ -16429,11 +16196,11 @@
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 69.4
+   "rate": 69
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 72.7
+   "rate": 67
   },
   "top_ev": {
    "ev": {
@@ -16441,13 +16208,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 90.4
+   "rate": 88.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "うらみつらみ",
-    "rate": 63,
+    "rate": 68.1,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -16457,7 +16224,7 @@
    {
     "rank": 2,
     "name": "こごえるかぜ",
-    "rate": 57.8,
+    "rate": 48.2,
     "category": 2,
     "category_label": "特殊",
     "power": "55",
@@ -16467,7 +16234,7 @@
    {
     "rank": 3,
     "name": "かえんほうしゃ",
-    "rate": 36.7,
+    "rate": 40.7,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -16477,7 +16244,7 @@
    {
     "rank": 4,
     "name": "シャドーボール",
-    "rate": 34.4,
+    "rate": 28.3,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -16595,16 +16362,16 @@
   ],
   "top_ability": {
    "name": "トレース",
-   "rate": 96.1
+   "rate": 93
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 63.7
+   "rate": 61.8
   },
   "top_item": {
    "name": "サーナイトナイト",
-   "rate": 63.9
+   "rate": 57
   },
   "top_ev": {
    "ev": {
@@ -16612,13 +16379,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 43.8
+   "rate": 49.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "しんくうは",
-    "rate": 64.4,
+    "rate": 58.7,
     "category": 2,
     "category_label": "特殊",
     "power": "40",
@@ -16627,8 +16394,18 @@
    },
    {
     "rank": 2,
+    "name": "ムーンフォース",
+    "rate": 52.4,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "95",
+    "type_id": 17,
+    "type_name": "フェアリー"
+   },
+   {
+    "rank": 3,
     "name": "ハイパーボイス",
-    "rate": 58.5,
+    "rate": 45.3,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -16636,24 +16413,14 @@
     "type_name": "ノーマル"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "name": "１０まんボルト",
-    "rate": 43.5,
+    "rate": 43.6,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
     "type_id": 12,
     "type_name": "でんき"
-   },
-   {
-    "rank": 4,
-    "name": "ムーンフォース",
-    "rate": 39.7,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "95",
-    "type_id": 17,
-    "type_name": "フェアリー"
    }
   ],
   "stats": {
@@ -16919,16 +16686,16 @@
   ],
   "top_ability": {
    "name": "さいせいりょく",
-   "rate": 97.5
+   "rate": 94.5
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 34.8
+   "rate": 37.6
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 68.1
+   "rate": 70.2
   },
   "top_ev": {
    "ev": {
@@ -16936,13 +16703,13 @@
     "D": 32,
     "B": 2
    },
-   "rate": 31.5
+   "rate": 30.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じこさいせい",
-    "rate": 97.1,
+    "rate": 94.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -16952,7 +16719,7 @@
    {
     "rank": 2,
     "name": "どくどく",
-    "rate": 91.4,
+    "rate": 91.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -16962,7 +16729,7 @@
    {
     "rank": 3,
     "name": "トーチカ",
-    "rate": 58.1,
+    "rate": 68.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -16972,7 +16739,7 @@
    {
     "rank": 4,
     "name": "まとわりつく",
-    "rate": 57.9,
+    "rate": 57.2,
     "category": 2,
     "category_label": "特殊",
     "power": "20",
@@ -17110,16 +16877,16 @@
   ],
   "top_ability": {
    "name": "かたいツメ",
-   "rate": 92.5
+   "rate": 92.6
   },
   "top_nature": {
-   "name": "いじっぱり",
-   "dec": "(A↑C↓)",
-   "rate": 52.1
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 53.4
   },
   "top_item": {
    "name": "ガメノデスナイト",
-   "rate": 97.9
+   "rate": 95.8
   },
   "top_ev": {
    "ev": {
@@ -17127,13 +16894,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 46.0
+   "rate": 52.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "からをやぶる",
-    "rate": 98.5,
+    "rate": 97.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -17143,7 +16910,7 @@
    {
     "rank": 2,
     "name": "インファイト",
-    "rate": 96.7,
+    "rate": 95.3,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -17153,7 +16920,7 @@
    {
     "rank": 3,
     "name": "ロックブラスト",
-    "rate": 59.9,
+    "rate": 68.6,
     "category": 1,
     "category_label": "物理",
     "power": "25",
@@ -17163,7 +16930,7 @@
    {
     "rank": 4,
     "name": "じしん",
-    "rate": 48.3,
+    "rate": 46.4,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -17553,16 +17320,16 @@
   ],
   "top_ability": {
    "name": "あついしぼう",
-   "rate": 94
+   "rate": 89.7
   },
   "top_nature": {
    "name": "しんちょう",
    "dec": "(D↑C↓)",
-   "rate": 41.1
+   "rate": 45.1
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 41
+   "rate": 43.1
   },
   "top_ev": {
    "ev": {
@@ -17570,13 +17337,13 @@
     "D": 32,
     "B": 2
    },
-   "rate": 19.9
+   "rate": 22.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 66.7,
+    "rate": 61,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -17586,7 +17353,7 @@
    {
     "rank": 2,
     "name": "あくび",
-    "rate": 47.9,
+    "rate": 45.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -17596,7 +17363,7 @@
    {
     "rank": 3,
     "name": "れいとうパンチ",
-    "rate": 38.7,
+    "rate": 32.8,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -17605,13 +17372,13 @@
    },
    {
     "rank": 4,
-    "name": "のしかかり",
-    "rate": 27.8,
+    "name": "じわれ",
+    "rate": 29.8,
     "category": 1,
     "category_label": "物理",
-    "power": "85",
-    "type_id": 0,
-    "type_name": "ノーマル"
+    "power": "−",
+    "type_id": 4,
+    "type_name": "じめん"
    }
   ],
   "stats": {
@@ -17711,16 +17478,16 @@
   ],
   "top_ability": {
    "name": "しんりょく",
-   "rate": 70.5
+   "rate": 71.5
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 69.9
+   "rate": 71.3
   },
   "top_item": {
    "name": "ジュカインナイト",
-   "rate": 78.7
+   "rate": 78.2
   },
   "top_ev": {
    "ev": {
@@ -17728,13 +17495,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 79.4
+   "rate": 81.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "だいちのちから",
-    "rate": 84.9,
+    "rate": 86.3,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -17744,7 +17511,7 @@
    {
     "rank": 2,
     "name": "りゅうのはどう",
-    "rate": 79.2,
+    "rate": 78.7,
     "category": 2,
     "category_label": "特殊",
     "power": "85",
@@ -17754,7 +17521,7 @@
    {
     "rank": 3,
     "name": "リーフストーム",
-    "rate": 70.5,
+    "rate": 75.1,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -17763,13 +17530,13 @@
    },
    {
     "rank": 4,
-    "name": "しんくうは",
-    "rate": 41.6,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "40",
-    "type_id": 1,
-    "type_name": "かくとう"
+    "name": "しっぽきり",
+    "rate": 50,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 0,
+    "type_name": "ノーマル"
    }
   ],
   "stats": {
@@ -18120,16 +17887,16 @@
   ],
   "top_ability": {
    "name": "がんじょう",
-   "rate": 81.1
+   "rate": 84.2
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 50.4
+   "rate": 57.7
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 30.3
+   "rate": 36.4
   },
   "top_ev": {
    "ev": {
@@ -18137,13 +17904,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 47.4
+   "rate": 55.3
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "はねやすめ",
-    "rate": 69.7,
+    "rate": 75.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -18153,7 +17920,7 @@
    {
     "rank": 2,
     "name": "ステルスロック",
-    "rate": 57.6,
+    "rate": 65.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -18162,23 +17929,23 @@
    },
    {
     "rank": 3,
-    "name": "ふきとばし",
-    "rate": 47.9,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 0,
-    "type_name": "ノーマル"
-   },
-   {
-    "rank": 4,
     "name": "ボディプレス",
-    "rate": 37.9,
+    "rate": 48.2,
     "category": 1,
     "category_label": "物理",
     "power": "80",
     "type_id": 1,
     "type_name": "かくとう"
+   },
+   {
+    "rank": 4,
+    "name": "ふきとばし",
+    "rate": 43.6,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 0,
+    "type_name": "ノーマル"
    }
   ],
   "stats": {
@@ -18314,16 +18081,16 @@
   ],
   "top_ability": {
    "name": "あまのじゃく",
-   "rate": 99.7
+   "rate": 99.3
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 72.6
+   "rate": 68.9
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 27.7
+   "rate": 25.2
   },
   "top_ev": {
    "ev": {
@@ -18331,13 +18098,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 39.9
+   "rate": 45.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "リーフストーム",
-    "rate": 99.9,
+    "rate": 99.6,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -18347,7 +18114,7 @@
    {
     "rank": 2,
     "name": "へびにらみ",
-    "rate": 68.6,
+    "rate": 62.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -18357,7 +18124,7 @@
    {
     "rank": 3,
     "name": "りゅうのはどう",
-    "rate": 45.4,
+    "rate": 49.7,
     "category": 2,
     "category_label": "特殊",
     "power": "85",
@@ -18367,7 +18134,7 @@
    {
     "rank": 4,
     "name": "ちょうはつ",
-    "rate": 37.1,
+    "rate": 32,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -18493,16 +18260,16 @@
   ],
   "top_ability": {
    "name": "きれあじ",
-   "rate": 95.3
+   "rate": 94.9
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 49.8
+   "rate": 50.6
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 43
+   "rate": 42.1
   },
   "top_ev": {
    "ev": {
@@ -18510,13 +18277,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 79.4
+   "rate": 76.3
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "せいなるつるぎ",
-    "rate": 94,
+    "rate": 93.5,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -18526,7 +18293,7 @@
    {
     "rank": 2,
     "name": "サイコカッター",
-    "rate": 82.2,
+    "rate": 77.9,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -18536,7 +18303,7 @@
    {
     "rank": 3,
     "name": "リーフブレード",
-    "rate": 79.3,
+    "rate": 76.3,
     "category": 1,
     "category_label": "物理",
     "power": "90",
@@ -18546,7 +18313,7 @@
    {
     "rank": 4,
     "name": "かげうち",
-    "rate": 46.5,
+    "rate": 50,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -18660,16 +18427,16 @@
   ],
   "top_ability": {
    "name": "きもったま",
-   "rate": 88.5
+   "rate": 87.5
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 87.7
+   "rate": 84.4
   },
   "top_item": {
    "name": "ガルーラナイト",
-   "rate": 94.1
+   "rate": 89.7
   },
   "top_ev": {
    "ev": {
@@ -18677,23 +18444,23 @@
     "S": 32,
     "H": 2
    },
-   "rate": 36.6
+   "rate": 35.5
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "れいとうパンチ",
-    "rate": 73.4,
+    "name": "ねこだまし",
+    "rate": 67.7,
     "category": 1,
     "category_label": "物理",
-    "power": "75",
-    "type_id": 14,
-    "type_name": "こおり"
+    "power": "40",
+    "type_id": 0,
+    "type_name": "ノーマル"
    },
    {
     "rank": 2,
     "name": "じしん",
-    "rate": 70,
+    "rate": 62.9,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -18702,23 +18469,23 @@
    },
    {
     "rank": 3,
+    "name": "れいとうパンチ",
+    "rate": 61.8,
+    "category": 1,
+    "category_label": "物理",
+    "power": "75",
+    "type_id": 14,
+    "type_name": "こおり"
+   },
+   {
+    "rank": 4,
     "name": "ふいうち",
-    "rate": 59.3,
+    "rate": 60.5,
     "category": 1,
     "category_label": "物理",
     "power": "70",
     "type_id": 16,
     "type_name": "あく"
-   },
-   {
-    "rank": 4,
-    "name": "ねこだまし",
-    "rate": 57.7,
-    "category": 1,
-    "category_label": "物理",
-    "power": "40",
-    "type_id": 0,
-    "type_name": "ノーマル"
    }
   ],
   "stats": {
@@ -18907,16 +18674,16 @@
   ],
   "top_ability": {
    "name": "たいねつ",
-   "rate": 96.1
+   "rate": 92.8
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 74.7
+   "rate": 71.7
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 48.8
+   "rate": 43.6
   },
   "top_ev": {
    "ev": {
@@ -18924,13 +18691,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 53.9
+   "rate": 53.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "シャカシャカほう",
-    "rate": 95,
+    "rate": 96.7,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -18940,7 +18707,7 @@
    {
     "rank": 2,
     "name": "ちからをすいとる",
-    "rate": 94.4,
+    "rate": 92.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -18950,7 +18717,7 @@
    {
     "rank": 3,
     "name": "シャドーボール",
-    "rate": 78.9,
+    "rate": 72.8,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -18960,7 +18727,7 @@
    {
     "rank": 4,
     "name": "めいそう",
-    "rate": 63.5,
+    "rate": 63.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -19102,16 +18869,16 @@
   ],
   "top_ability": {
    "name": "かちき",
-   "rate": 57.5
+   "rate": 64.3
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 63.7
+   "rate": 59.7
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 62.2
+   "rate": 65.2
   },
   "top_ev": {
    "ev": {
@@ -19119,13 +18886,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 43.1
+   "rate": 44.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ねっとう",
-    "rate": 95.3,
+    "rate": 94,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -19135,7 +18902,7 @@
    {
     "rank": 2,
     "name": "じこさいせい",
-    "rate": 94.7,
+    "rate": 91.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -19144,23 +18911,23 @@
    },
    {
     "rank": 3,
-    "name": "ミラーコート",
-    "rate": 64.6,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "−",
-    "type_id": 13,
-    "type_name": "エスパー"
-   },
-   {
-    "rank": 4,
     "name": "れいとうビーム",
-    "rate": 58.4,
+    "rate": 69.1,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
     "type_id": 14,
     "type_name": "こおり"
+   },
+   {
+    "rank": 4,
+    "name": "ミラーコート",
+    "rate": 61.5,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "−",
+    "type_id": 13,
+    "type_name": "エスパー"
    }
   ],
   "stats": {
@@ -19269,16 +19036,16 @@
   ],
   "top_ability": {
    "name": "ちからもち",
-   "rate": 99.8
+   "rate": 99.5
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 75.9
+   "rate": 71.5
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 74.1
+   "rate": 67.8
   },
   "top_ev": {
    "ev": {
@@ -19287,13 +19054,13 @@
     "H": 1,
     "B": 1
    },
-   "rate": 88.9
+   "rate": 85.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "じしん",
-    "rate": 99.9,
+    "rate": 99.7,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -19302,18 +19069,8 @@
    },
    {
     "rank": 2,
-    "name": "でんこうせっか",
-    "rate": 79.9,
-    "category": 1,
-    "category_label": "物理",
-    "power": "40",
-    "type_id": 0,
-    "type_name": "ノーマル"
-   },
-   {
-    "rank": 3,
     "name": "れいとうパンチ",
-    "rate": 76.8,
+    "rate": 78.4,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -19321,9 +19078,19 @@
     "type_name": "こおり"
    },
    {
+    "rank": 3,
+    "name": "でんこうせっか",
+    "rate": 74.8,
+    "category": 1,
+    "category_label": "物理",
+    "power": "40",
+    "type_id": 0,
+    "type_name": "ノーマル"
+   },
+   {
     "rank": 4,
     "name": "かみなりパンチ",
-    "rate": 48.4,
+    "rate": 47.3,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -19449,16 +19216,16 @@
   ],
   "top_ability": {
    "name": "ムラっけ",
-   "rate": 72.6
+   "rate": 74.2
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 54.4
+   "rate": 52.7
   },
   "top_item": {
    "name": "スコヴィラナイト",
-   "rate": 82.9
+   "rate": 81
   },
   "top_ev": {
    "ev": {
@@ -19466,13 +19233,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 44.4
+   "rate": 40.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "やどりぎのタネ",
-    "rate": 90.8,
+    "rate": 90,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -19482,7 +19249,7 @@
    {
     "rank": 2,
     "name": "まもる",
-    "rate": 84.9,
+    "rate": 86.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -19491,23 +19258,23 @@
    },
    {
     "rank": 3,
-    "name": "かえんほうしゃ",
-    "rate": 74.4,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "90",
-    "type_id": 9,
-    "type_name": "ほのお"
-   },
-   {
-    "rank": 4,
     "name": "ギガドレイン",
-    "rate": 70.9,
+    "rate": 70.6,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
     "type_id": 11,
     "type_name": "くさ"
+   },
+   {
+    "rank": 4,
+    "name": "かえんほうしゃ",
+    "rate": 70.1,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "90",
+    "type_id": 9,
+    "type_name": "ほのお"
    }
   ],
   "stats": {
@@ -19790,16 +19557,16 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 97.4
+   "rate": 97.6
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 58.9
+   "rate": 58.1
   },
   "top_item": {
    "name": "ズルズキナイト",
-   "rate": 98.5
+   "rate": 95.8
   },
   "top_ev": {
    "ev": {
@@ -19807,13 +19574,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 28.0
+   "rate": 29.4
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ドレインパンチ",
-    "rate": 87.3,
+    "rate": 85.5,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -19823,7 +19590,7 @@
    {
     "rank": 2,
     "name": "はたきおとす",
-    "rate": 71.1,
+    "rate": 73,
     "category": 1,
     "category_label": "物理",
     "power": "65",
@@ -19833,7 +19600,7 @@
    {
     "rank": 3,
     "name": "りゅうのまい",
-    "rate": 44,
+    "rate": 49.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -19842,13 +19609,13 @@
    },
    {
     "rank": 4,
-    "name": "ビルドアップ",
-    "rate": 31.5,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 1,
-    "type_name": "かくとう"
+    "name": "れいとうパンチ",
+    "rate": 32.5,
+    "category": 1,
+    "category_label": "物理",
+    "power": "75",
+    "type_id": 14,
+    "type_name": "こおり"
    }
   ],
   "stats": {
@@ -20131,16 +19898,16 @@
   ],
   "top_ability": {
    "name": "かそく",
-   "rate": 99.4
+   "rate": 98.9
   },
   "top_nature": {
-   "name": "いじっぱり",
-   "dec": "(A↑C↓)",
-   "rate": 33.7
+   "name": "ようき",
+   "dec": "(S↑C↓)",
+   "rate": 32
   },
   "top_item": {
    "name": "ペンドラナイト",
-   "rate": 38.7
+   "rate": 29.5
   },
   "top_ev": {
    "ev": {
@@ -20148,13 +19915,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 21.0
+   "rate": 17.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "つるぎのまい",
-    "rate": 68.9,
+    "rate": 71.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -20164,7 +19931,7 @@
    {
     "rank": 2,
     "name": "バトンタッチ",
-    "rate": 55.7,
+    "rate": 62.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -20174,7 +19941,7 @@
    {
     "rank": 3,
     "name": "まもる",
-    "rate": 55.3,
+    "rate": 58.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -20184,7 +19951,7 @@
    {
     "rank": 4,
     "name": "じしん",
-    "rate": 54.2,
+    "rate": 43.8,
     "category": 1,
     "category_label": "物理",
     "power": "100",
@@ -20506,16 +20273,16 @@
   ],
   "top_ability": {
    "name": "きれあじ",
-   "rate": 98.9
+   "rate": 97.9
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 50.3
+   "rate": 49.9
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 70.2
+   "rate": 60.6
   },
   "top_ev": {
    "ev": {
@@ -20523,13 +20290,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 84.9
+   "rate": 81.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "がんせきアックス",
-    "rate": 99.9,
+    "rate": 99.8,
     "category": 1,
     "category_label": "物理",
     "power": "65",
@@ -20539,7 +20306,7 @@
    {
     "rank": 2,
     "name": "シザークロス",
-    "rate": 65.8,
+    "rate": 66.4,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -20549,7 +20316,7 @@
    {
     "rank": 3,
     "name": "インファイト",
-    "rate": 59.1,
+    "rate": 50.9,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -20559,7 +20326,7 @@
    {
     "rank": 4,
     "name": "つじぎり",
-    "rate": 37.7,
+    "rate": 44.4,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -20672,16 +20439,16 @@
   ],
   "top_ability": {
    "name": "くだけるよろい",
-   "rate": 90
+   "rate": 78.1
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 76.2
+   "rate": 75.6
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 80.2
+   "rate": 75.2
   },
   "top_ev": {
    "ev": {
@@ -20689,13 +20456,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 80.6
+   "rate": 68.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "アーマーキャノン",
-    "rate": 96.9,
+    "rate": 95.8,
     "category": 2,
     "category_label": "特殊",
     "power": "120",
@@ -20705,7 +20472,7 @@
    {
     "rank": 2,
     "name": "みちづれ",
-    "rate": 62.8,
+    "rate": 62.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -20715,7 +20482,7 @@
    {
     "rank": 3,
     "name": "サイコキネシス",
-    "rate": 49.2,
+    "rate": 54.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -20724,13 +20491,13 @@
    },
    {
     "rank": 4,
-    "name": "ワイドフォース",
-    "rate": 39,
+    "name": "エナジーボール",
+    "rate": 33.1,
     "category": 2,
     "category_label": "特殊",
-    "power": "80",
-    "type_id": 13,
-    "type_name": "エスパー"
+    "power": "90",
+    "type_id": 11,
+    "type_name": "くさ"
    }
   ],
   "stats": {
@@ -20870,16 +20637,16 @@
   ],
   "top_ability": {
    "name": "ゆきふらし",
-   "rate": 98.8
+   "rate": 98.2
   },
   "top_nature": {
    "name": "れいせい",
    "dec": "(C↑S↓)",
-   "rate": 42.2
+   "rate": 47.8
   },
   "top_item": {
    "name": "ユキノオナイト",
-   "rate": 54.1
+   "rate": 53.5
   },
   "top_ev": {
    "ev": {
@@ -20887,13 +20654,13 @@
     "C": 32,
     "B": 2
    },
-   "rate": 46.2
+   "rate": 53.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ふぶき",
-    "rate": 94.1,
+    "rate": 94.5,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -20903,7 +20670,7 @@
    {
     "rank": 2,
     "name": "こおりのつぶて",
-    "rate": 67,
+    "rate": 56.7,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -20913,7 +20680,7 @@
    {
     "rank": 3,
     "name": "ギガドレイン",
-    "rate": 66,
+    "rate": 54.4,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -20923,7 +20690,7 @@
    {
     "rank": 4,
     "name": "だいちのちから",
-    "rate": 48.2,
+    "rate": 50.1,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -21279,16 +21046,16 @@
   ],
   "top_ability": {
    "name": "マジックミラー",
-   "rate": 99.3
+   "rate": 98.6
   },
   "top_nature": {
    "name": "れいせい",
    "dec": "(C↑S↓)",
-   "rate": 40.5
+   "rate": 42.2
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 40.4
+   "rate": 42.6
   },
   "top_ev": {
    "ev": {
@@ -21296,13 +21063,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 44.8
+   "rate": 41.1
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "トリックルーム",
-    "rate": 81.6,
+    "rate": 78.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -21311,18 +21078,8 @@
    },
    {
     "rank": 2,
-    "name": "ミストバースト",
-    "rate": 58.4,
-    "category": 2,
-    "category_label": "特殊",
-    "power": "100",
-    "type_id": 17,
-    "type_name": "フェアリー"
-   },
-   {
-    "rank": 3,
     "name": "マジカルフレイム",
-    "rate": 50.1,
+    "rate": 54,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -21330,14 +21087,24 @@
     "type_name": "ほのお"
    },
    {
-    "rank": 4,
+    "rank": 3,
     "name": "サイコキネシス",
-    "rate": 43.6,
+    "rate": 50.4,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
     "type_id": 13,
     "type_name": "エスパー"
+   },
+   {
+    "rank": 4,
+    "name": "ミストバースト",
+    "rate": 47.6,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "100",
+    "type_id": 17,
+    "type_name": "フェアリー"
    }
   ],
   "stats": {
@@ -21450,16 +21217,16 @@
   ],
   "top_ability": {
    "name": "きんちょうかん",
-   "rate": 66.1
+   "rate": 69.3
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 72.5
+   "rate": 75
   },
   "top_item": {
    "name": "カエンジシナイト",
-   "rate": 99.1
+   "rate": 97.9
   },
   "top_ev": {
    "ev": {
@@ -21467,13 +21234,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 76.0
+   "rate": 72.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "かえんほうしゃ",
-    "rate": 90.6,
+    "rate": 89.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -21483,7 +21250,7 @@
    {
     "rank": 2,
     "name": "オーバーヒート",
-    "rate": 67.8,
+    "rate": 64.7,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -21493,7 +21260,7 @@
    {
     "rank": 3,
     "name": "ハイパーボイス",
-    "rate": 55.7,
+    "rate": 48.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -21502,13 +21269,13 @@
    },
    {
     "rank": 4,
-    "name": "ニトロチャージ",
-    "rate": 37.3,
-    "category": 1,
-    "category_label": "物理",
-    "power": "50",
-    "type_id": 9,
-    "type_name": "ほのお"
+    "name": "ねっさのだいち",
+    "rate": 36.3,
+    "category": 2,
+    "category_label": "特殊",
+    "power": "70",
+    "type_id": 4,
+    "type_name": "じめん"
    }
   ],
   "stats": {
@@ -21859,16 +21626,16 @@
   ],
   "top_ability": {
    "name": "いたずらごころ",
-   "rate": 98.7
+   "rate": 99.1
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 43.8
+   "rate": 41.3
   },
   "top_item": {
    "name": "ヤミラミナイト",
-   "rate": 40.6
+   "rate": 32.9
   },
   "top_ev": {
    "ev": {
@@ -21876,13 +21643,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 42.0
+   "rate": 45.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "おにび",
-    "rate": 80.3,
+    "rate": 80.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -21892,7 +21659,7 @@
    {
     "rank": 2,
     "name": "イカサマ",
-    "rate": 70.6,
+    "rate": 61.3,
     "category": 1,
     "category_label": "物理",
     "power": "95",
@@ -21902,7 +21669,7 @@
    {
     "rank": 3,
     "name": "じこさいせい",
-    "rate": 58.9,
+    "rate": 53.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -21912,7 +21679,7 @@
    {
     "rank": 4,
     "name": "アンコール",
-    "rate": 52.4,
+    "rate": 51.8,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22166,16 +21933,16 @@
   ],
   "top_ability": {
    "name": "さいせいりょく",
-   "rate": 91.7
+   "rate": 89.5
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 72.4
+   "rate": 66.3
   },
   "top_item": {
    "name": "ヤドランナイト",
-   "rate": 58.9
+   "rate": 64.1
   },
   "top_ev": {
    "ev": {
@@ -22183,13 +21950,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 60.8
+   "rate": 52.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "なまける",
-    "rate": 85.6,
+    "rate": 84.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22199,7 +21966,7 @@
    {
     "rank": 2,
     "name": "ねっとう",
-    "rate": 83.7,
+    "rate": 81.3,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -22209,7 +21976,7 @@
    {
     "rank": 3,
     "name": "てっぺき",
-    "rate": 52.4,
+    "rate": 49.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22219,7 +21986,7 @@
    {
     "rank": 4,
     "name": "ボディプレス",
-    "rate": 39.7,
+    "rate": 36.1,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -22575,16 +22342,16 @@
   ],
   "top_ability": {
    "name": "さいせいりょく",
-   "rate": 99.7
+   "rate": 98.8
   },
   "top_nature": {
    "name": "おだやか",
    "dec": "(D↑A↓)",
-   "rate": 56.7
+   "rate": 54.5
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 38.1
+   "rate": 37.3
   },
   "top_ev": {
    "ev": {
@@ -22592,23 +22359,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 45.1
+   "rate": 43.1
   },
   "top_moves": [
    {
     "rank": 1,
-    "name": "なまける",
-    "rate": 55,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 0,
-    "type_name": "ノーマル"
-   },
-   {
-    "rank": 2,
     "name": "かえんほうしゃ",
-    "rate": 53.2,
+    "rate": 51.4,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -22616,9 +22373,19 @@
     "type_name": "ほのお"
    },
    {
+    "rank": 2,
+    "name": "なまける",
+    "rate": 50.8,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 0,
+    "type_name": "ノーマル"
+   },
+   {
     "rank": 3,
     "name": "さむいギャグ",
-    "rate": 48.5,
+    "rate": 46.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22628,7 +22395,7 @@
    {
     "rank": 4,
     "name": "どくどく",
-    "rate": 40.8,
+    "rate": 38.2,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22750,16 +22517,16 @@
   ],
   "top_ability": {
    "name": "おみとおし",
-   "rate": 84.9
+   "rate": 84.3
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 73.1
+   "rate": 71
   },
   "top_item": {
    "name": "ジュペッタナイト",
-   "rate": 99.4
+   "rate": 98.6
   },
   "top_ev": {
    "ev": {
@@ -22767,13 +22534,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 68.5
+   "rate": 67.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "みちづれ",
-    "rate": 98.6,
+    "rate": 97.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22783,7 +22550,7 @@
    {
     "rank": 2,
     "name": "ポルターガイスト",
-    "rate": 97.1,
+    "rate": 95.3,
     "category": 1,
     "category_label": "物理",
     "power": "110",
@@ -22793,7 +22560,7 @@
    {
     "rank": 3,
     "name": "アンコール",
-    "rate": 78.2,
+    "rate": 75.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -22803,7 +22570,7 @@
    {
     "rank": 4,
     "name": "かげうち",
-    "rate": 59.7,
+    "rate": 57.8,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -23065,16 +22832,16 @@
   ],
   "top_ability": {
    "name": "かちき",
-   "rate": 72.4
+   "rate": 79.1
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 40.4
+   "rate": 47.1
   },
   "top_item": {
    "name": "シュカのみ",
-   "rate": 38
+   "rate": 36.5
   },
   "top_ev": {
    "ev": {
@@ -23082,13 +22849,13 @@
     "D": 32,
     "B": 2
    },
-   "rate": 18.3
+   "rate": 17.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "なみのり",
-    "rate": 67.2,
+    "rate": 70.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -23098,7 +22865,7 @@
    {
     "rank": 2,
     "name": "れいとうビーム",
-    "rate": 58.4,
+    "rate": 61.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -23108,7 +22875,7 @@
    {
     "rank": 3,
     "name": "ステルスロック",
-    "rate": 58.2,
+    "rate": 51.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23118,7 +22885,7 @@
    {
     "rank": 4,
     "name": "あくび",
-    "rate": 56.6,
+    "rate": 49.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23267,30 +23034,30 @@
   ],
   "top_ability": {
    "name": "のろわれボディ",
-   "rate": 83.1
+   "rate": 70.5
   },
   "top_nature": {
    "name": "ずぶとい",
    "dec": "(B↑A↓)",
-   "rate": 50.8
+   "rate": 46.5
   },
   "top_item": {
    "name": "しろいハーブ",
-   "rate": 84.2
+   "rate": 74.6
   },
   "top_ev": {
    "ev": {
-    "H": 24,
-    "B": 24,
-    "S": 18
+    "C": 32,
+    "S": 32,
+    "H": 2
    },
-   "rate": 22.9
+   "rate": 18.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "からをやぶる",
-    "rate": 99.2,
+    "rate": 97.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23300,7 +23067,7 @@
    {
     "rank": 2,
     "name": "シャドーボール",
-    "rate": 87.8,
+    "rate": 85,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -23310,7 +23077,7 @@
    {
     "rank": 3,
     "name": "バトンタッチ",
-    "rate": 80.6,
+    "rate": 74.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23320,7 +23087,7 @@
    {
     "rank": 4,
     "name": "ちからをすいとる",
-    "rate": 63.4,
+    "rate": 54.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23434,16 +23201,16 @@
   ],
   "top_ability": {
    "name": "シェルアーマー",
-   "rate": 38.9
+   "rate": 38.8
   },
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 33.8
+   "rate": 34.9
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 43
+   "rate": 43.3
   },
   "top_ev": {
    "ev": {
@@ -23451,13 +23218,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 24.8
+   "rate": 23.6
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ラスターカノン",
-    "rate": 61.9,
+    "rate": 60.4,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -23467,7 +23234,7 @@
    {
     "rank": 2,
     "name": "りゅうせいぐん",
-    "rate": 44,
+    "rate": 42.9,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -23477,7 +23244,7 @@
    {
     "rank": 3,
     "name": "たてこもる",
-    "rate": 41.4,
+    "rate": 41.6,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23487,7 +23254,7 @@
    {
     "rank": 4,
     "name": "１０まんボルト",
-    "rate": 38.3,
+    "rate": 38.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -23632,30 +23399,30 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 97.9
+   "rate": 97.7
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 31.5
+   "rate": 31.7
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 61.9
+   "rate": 56.9
   },
   "top_ev": {
    "ev": {
-    "A": 32,
     "H": 32,
-    "B": 2
+    "B": 32,
+    "D": 2
    },
-   "rate": 13.8
+   "rate": 14.0
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "すてゼリフ",
-    "rate": 85.9,
+    "rate": 84,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23665,7 +23432,7 @@
    {
     "rank": 2,
     "name": "フレアドライブ",
-    "rate": 81.6,
+    "rate": 78.4,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -23675,7 +23442,7 @@
    {
     "rank": 3,
     "name": "ＤＤラリアット",
-    "rate": 66.6,
+    "rate": 66.9,
     "category": 1,
     "category_label": "物理",
     "power": "85",
@@ -23685,7 +23452,7 @@
    {
     "rank": 4,
     "name": "ねこだまし",
-    "rate": 44.7,
+    "rate": 53.4,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -23822,16 +23589,16 @@
   ],
   "top_ability": {
    "name": "ぼうだん",
-   "rate": 96.7
+   "rate": 93.6
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 78
+   "rate": 74.4
   },
   "top_item": {
    "name": "ブリガロナイト",
-   "rate": 80.6
+   "rate": 79
   },
   "top_ev": {
    "ev": {
@@ -23839,13 +23606,13 @@
     "B": 32,
     "D": 2
    },
-   "rate": 55.6
+   "rate": 57.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ボディプレス",
-    "rate": 86.6,
+    "rate": 83.5,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -23855,7 +23622,7 @@
    {
     "rank": 2,
     "name": "こうごうせい",
-    "rate": 68.3,
+    "rate": 63.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23865,7 +23632,7 @@
    {
     "rank": 3,
     "name": "てっぺき",
-    "rate": 64.4,
+    "rate": 63.4,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -23875,7 +23642,7 @@
    {
     "rank": 4,
     "name": "やどりぎのタネ",
-    "rate": 42.6,
+    "rate": 42.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -24248,16 +24015,16 @@
   ],
   "top_ability": {
    "name": "もらいび",
-   "rate": 53.9
+   "rate": 57.6
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 49.9
+   "rate": 47.1
   },
   "top_item": {
    "name": "こだわりスカーフ",
-   "rate": 36.5
+   "rate": 34.8
   },
   "top_ev": {
    "ev": {
@@ -24265,13 +24032,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 56.1
+   "rate": 59.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "シャドーボール",
-    "rate": 93.6,
+    "rate": 92.4,
     "category": 2,
     "category_label": "特殊",
     "power": "80",
@@ -24281,7 +24048,7 @@
    {
     "rank": 2,
     "name": "エナジーボール",
-    "rate": 56.8,
+    "rate": 60.9,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -24291,7 +24058,7 @@
    {
     "rank": 3,
     "name": "かえんほうしゃ",
-    "rate": 55.9,
+    "rate": 60.5,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -24301,7 +24068,7 @@
    {
     "rank": 4,
     "name": "オーバーヒート",
-    "rate": 37.8,
+    "rate": 34.2,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -24455,16 +24222,16 @@
   ],
   "top_ability": {
    "name": "いかく",
-   "rate": 78.9
+   "rate": 76.9
   },
   "top_nature": {
    "name": "わんぱく",
    "dec": "(B↑C↓)",
-   "rate": 35.4
+   "rate": 38.8
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 47.9
+   "rate": 46.9
   },
   "top_ev": {
    "ev": {
@@ -24472,13 +24239,13 @@
     "H": 32,
     "D": 2
    },
-   "rate": 17.4
+   "rate": 24.9
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "どくばりセンボン",
-    "rate": 59.2,
+    "rate": 64.2,
     "category": 1,
     "category_label": "物理",
     "power": "−",
@@ -24488,7 +24255,7 @@
    {
     "rank": 2,
     "name": "かみくだく",
-    "rate": 44.6,
+    "rate": 45.9,
     "category": 1,
     "category_label": "物理",
     "power": "80",
@@ -24497,23 +24264,23 @@
    },
    {
     "rank": 3,
-    "name": "どくびし",
-    "rate": 42.2,
-    "category": 3,
-    "category_label": "変化",
-    "power": "−",
-    "type_id": 3,
-    "type_name": "どく"
-   },
-   {
-    "rank": 4,
     "name": "ちいさくなる",
-    "rate": 30.6,
+    "rate": 37.7,
     "category": 3,
     "category_label": "変化",
     "power": "−",
     "type_id": 0,
     "type_name": "ノーマル"
+   },
+   {
+    "rank": 4,
+    "name": "どくびし",
+    "rate": 32.5,
+    "category": 3,
+    "category_label": "変化",
+    "power": "−",
+    "type_id": 3,
+    "type_name": "どく"
    }
   ],
   "stats": {
@@ -24626,16 +24393,16 @@
   ],
   "top_ability": {
    "name": "てつのこぶし",
-   "rate": 70.7
+   "rate": 71.5
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 84.8
+   "rate": 83.2
   },
   "top_item": {
    "name": "いのちのたま",
-   "rate": 38.1
+   "rate": 35.7
   },
   "top_ev": {
    "ev": {
@@ -24643,13 +24410,13 @@
     "H": 32,
     "B": 2
    },
-   "rate": 42.6
+   "rate": 43.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "マッハパンチ",
-    "rate": 93.9,
+    "rate": 93.3,
     "category": 1,
     "category_label": "物理",
     "power": "40",
@@ -24659,7 +24426,7 @@
    {
     "rank": 2,
     "name": "ドレインパンチ",
-    "rate": 78.7,
+    "rate": 82.3,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -24669,7 +24436,7 @@
    {
     "rank": 3,
     "name": "れいとうパンチ",
-    "rate": 71.2,
+    "rate": 73.2,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -24679,7 +24446,7 @@
    {
     "rank": 4,
     "name": "かみなりパンチ",
-    "rate": 44.6,
+    "rate": 41,
     "category": 1,
     "category_label": "物理",
     "power": "75",
@@ -24793,16 +24560,16 @@
   ],
   "top_ability": {
    "name": "ふくがん",
-   "rate": 99.8
+   "rate": 99.3
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 95.1
+   "rate": 92.7
   },
   "top_item": {
    "name": "たべのこし",
-   "rate": 84.6
+   "rate": 76.2
   },
   "top_ev": {
    "ev": {
@@ -24810,13 +24577,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 51.4
+   "rate": 58.5
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ねむりごな",
-    "rate": 99.9,
+    "rate": 99.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -24826,7 +24593,7 @@
    {
     "rank": 2,
     "name": "ちょうのまい",
-    "rate": 98.4,
+    "rate": 96.1,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -24836,7 +24603,7 @@
    {
     "rank": 3,
     "name": "ぼうふう",
-    "rate": 97.1,
+    "rate": 95.3,
     "category": 2,
     "category_label": "特殊",
     "power": "110",
@@ -24846,7 +24613,7 @@
    {
     "rank": 4,
     "name": "みがわり",
-    "rate": 89.9,
+    "rate": 83.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -24979,11 +24746,11 @@
   "top_nature": {
    "name": "ひかえめ",
    "dec": "(C↑A↓)",
-   "rate": 39.8
+   "rate": 43.3
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 35.8
+   "rate": 29.4
   },
   "top_ev": {
    "ev": {
@@ -24991,13 +24758,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 22.2
+   "rate": 30.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "リーフストーム",
-    "rate": 99.1,
+    "rate": 98.2,
     "category": 2,
     "category_label": "特殊",
     "power": "130",
@@ -25007,7 +24774,7 @@
    {
     "rank": 2,
     "name": "ボルトチェンジ",
-    "rate": 84.1,
+    "rate": 83,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -25017,7 +24784,7 @@
    {
     "rank": 3,
     "name": "おにび",
-    "rate": 66.6,
+    "rate": 62.3,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25027,7 +24794,7 @@
    {
     "rank": 4,
     "name": "１０まんボルト",
-    "rate": 53.3,
+    "rate": 57.4,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -25157,16 +24924,16 @@
   ],
   "top_ability": {
    "name": "スキルリンク",
-   "rate": 86.2
+   "rate": 91.3
   },
   "top_nature": {
    "name": "いじっぱり",
    "dec": "(A↑C↓)",
-   "rate": 52.8
+   "rate": 52
   },
   "top_item": {
    "name": "オボンのみ",
-   "rate": 57.5
+   "rate": 55.6
   },
   "top_ev": {
    "ev": {
@@ -25174,13 +24941,13 @@
     "B": 32,
     "A": 2
    },
-   "rate": 37.5
+   "rate": 36.7
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "くちばしキャノン",
-    "rate": 99.8,
+    "rate": 98.9,
     "category": 1,
     "category_label": "物理",
     "power": "120",
@@ -25190,7 +24957,7 @@
    {
     "rank": 2,
     "name": "タネマシンガン",
-    "rate": 78.1,
+    "rate": 81.3,
     "category": 1,
     "category_label": "物理",
     "power": "25",
@@ -25200,7 +24967,7 @@
    {
     "rank": 3,
     "name": "ロックブラスト",
-    "rate": 65,
+    "rate": 67.1,
     "category": 1,
     "category_label": "物理",
     "power": "25",
@@ -25210,7 +24977,7 @@
    {
     "rank": 4,
     "name": "はねやすめ",
-    "rate": 56.8,
+    "rate": 58.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25332,16 +25099,16 @@
   ],
   "top_ability": {
    "name": "テクニシャン",
-   "rate": 91.8
+   "rate": 89.9
   },
   "top_nature": {
    "name": "ようき",
    "dec": "(S↑C↓)",
-   "rate": 75.7
+   "rate": 71.5
   },
   "top_item": {
    "name": "こうかくレンズ",
-   "rate": 75.8
+   "rate": 59.7
   },
   "top_ev": {
    "ev": {
@@ -25349,13 +25116,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 79.8
+   "rate": 78.2
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ネズミざん",
-    "rate": 94.5,
+    "rate": 95.7,
     "category": 1,
     "category_label": "物理",
     "power": "20",
@@ -25365,7 +25132,7 @@
    {
     "rank": 2,
     "name": "おかたづけ",
-    "rate": 88.5,
+    "rate": 82.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25375,7 +25142,7 @@
    {
     "rank": 3,
     "name": "アンコール",
-    "rate": 63.3,
+    "rate": 56.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25385,7 +25152,7 @@
    {
     "rank": 4,
     "name": "かみつく",
-    "rate": 48.4,
+    "rate": 41.5,
     "category": 1,
     "category_label": "物理",
     "power": "60",
@@ -25483,16 +25250,16 @@
   ],
   "top_ability": {
    "name": "かんそうはだ",
-   "rate": 97
+   "rate": 93
   },
   "top_nature": {
    "name": "おくびょう",
    "dec": "(S↑A↓)",
-   "rate": 77.6
+   "rate": 74.4
   },
   "top_item": {
    "name": "きあいのタスキ",
-   "rate": 43.7
+   "rate": 39.8
   },
   "top_ev": {
    "ev": {
@@ -25500,13 +25267,13 @@
     "S": 32,
     "H": 2
    },
-   "rate": 75.8
+   "rate": 74.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "１０まんボルト",
-    "rate": 79.8,
+    "rate": 75.2,
     "category": 2,
     "category_label": "特殊",
     "power": "90",
@@ -25516,7 +25283,7 @@
    {
     "rank": 2,
     "name": "くさむすび",
-    "rate": 57.6,
+    "rate": 54.2,
     "category": 2,
     "category_label": "特殊",
     "power": "−",
@@ -25526,7 +25293,7 @@
    {
     "rank": 3,
     "name": "しっぽきり",
-    "rate": 56.2,
+    "rate": 53.5,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25536,7 +25303,7 @@
    {
     "rank": 4,
     "name": "ボルトチェンジ",
-    "rate": 46.3,
+    "rate": 40.3,
     "category": 2,
     "category_label": "特殊",
     "power": "70",
@@ -25661,30 +25428,30 @@
   ],
   "top_ability": {
    "name": "ようりょくそ",
-   "rate": 85.4
+   "rate": 85.8
   },
   "top_nature": {
-   "name": "いじっぱり",
-   "dec": "(A↑C↓)",
-   "rate": 20
+   "name": "ひかえめ",
+   "dec": "(C↑A↓)",
+   "rate": 27.4
   },
   "top_item": {
    "name": "ウツボットナイト",
-   "rate": 96.5
+   "rate": 93.9
   },
   "top_ev": {
    "ev": {
     "H": 32,
     "C": 32,
-    "A": 2
+    "S": 2
    },
-   "rate": 34.5
+   "rate": 32.8
   },
   "top_moves": [
    {
     "rank": 1,
     "name": "ちからをすいとる",
-    "rate": 98.2,
+    "rate": 94.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",
@@ -25694,7 +25461,7 @@
    {
     "rank": 2,
     "name": "ギガドレイン",
-    "rate": 55.1,
+    "rate": 54.1,
     "category": 2,
     "category_label": "特殊",
     "power": "75",
@@ -25704,7 +25471,7 @@
    {
     "rank": 3,
     "name": "ふいうち",
-    "rate": 50.6,
+    "rate": 46.5,
     "category": 1,
     "category_label": "物理",
     "power": "70",
@@ -25714,7 +25481,7 @@
    {
     "rank": 4,
     "name": "アンコール",
-    "rate": 30.5,
+    "rate": 33.9,
     "category": 3,
     "category_label": "変化",
     "power": "−",

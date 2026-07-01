@@ -121,73 +121,73 @@ for k in keys:
             raise ValueError('stats not found')
         stats = json.loads(grab_obj(raw, raw.index('{', ms.start())))
 
-    # 모든 폼 데이터 파싱
-    forms = parse_forms(raw)
+        # 모든 폼 데이터 파싱
+        forms = parse_forms(raw)
 
-    abil = re.search(r'"abilities"\s*:\s*\[(.*?)\]\s*,\s*"types"', raw, re.S)
-    abil_names = re.findall(r'"name"\s*:\s*"([^"]+)"', abil.group(1)) if abil else []
+        abil = re.search(r'"abilities"\s*:\s*\[(.*?)\]\s*,\s*"types"', raw, re.S)
+        abil_names = re.findall(r'"name"\s*:\s*"([^"]+)"', abil.group(1)) if abil else []
 
-    nat = None; abil_top = None; item_top = None
-    for m in re.finditer(r'usagePieChart\((\[.*?\])\)', raw, re.S):
-        pre = raw[max(0, m.start() - 600):m.start()]
-        cls = re.findall(r'pokemon-trend__column-(\w+)', pre)
-        cat = cls[-1] if cls else '?'
-        try:
-            arr = json.loads(m.group(1))
-        except Exception:
-            continue
-        if cat == 'personalities' and arr:
-            e = arr[0]; dec = re.sub(r'<[^>]+>', '', e.get('decoration', '') or '')
-            nat = {'name': e['name'], 'dec': dec.strip(), 'rate': e.get('rate')}
-        if cat == 'abilities' and arr:
-            e = arr[0]; abil_top = {'name': e['name'], 'rate': e.get('rate')}
-        if cat == 'items' and arr:
-            e = arr[0]; item_top = {'name': e['name'], 'rate': e.get('rate')}
+        nat = None; abil_top = None; item_top = None
+        for m in re.finditer(r'usagePieChart\((\[.*?\])\)', raw, re.S):
+            pre = raw[max(0, m.start() - 600):m.start()]
+            cls = re.findall(r'pokemon-trend__column-(\w+)', pre)
+            cat = cls[-1] if cls else '?'
+            try:
+                arr = json.loads(m.group(1))
+            except Exception:
+                continue
+            if cat == 'personalities' and arr:
+                e = arr[0]; dec = re.sub(r'<[^>]+>', '', e.get('decoration', '') or '')
+                nat = {'name': e['name'], 'dec': dec.strip(), 'rate': e.get('rate')}
+            if cat == 'abilities' and arr:
+                e = arr[0]; abil_top = {'name': e['name'], 'rate': e.get('rate')}
+            if cat == 'items' and arr:
+                e = arr[0]; item_top = {'name': e['name'], 'rate': e.get('rate')}
 
-    # 기술 상위 4개 파싱
-    top_moves = []
-    seen_ranks = set()
-    for mr in re.findall(r'data-move-detail="({.*?})"', rh):
-        try:
-            mdata = json.loads(html.unescape(mr))
-            if mdata['rank'] not in seen_ranks and mdata['rank'] <= 4:
-                seen_ranks.add(mdata['rank'])
-                top_moves.append({
-                    'rank': mdata['rank'],
-                    'name': mdata['name'],
-                    'rate': mdata.get('rate'),
-                    'category': mdata.get('category'),        # 1=물리 2=특수 3=변화
-                    'category_label': mdata.get('category_label'),
-                    'power': mdata.get('power'),               # '100' or '−'
-                    'type_id': mdata['type']['id'],
-                    'type_name': mdata['type']['name'],
-                })
-        except Exception:
-            continue
-    top_moves.sort(key=lambda x: x['rank'])
+        # 기술 상위 4개 파싱
+        top_moves = []
+        seen_ranks = set()
+        for mr in re.findall(r'data-move-detail="({.*?})"', rh):
+            try:
+                mdata = json.loads(html.unescape(mr))
+                if mdata['rank'] not in seen_ranks and mdata['rank'] <= 4:
+                    seen_ranks.add(mdata['rank'])
+                    top_moves.append({
+                        'rank': mdata['rank'],
+                        'name': mdata['name'],
+                        'rate': mdata.get('rate'),
+                        'category': mdata.get('category'),        # 1=물리 2=특수 3=변화
+                        'category_label': mdata.get('category_label'),
+                        'power': mdata.get('power'),               # '100' or '−'
+                        'type_id': mdata['type']['id'],
+                        'type_name': mdata['type']['name'],
+                    })
+            except Exception:
+                continue
+        top_moves.sort(key=lambda x: x['rank'])
 
-    top_ev = parse_top_ev(raw)
-    sp = stats['speed']
+        top_ev = parse_top_ev(raw)
+        sp = stats['speed']
 
-    # 메가폼 데이터 추출
-    mega_form_data = None
-    if item_top:
-        mega_form_key = MEGA_ITEM_TO_FORM.get(item_top['name'])
-        if mega_form_key and mega_form_key in forms:
-            mf = forms[mega_form_key]
-            mega_form_data = {
-                'key': mega_form_key,
-                'display_name': mf.get('display_name', ''),
-                'stats': mf['stats'],
-                'abilities': [a['name'] for a in mf.get('abilities', [])],
-                'types': mf.get('types', []),
-                'effectiveness': mf.get('effectiveness', {}),
-            }
+        # 메가폼 데이터 추출
+        mega_form_data = None
+        if item_top:
+            mega_form_key = MEGA_ITEM_TO_FORM.get(item_top['name'])
+            if mega_form_key and mega_form_key in forms:
+                mf = forms[mega_form_key]
+                mega_form_data = {
+                    'key': mega_form_key,
+                    'display_name': mf.get('display_name', ''),
+                    'stats': mf['stats'],
+                    'abilities': [a['name'] for a in mf.get('abilities', [])],
+                    'types': mf.get('types', []),
+                    'effectiveness': mf.get('effectiveness', {}),
+                }
 
-    # 약점/반감: 메가폼 있으면 메가폼 기준, 없으면 기본폼
-    eff_form = mega_form_data if mega_form_data else forms.get(k, {})
-    effectiveness = eff_form.get('effectiveness', {})
-    types = eff_form.get('types', forms.get(k, {}).get('types', []))
+        # 약점/반감: 메가폼 있으면 메가폼 기준, 없으면 기본폼
+        eff_form = mega_form_data if mega_form_data else forms.get(k, {})
+        effectiveness = eff_form.get('effectiveness', {})
+        types = eff_form.get('types', forms.get(k, {}).get('types', []))
 
         results.append({
             'key': k, 'dex': int(k.split('-')[0]), 'form': k.split('-')[1], 'jp_name': jp,
